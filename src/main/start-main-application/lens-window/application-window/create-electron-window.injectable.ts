@@ -6,7 +6,6 @@ import { getInjectable } from "@ogre-tools/injectable";
 import loggerInjectable from "../../../../common/logger.injectable";
 import applicationWindowStateInjectable from "./application-window-state.injectable";
 import { BrowserWindow } from "electron";
-import type { ElectronWindow } from "./create-lens-window.injectable";
 import type { RequireExactlyOne } from "type-fest";
 import openLinkInBrowserInjectable from "../../../../common/utils/open-link-in-browser.injectable";
 import getAbsolutePathInjectable from "../../../../common/path/get-absolute-path.injectable";
@@ -14,7 +13,24 @@ import lensResourcesDirInjectable from "../../../../common/vars/lens-resources-d
 import isLinuxInjectable from "../../../../common/vars/is-linux.injectable";
 import applicationInformationInjectable from "../../../../common/vars/application-information.injectable";
 import pathExistsSyncInjectable from "../../../../common/fs/path-exists-sync.injectable";
+import type { ClusterFrameInfo } from "../../../../common/cluster-frames";
 
+export interface SendToViewArgs {
+  channel: string;
+  frameInfo?: ClusterFrameInfo;
+  data?: unknown;
+}
+
+export interface ElectronWindow {
+  show: () => void;
+  close: () => void;
+  send: (args: SendToViewArgs) => void;
+  loadFile: (filePath: string) => Promise<void>;
+  loadUrl: (url: string) => Promise<void>;
+  reload: () => void;
+  canGoBack: () => boolean;
+  canGoForward: () => boolean;
+}
 
 export type ElectronWindowTitleBarStyle = "hiddenInset" | "hidden" | "default" | "customButtonsOnHover";
 
@@ -155,7 +171,6 @@ const createElectronWindowInjectable = getInjectable({
 
           await browserWindow.loadFile(filePath);
         },
-
         loadUrl: async (url) => {
           logger.info(
             `[CREATE-ELECTRON-WINDOW]: Loading content for window "${configuration.id}" from url: ${url}...`,
@@ -163,7 +178,8 @@ const createElectronWindowInjectable = getInjectable({
 
           await browserWindow.loadURL(url);
         },
-
+        canGoBack: () => browserWindow.webContents.canGoBack(),
+        canGoForward: () => browserWindow.webContents.canGoForward(),
         show: () => browserWindow.show(),
         close: () => browserWindow.close(),
         send: ({ channel, data, frameInfo }) => {
@@ -177,7 +193,6 @@ const createElectronWindowInjectable = getInjectable({
             browserWindow.webContents.send(channel, data);
           }
         },
-
         reload: () => {
           const wc = browserWindow.webContents;
 
