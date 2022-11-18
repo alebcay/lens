@@ -5,9 +5,9 @@
 import type { AsyncFnMock } from "@async-fn/jest";
 import asyncFn from "@async-fn/jest";
 import type { RenderResult } from "@testing-library/react";
-import type { ApplicationBuilder } from "../../../../renderer/components/test-utils/get-application-builder";
+import type { ApplicationBuilder } from "../../../test-utils/application-builder";
 import type { KubernetesCluster } from "../../../../common/catalog-entities";
-import { getApplicationBuilder } from "../../../../renderer/components/test-utils/get-application-builder";
+import { setupInitializingApplicationBuilder } from "../../../test-utils/application-builder";
 import { getInjectable } from "@ogre-tools/injectable";
 import { frontEndRouteInjectionToken } from "../../../../common/front-end-routing/front-end-route-injection-token";
 import { computed, runInAction } from "mobx";
@@ -28,8 +28,9 @@ describe("disable kube object detail items when cluster is not relevant", () => 
     (cluster: KubernetesCluster) => Promise<boolean>
   >;
 
+  setupInitializingApplicationBuilder(b => builder = b);
+
   beforeEach(async () => {
-    builder = getApplicationBuilder();
     builder.setEnvironmentToClusterFrame();
 
     builder.beforeWindowStart((windowDi) => {
@@ -81,10 +82,6 @@ describe("disable kube object detail items when cluster is not relevant", () => 
     navigateToRoute(testRoute);
 
     builder.extensions.enable(testExtension);
-  });
-
-  afterEach(() => {
-    builder.quit();
   });
 
   describe("given not yet known if extension should be enabled for the cluster", () => {
