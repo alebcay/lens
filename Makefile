@@ -50,7 +50,6 @@ integration: build
 
 .PHONY: build
 build: node_modules binaries/client
-	yarn run build:tray-icons
 	yarn run compile
 ifeq "$(DETECTED_OS)" "Windows"
 # https://github.com/ukoloff/win-ca#clear-pem-folder-on-publish
