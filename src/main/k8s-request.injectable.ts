@@ -31,7 +31,9 @@ const k8SRequestInjectable = getInjectable({
       // used by getClusterForRequestInjectable
       headers.set("Host", `${cluster.id}.${new URL(kubeProxyUrl).host}`);
 
-      return fetch(kubeProxyUrl + path, options);
+      const response = await fetch(kubeProxyUrl + path, options);
+
+      return response.json();
     };
   },
 });
