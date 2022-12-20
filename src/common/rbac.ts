@@ -7,7 +7,7 @@ export type KubeResource =
   "namespaces" | "nodes" | "events" | "resourcequotas" | "services" | "limitranges" | "leases" |
   "secrets" | "configmaps" | "ingresses" | "networkpolicies" | "persistentvolumeclaims" | "persistentvolumes" | "storageclasses" |
   "pods" | "daemonsets" | "deployments" | "statefulsets" | "replicasets" | "jobs" | "cronjobs" |
-  "endpoints" | "customresourcedefinitions" | "horizontalpodautoscalers" | "podsecuritypolicies" | "poddisruptionbudgets" |
+  "endpoints" | "customresourcedefinitions" | "horizontalpodautoscalers" | "verticalpodautoscalers" | "podsecuritypolicies" | "poddisruptionbudgets" |
   "priorityclasses" | "runtimeclasses" |
   "roles" | "clusterroles" | "rolebindings" | "clusterrolebindings" | "serviceaccounts";
 
@@ -54,6 +54,7 @@ export const apiResourceRecord: Record<KubeResource, KubeApiResourceData> = {
   "services": { kind: "Service" },
   "statefulsets": { kind: "StatefulSet", group: "apps" },
   "storageclasses": { kind: "StorageClass", group: "storage.k8s.io" },
+  "verticalpodautoscalers": { kind: "VerticalPodAutoscaler", group: "autoscaling" },
 };
 
 // TODO: auto-populate all resources dynamically (see: kubectl api-resources -o=wide -v=7)

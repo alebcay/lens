@@ -40,6 +40,7 @@ export const ResourceNames: Record<KubeResource, string> = {
   "clusterrolebindings": "Cluster Role Bindings",
   "clusterroles": "Cluster Roles",
   "serviceaccounts": "Service Accounts",
+  "verticalpodautoscalers": "Vertical Pod Autoscalers",
 };
 
 export const ResourceKindMap: Record<string, KubeResource> = Object.fromEntries(
