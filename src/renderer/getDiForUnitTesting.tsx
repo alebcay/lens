@@ -9,12 +9,9 @@ import { createContainer, isInjectable } from "@ogre-tools/injectable";
 import { Environments, setLegacyGlobalDiForExtensionApi } from "../extensions/as-legacy-globals-for-extension-api/legacy-global-di-for-extension-api";
 import requestFromChannelInjectable from "./utils/channel/request-from-channel.injectable";
 import { getOverrideFsWithFakes } from "../test-utils/override-fs-with-fakes";
-import focusWindowInjectable from "./navigation/focus-window.injectable";
 import terminalSpawningPoolInjectable from "./components/dock/terminal/terminal-spawning-pool.injectable";
 import hostedClusterIdInjectable from "./cluster-frame-context/hosted-cluster-id.injectable";
-import { ApiManager } from "../common/k8s-api/api-manager";
 import lensResourcesDirInjectable from "../common/vars/lens-resources-dir.injectable";
-import apiManagerInjectable from "../common/k8s-api/api-manager/manager.injectable";
 import { runInAction } from "mobx";
 import requestAnimationFrameInjectable from "./components/animate/request-animation-frame.injectable";
 import getRandomIdInjectable from "../common/utils/get-random-id.injectable";
@@ -92,13 +89,9 @@ export const getDiForUnitTesting = (
     di.override(environmentVariablesInjectable, () => ({}));
     di.override(watchHistoryStateInjectable, () => () => () => {});
 
-    di.override(apiManagerInjectable, () => new ApiManager());
-
     di.override(requestFromChannelInjectable, () => () => Promise.resolve(undefined as never));
 
     getOverrideFsWithFakes()(di);
-
-    di.override(focusWindowInjectable, () => () => {});
   }
 
   return di;
