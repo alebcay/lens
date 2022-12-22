@@ -27,7 +27,7 @@ const k8sRequestInjectable = getInjectable({
       options.headers ??= {};
       options.json ??= true;
       options.timeout ??= 30000;
-      options.headers.Host = `${cluster.id}.${new URL(kubeProxyUrl).host}`; // required in ClusterManager.getClusterForRequest()
+      options.headers.Host = `${cluster.id}.${new URL(kubeProxyUrl).host}`; // required in getClusterForRequestInjectable
 
       return request(kubeProxyUrl + path, options);
     };
