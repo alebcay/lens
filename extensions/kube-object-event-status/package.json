@@ -8,7 +8,7 @@
     "styles": []
   },
   "scripts": {
-    "build": "npx webpack",
+    "build": "npx webpack && npm pack",
     "dev": "npx webpack -- --watch",
     "test": "echo NO TESTS"
   },

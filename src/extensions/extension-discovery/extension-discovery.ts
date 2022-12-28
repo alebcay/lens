@@ -12,6 +12,7 @@ import type { ExtensionsStore } from "../extensions-store/extensions-store";
 import type { ExtensionLoader } from "../extension-loader";
 import type { LensExtensionId, LensExtensionManifest } from "../lens-extension";
 import type { ExtensionInstallationStateStore } from "../extension-installation-state-store/extension-installation-state-store";
+import type { PackageJson } from "type-fest";
 import { extensionDiscoveryStateChannel } from "../../common/ipc/extension-handling";
 import { requestInitialExtensionDiscovery } from "../../renderer/ipc";
 import type { ReadJson } from "../../common/fs/read-json-file.injectable";
@@ -19,6 +20,7 @@ import type { Logger } from "../../common/logger";
 import type { PathExists } from "../../common/fs/path-exists.injectable";
 import type { Watch } from "../../common/fs/watch/watch.injectable";
 import type { Stats } from "fs";
+import { constants } from "fs";
 import type { LStat } from "../../common/fs/lstat.injectable";
 import type { ReadDirectory } from "../../common/fs/read-directory.injectable";
 import type { EnsureDirectory } from "../../common/fs/ensure-dir.injectable";
@@ -43,6 +45,7 @@ interface Dependencies {
   readonly homeDirectoryPath: string;
   isCompatibleExtension: (manifest: LensExtensionManifest) => boolean;
   installExtension: (name: string) => Promise<void>;
+  installExtensions: (packageJsonPath: string, packagesJson: PackageJson) => Promise<void>;
   readJsonFile: ReadJson;
   pathExists: PathExists;
   removePath: RemovePath;
@@ -132,6 +135,14 @@ export class ExtensionDiscovery {
 
   get packageJsonPath(): string {
     return this.dependencies.joinPaths(this.dependencies.extensionPackageRootDirectory, manifestFilename);
+  }
+
+  get inTreeTargetPath(): string {
+    return this.dependencies.joinPaths(this.dependencies.extensionPackageRootDirectory, "extensions");
+  }
+
+  get inTreeFolderPath(): string {
+    return this.dependencies.joinPaths(this.dependencies.resourcesDirectory, "extensions");
   }
 
   get nodeModulesPath(): string {
@@ -318,6 +329,26 @@ export class ExtensionDiscovery {
     );
 
     await this.dependencies.removePath(this.dependencies.joinPaths(this.dependencies.extensionPackageRootDirectory, "package-lock.json"));
+
+    const canWriteToInTreeFolder = await this.dependencies.accessPath(this.inTreeFolderPath, constants.W_OK);
+
+    if (canWriteToInTreeFolder) {
+      // Set bundled folder path to static/extensions
+      this.bundledFolderPath = this.inTreeFolderPath;
+    } else {
+      // Remove e.g. /Users/<username>/Library/Application Support/LensDev/extensions
+      await this.dependencies.removePath(this.inTreeTargetPath);
+
+      // Create folder e.g. /Users/<username>/Library/Application Support/LensDev/extensions
+      await this.dependencies.ensureDirectory(this.inTreeTargetPath);
+
+      // Copy static/extensions to e.g. /Users/<username>/Library/Application Support/LensDev/extensions
+      await this.dependencies.copy(this.inTreeFolderPath, this.inTreeTargetPath);
+
+      // Set bundled folder path to e.g. /Users/<username>/Library/Application Support/LensDev/extensions
+      this.bundledFolderPath = this.inTreeTargetPath;
+    }
+
     await this.dependencies.ensureDirectory(this.nodeModulesPath);
     await this.dependencies.ensureDirectory(this.localFolderPath);
 
@@ -351,7 +382,7 @@ export class ExtensionDiscovery {
   protected async getByManifest(manifestPath: string, { isBundled = false } = {}): Promise<InstalledExtension | null> {
     try {
       const manifest = await this.dependencies.readJsonFile(manifestPath) as unknown as LensExtensionManifest;
-      const id = isBundled ? manifestPath : this.getInstalledManifestPath(manifest.name);
+      const id = this.getInstalledManifestPath(manifest.name);
       const isEnabled = this.dependencies.extensionsStore.isEnabled({ id, isBundled });
       const extensionDir = this.dependencies.getDirnameOfPath(manifestPath);
       const npmPackage = this.dependencies.joinPaths(extensionDir, `${manifest.name}-${manifest.version}.tgz`);
@@ -382,12 +413,48 @@ export class ExtensionDiscovery {
   }
 
   async ensureExtensions(): Promise<Map<LensExtensionId, InstalledExtension>> {
-    const userExtensions = await this.loadFromFolder(this.localFolderPath);
+    const bundledExtensions = await this.loadBundledExtensions();
+    const userExtensions = await this.loadFromFolder(this.localFolderPath, bundledExtensions.map((extension) => extension.manifest.name));
+    const extensions = bundledExtensions.concat(userExtensions);
 
-    return this.extensions = new Map(userExtensions.map(extension => [extension.id, extension]));
+    await this.installBundledPackages(this.packageJsonPath, extensions);
+
+    return this.extensions = new Map(extensions.map(extension => [extension.id, extension]));
   }
 
-  async loadFromFolder(folderPath: string): Promise<InstalledExtension[]> {
+  /**
+   * Write package.json to file system and install dependencies.
+   */
+  installBundledPackages(packageJsonPath: string, extensions: InstalledExtension[]): Promise<void> {
+    const dependencies = Object.fromEntries(
+      extensions.filter(extension => extension.isBundled).map(extension => [extension.manifest.name, extension.absolutePath]),
+    );
+    const optionalDependencies = Object.fromEntries(
+      extensions.filter(extension => !extension.isBundled).map(extension => [extension.manifest.name, extension.absolutePath]),
+    );
+
+    return this.dependencies.installExtensions(packageJsonPath, { dependencies, optionalDependencies });
+  }
+
+  async loadBundledExtensions(): Promise<InstalledExtension[]> {
+    const extensions: InstalledExtension[] = [];
+    const folderPath = this.bundledFolderPath;
+    const paths = await this.dependencies.readDirectory(folderPath);
+
+    for (const fileName of paths) {
+      const absPath = this.dependencies.joinPaths(folderPath, fileName);
+      const extension = await this.loadExtensionFromFolder(absPath, { isBundled: true });
+
+      if (extension) {
+        extensions.push(extension);
+      }
+    }
+    this.dependencies.logger.debug(`${logModule}: ${extensions.length} extensions loaded`, { folderPath, extensions });
+
+    return extensions;
+  }
+
+  async loadFromFolder(folderPath: string, bundledExtensions: string[]): Promise<InstalledExtension[]> {
     const extensions: InstalledExtension[] = [];
     const paths = await this.dependencies.readDirectory(folderPath);
 
