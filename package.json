@@ -242,6 +242,7 @@
     "@astronautlabs/jsonpath": "^1.1.0",
     "@hapi/call": "^9.0.0",
     "@hapi/subtext": "^7.0.4",
+    "@k8slens/extensions": "^6.3.0",
     "@kubernetes/client-node": "^0.18.0",
     "@material-ui/styles": "^4.11.5",
     "@ogre-tools/fp": "^12.0.1",

@@ -1184,6 +1184,23 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@k8slens/extensions@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@k8slens/extensions/-/extensions-6.3.0.tgz#a29a25802cc4415ed6bcbbc4ab0a3632e8a149d9"
+  integrity sha512-IAPJ7mYybwjQTugWPVg5IV0QXlcANeYjGtGqsLpKH1Y4UcOQG6LktC04u/3JBmPZJ8inLc71MHe1qqhDhnNI6g==
+  dependencies:
+    "@material-ui/core" "^4.12.3"
+    "@types/node" "^16.11.58"
+    "@types/react" "^17.0.45"
+    "@types/react-dom" "^17.0.16"
+    "@types/react-router" "^5.1.18"
+    "@types/react-router-dom" "^5.3.3"
+    conf "^7.0.1"
+    mobx "^6.5.0"
+    mobx-react "^7.3.0"
+    react-select "^5.3.2"
+    typed-emitter "^1.3.1"
+
 "@kubernetes/client-node@^0.18.0":
   version "0.18.0"
   resolved "https://registry.yarnpkg.com/@kubernetes/client-node/-/client-node-0.18.0.tgz#b1002f3c19fb7509ce521ea78f500589f8e3e047"
@@ -2362,6 +2379,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.10.tgz#d7415ef18c94f8d4e4a82ebcc8b8999f965d8920"
   integrity sha512-XU1+v7h81p7145ddPfjv7jtWvkSilpcnON3mQ+bDi9Yuf7OI56efOglXRyXWgQ57xH3fEQgh7WOJMncRHVew5w==
 
+"@types/node@^16.11.58":
+  version "16.18.11"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.11.tgz#cbb15c12ca7c16c85a72b6bdc4d4b01151bb3cae"
+  integrity sha512-3oJbGBUWuS6ahSnEq1eN2XrCyf4YsWI8OyCvo7c64zQJNplk3mO84t53o8lfTk+2ji59g5ycfc6qQ3fdHliHuA==
+
 "@types/parse-json@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
@@ -2449,6 +2471,14 @@
   version "5.1.19"
   resolved "https://registry.yarnpkg.com/@types/react-router/-/react-router-5.1.19.tgz#9b404246fba7f91474d7008a3d48c17b6e075ad6"
   integrity sha512-Fv/5kb2STAEMT3wHzdKQK2z8xKq38EDIGVrutYLmQVVLe+4orDFquU52hQrULnEHinMKv9FSA6lf9+uNT1ITtA==
+  dependencies:
+    "@types/history" "^4.7.11"
+    "@types/react" "*"
+
+"@types/react-router@^5.1.18":
+  version "5.1.20"
+  resolved "https://registry.yarnpkg.com/@types/react-router/-/react-router-5.1.20.tgz#88eccaa122a82405ef3efbcaaa5dcdd9f021387c"
+  integrity sha512-jGjmu/ZqS7FjSH6owMcD5qpq19+1RS9DeVRqfl1FeBMxTDQAGwlMWOcs52NDoXaNKyG3d1cYQFMs9rCrb88o9Q==
   dependencies:
     "@types/history" "^4.7.11"
     "@types/react" "*"
@@ -4405,7 +4435,7 @@ concurrently@^7.6.0:
     tree-kill "^1.2.2"
     yargs "^17.3.1"
 
-conf@^7.1.2:
+conf@^7.0.1, conf@^7.1.2:
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/conf/-/conf-7.1.2.tgz#d9678a9d8f04de8bf5cd475105da8fdae49c2ec4"
   integrity sha512-r8/HEoWPFn4CztjhMJaWNAe5n+gPUCSaJ0oufbqDLFKsA1V8JjAG7G+p0pgoDFAws9Bpk2VtVLLXqOBA7WxLeg==
@@ -9213,7 +9243,7 @@ mobx-react-lite@^3.4.0:
   resolved "https://registry.yarnpkg.com/mobx-react-lite/-/mobx-react-lite-3.4.0.tgz#d59156a96889cdadad751e5e4dab95f28926dfff"
   integrity sha512-bRuZp3C0itgLKHu/VNxi66DN/XVkQG7xtoBVWxpvC5FhAqbOCP21+nPhULjnzEqd7xBMybp6KwytdUpZKEgpIQ==
 
-mobx-react@^7.6.0:
+mobx-react@^7.3.0, mobx-react@^7.6.0:
   version "7.6.0"
   resolved "https://registry.yarnpkg.com/mobx-react/-/mobx-react-7.6.0.tgz#ebf0456728a9bd2e5c24fdcf9b36e285a222a7d6"
   integrity sha512-+HQUNuh7AoQ9ZnU6c4rvbiVVl+wEkb9WqYsVDzGLng+Dqj1XntHu79PvEWKtSMoMj67vFp/ZPXcElosuJO8ckA==
@@ -9225,7 +9255,7 @@ mobx-utils@^6.0.4:
   resolved "https://registry.yarnpkg.com/mobx-utils/-/mobx-utils-6.0.5.tgz#0cce9afb07fbba1fb559f959f8cea1f44baa7252"
   integrity sha512-QOduwicYedD4mwYZRl8+c3BalljFDcubg+PUGqBkn8tOuBoj2q7GhjXBP6JXM9J+Zh+2mePK8IoToeLfqr3Z/w==
 
-mobx@^6.3.0, mobx@^6.7.0:
+mobx@^6.3.0, mobx@^6.5.0, mobx@^6.7.0:
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/mobx/-/mobx-6.7.0.tgz#2d805610fee1801fd015c54fd5400d2601aa3768"
   integrity sha512-1kBLBdSNG2bA522HQdbsTvwAwYf9hq9FWxmlhX7wTsJUAI54907J+ozfGW+LoYUo06vjit748g6QH1AAGLNebw==
@@ -10788,7 +10818,7 @@ react-select-event@^5.5.1:
   dependencies:
     "@testing-library/dom" ">=7"
 
-react-select@^5.7.0:
+react-select@^5.3.2, react-select@^5.7.0:
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/react-select/-/react-select-5.7.0.tgz#82921b38f1fcf1471a0b62304da01f2896cd8ce6"
   integrity sha512-lJGiMxCa3cqnUr2Jjtg9YHsaytiZqeNOKeibv6WF5zbK/fPegZ1hg3y/9P1RZVLhqBTs0PfqQLKuAACednYGhQ==
@@ -12549,7 +12579,7 @@ type-is@~1.6.18:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
-typed-emitter@^1.4.0:
+typed-emitter@^1.3.1, typed-emitter@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/typed-emitter/-/typed-emitter-1.4.0.tgz#38c6bf1224e764906bb20cb0b458fa914100607c"
   integrity sha512-weBmoo3HhpKGgLBOYwe8EB31CzDFuaK7CCL+axXhUYhn4jo6DSkHnbefboCF5i4DQ2aMFe0C/FdTWcPdObgHyg==
