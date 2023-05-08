@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import { observer } from "mobx-react";
 import { DrawerItem, DrawerTitle } from "../drawer";
 import { Badge } from "../badge";
-import type { PersistentVolumeClaimApi, StorageClassApi } from "../../../common/k8s-api/endpoints";
+import type { PersistentVolumeClaimApi, StorageClassApi } from "@meniscus/kube-api";
 import { PersistentVolume } from "@meniscus/kube-object";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 import type { Logger } from "@meniscus/logger";

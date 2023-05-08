@@ -5,10 +5,9 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import assert from "assert";
 import { storesAndApisCanBeCreatedInjectionToken } from "../stores-apis-can-be-created.token";
-import { kubeApiInjectionToken } from "../kube-api/kube-api-injection-token";
+import { kubeApiInjectionToken, ValidatingWebhookConfigurationApi } from "@meniscus/kube-api";
 import { loggerInjectionToken } from "@meniscus/logger";
 import maybeKubeApiInjectable from "../maybe-kube-api.injectable";
-import { ValidatingWebhookConfigurationApi } from "./validating-webhook-configuration.api";
 
 const validatingWebhookConfigurationApiInjectable = getInjectable({
   id: "validating-webhook-configuration",

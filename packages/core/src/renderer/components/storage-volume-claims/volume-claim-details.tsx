@@ -11,7 +11,7 @@ import { DrawerItem, DrawerTitle } from "../drawer";
 import { Badge } from "../badge";
 import { Link } from "react-router-dom";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import type { StorageClassApi } from "../../../common/k8s-api/endpoints";
+import type { StorageClassApi } from "@meniscus/kube-api";
 import { PersistentVolumeClaim } from "@meniscus/kube-object";
 import type { Logger } from "@meniscus/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";

@@ -21,7 +21,7 @@ import deploymentApiInjectable from "../../../../common/k8s-api/endpoints/deploy
 import deploymentScaleDialogStateInjectable from "./dialog-state.injectable";
 import type { ShowCheckedErrorNotification } from "../../notifications/show-checked-error.injectable";
 import showCheckedErrorNotificationInjectable from "../../notifications/show-checked-error.injectable";
-import type { DeploymentApi } from "../../../../common/k8s-api/endpoints";
+import type { DeploymentApi } from "@meniscus/kube-api";
 
 export interface DeploymentScaleDialogProps extends Partial<DialogProps> {
 }

@@ -8,7 +8,7 @@ import type { StatefulSet } from "@meniscus/kube-object";
 import { PodStatusPhase } from "@meniscus/kube-object";
 import type { KubeObjectStoreDependencies, KubeObjectStoreOptions } from "../../../common/k8s-api/kube-object.store";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
-import type { StatefulSetApi } from "../../../common/k8s-api/endpoints";
+import type { StatefulSetApi } from "@meniscus/kube-api";
 
 interface Dependencies extends KubeObjectStoreDependencies {
   getPodsByOwnerId: GetPodsByOwnerId;

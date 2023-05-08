@@ -6,7 +6,7 @@ import { getInjectable } from "@ogre-tools/injectable";
 import type { AsyncResult } from "@meniscus/utilities";
 import type { JsonPatch } from "../../../../../common/k8s-api/kube-object.store";
 import { getErrorMessage } from "../../../../../common/utils/get-error-message";
-import { patchTypeHeaders } from "../../../../../common/k8s-api/kube-api";
+import { patchTypeHeaders } from "@meniscus/kube-api";
 import apiKubePatchInjectable from "../../../../k8s/api-kube-patch.injectable";
 
 export type RequestPatchKubeResource = (selfLink: string, patch: JsonPatch) => AsyncResult<{ name: string; kind: string }>;

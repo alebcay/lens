@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { Role, RoleData } from "@meniscus/kube-object";
-import type { RoleApi } from "../../../../common/k8s-api/endpoints";
+import type { RoleApi } from "@meniscus/kube-api";
 import { KubeObjectStore } from "../../../../common/k8s-api/kube-object.store";
 
 export class RoleStore extends KubeObjectStore<Role, RoleApi, RoleData> {

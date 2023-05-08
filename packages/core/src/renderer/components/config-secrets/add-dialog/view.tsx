@@ -14,7 +14,7 @@ import { Dialog } from "../../dialog";
 import { Wizard, WizardStep } from "../../wizard";
 import { Input } from "../../input";
 import { systemName } from "../../input/input_validators";
-import type { SecretApi } from "../../../../common/k8s-api/endpoints";
+import type { SecretApi } from "@meniscus/kube-api";
 import { reverseSecretTypeMap, SecretType } from "@meniscus/kube-object";
 import { SubTitle } from "../../layout/sub-title";
 import { NamespaceSelect } from "../../namespaces/namespace-select";

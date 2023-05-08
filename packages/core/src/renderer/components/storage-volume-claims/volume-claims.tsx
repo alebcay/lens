@@ -10,7 +10,7 @@ import { observer } from "mobx-react";
 import { Link } from "react-router-dom";
 import { KubeObjectListLayout } from "../kube-object-list-layout";
 import { unitsToBytes, stopPropagation } from "@meniscus/utilities";
-import type { StorageClassApi } from "../../../common/k8s-api/endpoints";
+import type { StorageClassApi } from "@meniscus/kube-api";
 import { KubeObjectStatusIcon } from "../kube-object-status-icon";
 import { SiblingsInTabLayout } from "../layout/siblings-in-tab-layout";
 import { KubeObjectAge } from "../kube-object/age";

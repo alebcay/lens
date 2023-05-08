@@ -4,7 +4,7 @@
  */
 
 import type { ReplicationController } from "@meniscus/kube-object";
-import type { ReplicationControllerApi } from "../../../common/k8s-api/endpoints";
+import type { ReplicationControllerApi } from "@meniscus/kube-api";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 
 export class ReplicationControllerStore extends KubeObjectStore<ReplicationController, ReplicationControllerApi> {

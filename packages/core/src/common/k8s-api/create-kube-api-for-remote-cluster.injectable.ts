@@ -9,8 +9,8 @@ import type { RequestInit } from "@meniscus/node-fetch";
 import { loggerInjectionToken } from "@meniscus/logger";
 import isDevelopmentInjectable from "../vars/is-development.injectable";
 import createKubeJsonApiInjectable from "./create-kube-json-api.injectable";
-import type { KubeApiOptions } from "./kube-api";
-import { KubeApi } from "./kube-api";
+import type { KubeApiOptions } from "@meniscus/kube-api";
+import { KubeApi } from "@meniscus/kube-api";
 import type { KubeJsonApiDataFor, KubeObject, KubeObjectConstructor } from "@meniscus/kube-object";
 
 export interface CreateKubeApiForRemoteClusterConfig {

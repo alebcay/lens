@@ -9,7 +9,7 @@ import lensProxyCertificateInjectable from "../certificate/lens-proxy-certificat
 import fetchInjectable from "../fetch/fetch.injectable";
 import { loggerInjectionToken } from "@meniscus/logger";
 import type { JsonApiConfig, JsonApiDependencies } from "@meniscus/json-api";
-import { KubeJsonApi } from "./kube-json-api";
+import { KubeJsonApi } from "@meniscus/kube-api";
 
 export type CreateKubeJsonApi = (config: JsonApiConfig, reqInit?: RequestInit) => KubeJsonApi;
 

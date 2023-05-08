@@ -8,7 +8,7 @@ import type { DaemonSet, Pod } from "@meniscus/kube-object";
 import { PodStatusPhase } from "@meniscus/kube-object";
 import type { KubeObjectStoreDependencies, KubeObjectStoreOptions } from "../../../common/k8s-api/kube-object.store";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
-import type { DaemonSetApi } from "../../../common/k8s-api/endpoints";
+import type { DaemonSetApi } from "@meniscus/kube-api";
 
 export interface DaemonSetStoreDependencies extends KubeObjectStoreDependencies {
   readonly getPodsByOwnerId: GetPodsByOwnerId;

@@ -9,7 +9,7 @@ import type { KubeObjectStoreDependencies, KubeObjectStoreOptions } from "../../
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 import { cpuUnitsToNumber, unitsToBytes } from "@meniscus/utilities";
 import type { Pod, PodMetrics, KubeObject, NamespaceScopedMetadata } from "@meniscus/kube-object";
-import type { PodApi, PodMetricsApi } from "../../../common/k8s-api/endpoints";
+import type { PodApi, PodMetricsApi } from "@meniscus/kube-api";
 
 export interface PodStoreDependencies extends KubeObjectStoreDependencies {
   readonly podMetricsApi: PodMetricsApi;

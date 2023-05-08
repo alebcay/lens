@@ -4,7 +4,7 @@
  */
 
 import { noop } from "@meniscus/utilities";
-import type { KubeApi } from "../kube-api";
+import type { KubeApi } from "@meniscus/kube-api";
 import { KubeObject } from "@meniscus/kube-object";
 import type { KubeObjectStoreLoadingParams } from "../kube-object.store";
 import { KubeObjectStore } from "../kube-object.store";

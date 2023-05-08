@@ -4,7 +4,7 @@
  */
 
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
-import type { LeaseApi } from "../../../common/k8s-api/endpoints/lease.api";
+import type { LeaseApi } from "@meniscus/kube-api";
 import type { Lease } from "@meniscus/kube-object";
 
 export class LeaseStore extends KubeObjectStore<Lease, LeaseApi> {

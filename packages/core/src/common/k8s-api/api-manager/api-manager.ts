@@ -7,9 +7,9 @@ import type { KubeObjectStore } from "../kube-object.store";
 
 import type { IComputedValue } from "mobx";
 import { autorun,  action, observable } from "mobx";
-import type { KubeApi } from "../kube-api";
+import type { KubeApi } from "@meniscus/kube-api";
 import type { KubeObject, ObjectReference } from "@meniscus/kube-object";
-import { parseKubeApi, createKubeApiURL } from "../kube-api-parse";
+import { parseKubeApi, createKubeApiURL } from "@meniscus/kube-api";
 import { getOrInsertWith, iter } from "@meniscus/utilities";
 import type { CreateCustomResourceStore } from "./create-custom-resource-store.injectable";
 

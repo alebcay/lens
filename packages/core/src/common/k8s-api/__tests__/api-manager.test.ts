@@ -14,7 +14,7 @@ import directoryForUserDataInjectable from "../../app-paths/directory-for-user-d
 import { loggerInjectionToken } from "@meniscus/logger";
 import type { ApiManager } from "../api-manager";
 import apiManagerInjectable from "../api-manager/manager.injectable";
-import { KubeApi } from "../kube-api";
+import { KubeApi } from "@meniscus/kube-api";
 import { KubeObject } from "@meniscus/kube-object";
 import { KubeObjectStore } from "../kube-object.store";
 import maybeKubeApiInjectable from "../maybe-kube-api.injectable";

@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { KubeApi } from "../kube-api";
+import type { KubeApi } from "@meniscus/kube-api";
 import type { KubeObjectStoreDependencies } from "../kube-object.store";
 import { KubeObjectStore } from "../kube-object.store";
 import type { KubeObject } from "@meniscus/kube-object";

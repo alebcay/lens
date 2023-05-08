@@ -5,7 +5,7 @@
 
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 import type { ConfigMap, ConfigMapData } from "@meniscus/kube-object";
-import type { ConfigMapApi } from "../../../common/k8s-api/endpoints";
+import type { ConfigMapApi } from "@meniscus/kube-api";
 
 export class ConfigMapStore extends KubeObjectStore<ConfigMap, ConfigMapApi, ConfigMapData> {
 }

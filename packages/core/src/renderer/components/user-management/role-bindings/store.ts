@@ -7,7 +7,7 @@ import type { RoleBinding, RoleBindingData, Subject } from "@meniscus/kube-objec
 import { KubeObjectStore } from "../../../../common/k8s-api/kube-object.store";
 import { HashSet } from "@meniscus/utilities";
 import { hashSubject } from "../hashers";
-import type { RoleBindingApi } from "../../../../common/k8s-api/endpoints";
+import type { RoleBindingApi } from "@meniscus/kube-api";
 
 export class RoleBindingStore extends KubeObjectStore<RoleBinding, RoleBindingApi, RoleBindingData> {
   protected sortItems(items: RoleBinding[]) {

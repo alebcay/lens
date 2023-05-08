@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { PersistentVolumeClaim } from "@meniscus/kube-object";
-import type { PersistentVolumeClaimApi } from "../../../common/k8s-api/endpoints";
+import type { PersistentVolumeClaimApi } from "@meniscus/kube-api";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 
 export class PersistentVolumeClaimStore extends KubeObjectStore<PersistentVolumeClaim, PersistentVolumeClaimApi> {

@@ -4,7 +4,7 @@
  */
 
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
-import type { VerticalPodAutoscalerApi } from "../../../common/k8s-api/endpoints/vertical-pod-autoscaler.api";
+import type { VerticalPodAutoscalerApi } from "@meniscus/kube-api";
 import type { VerticalPodAutoscaler } from "@meniscus/kube-object";
 
 export class VerticalPodAutoscalerStore extends KubeObjectStore<VerticalPodAutoscaler, VerticalPodAutoscalerApi> {

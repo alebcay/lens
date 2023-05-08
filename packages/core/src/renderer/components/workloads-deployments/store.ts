@@ -8,7 +8,7 @@ import type { Deployment } from "@meniscus/kube-object";
 import { PodStatusPhase } from "@meniscus/kube-object";
 import type { KubeObjectStoreDependencies, KubeObjectStoreOptions } from "../../../common/k8s-api/kube-object.store";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
-import type { DeploymentApi } from "../../../common/k8s-api/endpoints";
+import type { DeploymentApi } from "@meniscus/kube-api";
 
 // This needs to be disables because of https://github.com/microsoft/TypeScript/issues/15300
 // eslint-disable-next-line @typescript-eslint/consistent-type-definitions

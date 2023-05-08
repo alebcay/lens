@@ -5,7 +5,7 @@
 
 import type { KubeObjectStoreDependencies, KubeObjectStoreOptions } from "../../../common/k8s-api/kube-object.store";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
-import type { JobApi } from "../../../common/k8s-api/endpoints/job.api";
+import type { JobApi } from "@meniscus/kube-api";
 import type { CronJob, Job, Pod } from "@meniscus/kube-object";
 import { PodStatusPhase } from "@meniscus/kube-object";
 import type { GetPodsByOwnerId } from "../workloads-pods/get-pods-by-owner-id.injectable";

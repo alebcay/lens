@@ -9,7 +9,7 @@ import type { StorageLayer } from "../../utils/storage-helper";
 import { noop, toggle } from "@meniscus/utilities";
 import type { KubeObjectStoreDependencies, KubeObjectStoreLoadingParams } from "../../../common/k8s-api/kube-object.store";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
-import type { NamespaceApi } from "../../../common/k8s-api/endpoints/namespace.api";
+import type { NamespaceApi } from "@meniscus/kube-api";
 import { Namespace } from "@meniscus/kube-object";
 import autoBind from "auto-bind";
 

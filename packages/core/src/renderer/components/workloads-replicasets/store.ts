@@ -8,7 +8,7 @@ import { PodStatusPhase } from "@meniscus/kube-object";
 import type { Deployment, ReplicaSet } from "@meniscus/kube-object";
 import type { KubeObjectStoreDependencies, KubeObjectStoreOptions } from "../../../common/k8s-api/kube-object.store";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
-import type { ReplicaSetApi } from "../../../common/k8s-api/endpoints";
+import type { ReplicaSetApi } from "@meniscus/kube-api";
 
 export interface ReplicaSetStoreDependencies extends KubeObjectStoreDependencies {
   getPodsByOwnerId: GetPodsByOwnerId;

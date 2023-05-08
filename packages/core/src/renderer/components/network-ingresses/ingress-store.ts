@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { Ingress } from "@meniscus/kube-object";
-import type { IngressApi } from "../../../common/k8s-api/endpoints";
+import type { IngressApi } from "@meniscus/kube-api";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 
 export class IngressStore extends KubeObjectStore<Ingress, IngressApi> {

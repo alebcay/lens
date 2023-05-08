@@ -4,7 +4,7 @@
  */
 
 import type { PodSecurityPolicy } from "@meniscus/kube-object";
-import type { PodSecurityPolicyApi } from "../../../common/k8s-api/endpoints";
+import type { PodSecurityPolicyApi } from "@meniscus/kube-api";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 
 export class PodSecurityPolicyStore extends KubeObjectStore<PodSecurityPolicy, PodSecurityPolicyApi> {
