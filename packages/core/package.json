@@ -214,6 +214,7 @@
     "@meniscus/cluster-settings": "^6.5.0",
     "@meniscus/error-boundary": "^1.0.0",
     "@meniscus/event-emitter": "^1.0.0",
+    "@meniscus/kube-api": "^1.0.0",
     "@meniscus/kubectl-versions": "^1.0.0",
     "@meniscus/legacy-extensions": "^1.0.0",
     "@meniscus/legacy-global-di": "^1.0.0",
