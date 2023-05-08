@@ -10,7 +10,7 @@ import { Namespace } from "@meniscus/kube-object";
 export class NamespaceApi extends KubeApi<Namespace> {
   constructor(deps: KubeApiDependencies, opts?: DerivedKubeApiOptions) {
     super(deps, {
-      ...opts ?? {},
+      ...(opts ?? {}),
       objectConstructor: Namespace,
     });
   }

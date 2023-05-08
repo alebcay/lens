@@ -8,7 +8,6 @@ import { KubeApi } from "../kube-api";
 import type { PriorityClassData } from "@meniscus/kube-object";
 import { PriorityClass } from "@meniscus/kube-object";
 
-
 export class PriorityClassApi extends KubeApi<PriorityClass, PriorityClassData> {
   constructor(deps: KubeApiDependencies, opts: DerivedKubeApiOptions = {}) {
     super(deps, {

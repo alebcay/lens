@@ -10,9 +10,8 @@ import { PersistentVolumeClaim } from "@meniscus/kube-object";
 export class PersistentVolumeClaimApi extends KubeApi<PersistentVolumeClaim> {
   constructor(deps: KubeApiDependencies, opts?: DerivedKubeApiOptions) {
     super(deps, {
-      ...opts ?? {},
+      ...(opts ?? {}),
       objectConstructor: PersistentVolumeClaim,
     });
   }
 }
-

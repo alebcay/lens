@@ -10,7 +10,7 @@ import { Lease } from "@meniscus/kube-object";
 export class LeaseApi extends KubeApi<Lease> {
   constructor(deps: KubeApiDependencies, opts?: DerivedKubeApiOptions) {
     super(deps, {
-      ...opts ?? {},
+      ...(opts ?? {}),
       objectConstructor: Lease,
     });
   }

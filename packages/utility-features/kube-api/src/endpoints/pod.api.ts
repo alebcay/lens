@@ -13,11 +13,10 @@ import { KubeApi } from "../kube-api";
 import type { KubeStatusData, PodLogsQuery } from "@meniscus/kube-object";
 import { isKubeStatusData, KubeStatus, Pod } from "@meniscus/kube-object";
 
-
 export class PodApi extends KubeApi<Pod> {
   constructor(deps: KubeApiDependencies, opts?: DerivedKubeApiOptions) {
     super(deps, {
-      ...opts ?? {},
+      ...(opts ?? {}),
       objectConstructor: Pod,
     });
   }
@@ -47,6 +46,7 @@ export class PodApi extends KubeApi<Pod> {
       if (status.code >= 200 && status.code < 300) {
         return status.getExplanation();
       } else {
+        // eslint-disable-next-line @typescript-eslint/no-throw-literal
         throw status.getExplanation();
       }
     }
