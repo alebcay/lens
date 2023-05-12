@@ -12,7 +12,7 @@ import { backoffCaller, withConcurrencyLimit } from "@meniscus/utilities";
 import requestKubeApiResourcesForInjectable from "./request-kube-api-resources-for.injectable";
 import type { AsyncResult } from "@meniscus/utilities";
 import broadcastConnectionUpdateInjectable from "./broadcast-connection-update.injectable";
-import { byOrderNumber } from "../../common/utils/composable-responsibilities/orderable/orderable";
+import { byOrderNumber } from "@meniscus/utilities";
 
 export type RequestApiResources = (cluster: Cluster) => AsyncResult<KubeApiResource[], Error>;
 

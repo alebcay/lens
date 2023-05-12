@@ -185,6 +185,7 @@
     "@meniscus/application-for-electron-main": "^6.5.0",
     "@meniscus/button": "^1.0.0",
     "@meniscus/cluster-settings": "^6.5.0",
+    "@meniscus/cluster-sidebar": "^1.0.0",
     "@meniscus/core": "^6.5.2",
     "@meniscus/ensure-binaries": "^6.5.0",
     "@meniscus/error-boundary": "^1.0.0",

@@ -28,6 +28,7 @@ import { reactApplicationFeature } from "@meniscus/react-application";
 import { routingFeature } from "@meniscus/routing";
 import { loggerFeature } from "@meniscus/logger";
 import { animateFeature } from "@meniscus/animate";
+import { clusterSidebarFeature } from "@meniscus/cluster-sidebar";
 
 const environment = "renderer";
 
@@ -54,6 +55,7 @@ runInAction(() => {
     routingFeature,
     metricsFeature,
     animateFeature,
+    clusterSidebarFeature,
   );
 
   autoRegister({

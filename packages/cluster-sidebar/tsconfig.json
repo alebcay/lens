@@ -1,0 +1,4 @@
+{
+    "extends": "@meniscus/typescript/config/base.json",
+    "include": ["**/*.ts"]
+  }

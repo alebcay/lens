@@ -21,6 +21,7 @@ import { registerFeature } from "@meniscus/feature-core";
 import { messagingFeature, testUtils as messagingTestUtils } from "@meniscus/messaging";
 import { routingFeature } from "@meniscus/routing";
 import { loggerFeature } from "@meniscus/logger";
+import { clusterSidebarFeature } from "@meniscus/cluster-sidebar";
 
 export const getDiForUnitTesting = () => {
   const environment = "renderer";
@@ -39,6 +40,7 @@ export const getDiForUnitTesting = () => {
       routingFeature,
       loggerFeature,
       animateFeature,
+      clusterSidebarFeature,
     );
   });
 

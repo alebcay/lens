@@ -11,7 +11,7 @@ import type { StrictReactNode } from "@meniscus/utilities";
 import { cssNames } from "@meniscus/utilities";
 import { Tab, Tabs } from "../tabs";
 import { ErrorBoundary } from "@meniscus/error-boundary";
-import type { HierarchicalSidebarItem } from "./sidebar-items.injectable";
+import type { HierarchicalSidebarItem } from "@meniscus/cluster-sidebar";
 
 export interface TabLayoutProps {
   tabs?: HierarchicalSidebarItem[];
