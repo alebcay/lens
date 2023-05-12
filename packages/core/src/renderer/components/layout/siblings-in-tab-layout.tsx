@@ -8,7 +8,7 @@ import { observer } from "mobx-react";
 import React from "react";
 import siblingTabsInjectable from "../../routes/sibling-tabs.injectable";
 import { TabLayout } from "./tab-layout-2";
-import type { HierarchicalSidebarItem } from "@meniscus/cluster-sidebar";
+import type { SidebarItemDeclaration } from "@meniscus/cluster-sidebar";
 import type { StrictReactNode } from "@meniscus/utilities";
 
 interface SiblingTabLayoutProps {
@@ -17,7 +17,7 @@ interface SiblingTabLayoutProps {
 }
 
 interface Dependencies {
-  tabs: IComputedValue<HierarchicalSidebarItem[]>;
+  tabs: IComputedValue<SidebarItemDeclaration[]>;
 }
 
 const NonInjectedSiblingsInTabLayout = observer(

@@ -11,10 +11,10 @@ import type { StrictReactNode } from "@meniscus/utilities";
 import { cssNames } from "@meniscus/utilities";
 import { Tab, Tabs } from "../tabs";
 import { ErrorBoundary } from "@meniscus/error-boundary";
-import type { HierarchicalSidebarItem } from "@meniscus/cluster-sidebar";
+import type { SidebarItemDeclaration } from "@meniscus/cluster-sidebar";
 
 export interface TabLayoutProps {
-  tabs?: HierarchicalSidebarItem[];
+  tabs?: SidebarItemDeclaration[];
   children?: StrictReactNode;
   scrollable?: boolean;
 }
