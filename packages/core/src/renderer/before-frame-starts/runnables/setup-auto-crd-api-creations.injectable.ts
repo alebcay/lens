@@ -11,7 +11,7 @@ import { KubeObject } from "@meniscus/kube-object";
 import maybeKubeApiInjectable from "../../../common/k8s-api/maybe-kube-api.injectable";
 import { loggerInjectionToken } from "@meniscus/logger";
 import { injectableDifferencingRegistratorWith } from "../../../common/utils/registrator-helper";
-import customResourceDefinitionStoreInjectable from "../../components/custom-resources/definition.store.injectable";
+import customResourceDefinitionStoreInjectable from "../../components/custom-resource-definitions/store.injectable";
 import { beforeClusterFrameStartsSecondInjectionToken } from "../tokens";
 
 const setupAutoCrdApiCreationsInjectable = getInjectable({

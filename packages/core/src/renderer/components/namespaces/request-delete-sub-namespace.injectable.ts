@@ -4,7 +4,7 @@
  */
 import { waitUntilDefined } from "@meniscus/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
-import customResourceDefinitionStoreInjectable from "../custom-resources/definition.store.injectable";
+import customResourceDefinitionStoreInjectable from "../custom-resource-definitions/store.injectable";
 import apiManagerInjectable from "../../../common/k8s-api/api-manager/manager.injectable";
 import type { Namespace } from "@meniscus/kube-object";
 

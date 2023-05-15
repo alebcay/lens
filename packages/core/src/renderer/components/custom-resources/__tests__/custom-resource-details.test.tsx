@@ -8,7 +8,7 @@ import { CustomResourceDefinition, KubeObject } from "@meniscus/kube-object";
 import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import type { DiRender } from "../../test-utils/renderFor";
 import { renderFor } from "../../test-utils/renderFor";
-import { CustomResourceDetails } from "../crd-resource-details";
+import { CustomResourceDetails } from "../details";
 
 describe("<CustomResourceDetails />", () => {
   let render: DiRender;
