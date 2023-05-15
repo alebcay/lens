@@ -10,15 +10,15 @@ import { sidebarItemInjectionToken } from "@meniscus/cluster-sidebar";
 import routeIsActiveInjectable from "../../routes/route-is-active.injectable";
 import navigateToStatefulsetsInjectable from "../../../common/front-end-routing/routes/cluster/workloads/statefulsets/navigate-to-statefulsets.injectable";
 
-const statefulsetsSidebarItemInjectable = getInjectable({
-  id: "sidebar-item-statefulsets",
+const statefulSetsSidebarItemInjectable = getInjectable({
+  id: "sidebar-item-stateful-sets",
 
   instantiate: (di) => {
     const route = di.inject(statefulsetsRouteInjectable);
 
     return {
       parentId: workloadsSidebarItemInjectable.id,
-      title: "StatefulSets",
+      title: "Stateful Sets",
       onClick: di.inject(navigateToStatefulsetsInjectable),
       isActive: di.inject(routeIsActiveInjectable, route),
       isVisible: route.isEnabled,
@@ -29,4 +29,4 @@ const statefulsetsSidebarItemInjectable = getInjectable({
   injectionToken: sidebarItemInjectionToken,
 });
 
-export default statefulsetsSidebarItemInjectable;
+export default statefulSetsSidebarItemInjectable;

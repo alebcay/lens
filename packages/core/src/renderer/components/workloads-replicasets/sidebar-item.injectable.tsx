@@ -3,29 +3,30 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import cronJobsRouteInjectable from "../../../common/front-end-routing/routes/cluster/workloads/cron-jobs/cron-jobs-route.injectable";
+
+import replicasetsRouteInjectable from "../../../common/front-end-routing/routes/cluster/workloads/replicasets/replicasets-route.injectable";
 import workloadsSidebarItemInjectable from "../workloads/workloads-sidebar-item.injectable";
 import { sidebarItemInjectionToken } from "@meniscus/cluster-sidebar";
 import routeIsActiveInjectable from "../../routes/route-is-active.injectable";
-import navigateToCronJobsInjectable from "../../../common/front-end-routing/routes/cluster/workloads/cron-jobs/navigate-to-cron-jobs.injectable";
+import navigateToReplicasetsInjectable from "../../../common/front-end-routing/routes/cluster/workloads/replicasets/navigate-to-replicasets.injectable";
 
-const cronJobsSidebarItemInjectable = getInjectable({
-  id: "sidebar-item-cron-jobs",
+const replicaSetsSidebarItemInjectable = getInjectable({
+  id: "sidebar-item-replica-sets",
 
   instantiate: (di) => {
-    const route = di.inject(cronJobsRouteInjectable);
+    const route = di.inject(replicasetsRouteInjectable);
 
     return {
       parentId: workloadsSidebarItemInjectable.id,
-      title: "CronJobs",
-      onClick: di.inject(navigateToCronJobsInjectable),
+      title: "Replica Sets",
+      onClick: di.inject(navigateToReplicasetsInjectable),
       isActive: di.inject(routeIsActiveInjectable, route),
       isVisible: route.isEnabled,
-      orderNumber: 80,
+      orderNumber: 60,
     };
   },
 
   injectionToken: sidebarItemInjectionToken,
 });
 
-export default cronJobsSidebarItemInjectable;
+export default replicaSetsSidebarItemInjectable;
