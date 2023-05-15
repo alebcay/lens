@@ -6,7 +6,7 @@
 import "./kube-object-status-icon.scss";
 
 import React from "react";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import { cssNames, formatDuration, getOrInsert, isDefined } from "@meniscus/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import kubeObjectStatusTextsForObjectInjectable from "./kube-object-status-texts-for-object.injectable";

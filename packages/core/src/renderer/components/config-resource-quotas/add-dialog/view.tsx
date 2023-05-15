@@ -17,7 +17,7 @@ import { systemName } from "../../input/input_validators";
 import type { ResourceQuotaValues } from "@meniscus/kube-object";
 import type { ResourceQuotaApi } from "@meniscus/kube-api";
 import { Select } from "../../select";
-import { Icon } from "../../icon";
+import { Icon } from "@meniscus/icon";
 import { Button } from "@meniscus/button";
 import { NamespaceSelect } from "../../namespaces/namespace-select";
 import { SubTitle } from "../../layout/sub-title";

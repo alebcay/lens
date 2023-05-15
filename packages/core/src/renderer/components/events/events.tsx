@@ -20,7 +20,7 @@ import { Tooltip } from "@meniscus/tooltip";
 import { Link } from "react-router-dom";
 import type { IClassName } from "@meniscus/utilities";
 import { cssNames, stopPropagation } from "@meniscus/utilities";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import type { ApiManager } from "../../../common/k8s-api/api-manager";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import navigateToEventsInjectable  from "../../../common/front-end-routing/routes/cluster/events/navigate-to-events.injectable";

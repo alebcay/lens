@@ -13,7 +13,7 @@ import type { DialogProps } from "../../dialog";
 import { Dialog } from "../../dialog";
 import { Wizard, WizardStep } from "../../wizard";
 import type { Deployment } from "@meniscus/kube-object";
-import { Icon } from "../../icon";
+import { Icon } from "@meniscus/icon";
 import { Slider } from "../../slider";
 import { cssNames } from "@meniscus/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";

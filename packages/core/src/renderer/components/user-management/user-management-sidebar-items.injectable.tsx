@@ -9,7 +9,7 @@ import type {
 import {
   sidebarItemsInjectionToken,
 } from "../layout/sidebar-items.injectable";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import React from "react";
 import { noop } from "lodash/fp";
 

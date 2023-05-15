@@ -3,6 +3,7 @@ import "@meniscus/button/styles";
 import "@meniscus/error-boundary/styles";
 import "@meniscus/tooltip/styles";
 import "@meniscus/resizing-anchor/styles";
+import "@meniscus/icon/styles";
 
 import { runInAction } from "mobx";
 import {

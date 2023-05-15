@@ -9,7 +9,7 @@ import type { DOMAttributes, InputHTMLAttributes, TextareaHTMLAttributes } from 
 import React from "react";
 import type { StrictReactNode, SingleOrMany } from "@meniscus/utilities";
 import { debouncePromise, isPromiseSettledFulfilled, cssNames } from "@meniscus/utilities";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import type { TooltipProps } from "@meniscus/tooltip";
 import { Tooltip } from "@meniscus/tooltip";
 import * as Validators from "./input_validators";

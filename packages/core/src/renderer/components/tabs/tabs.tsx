@@ -8,7 +8,7 @@ import type { DOMAttributes } from "react";
 import React from "react";
 import type { StrictReactNode } from "@meniscus/utilities";
 import { cssNames } from "@meniscus/utilities";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import autoBindReact from "auto-bind/react";
 
 const TabsContext = React.createContext<TabsContextValue<unknown>>({});

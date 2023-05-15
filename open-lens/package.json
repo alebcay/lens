@@ -30,7 +30,7 @@
     "dev:main": "cross-env NODE_ENV=development webpack --config webpack/main.ts --progress --watch",
     "dev:renderer": "cross-env NODE_ENV=development ts-node ./webpack/dev-server.ts",
     "test:integration": "jest -xyz --runInBand --modulePaths=[\"<rootDir>/integration/\"];",
-    "build:tray-icons": "npm run --workspace @meniscus/generate-tray-icons generate -- --output static/build/tray --input @meniscus/core/icons/logo-lens.svg --notice-icon @meniscus/core/icons/notice.svg --spinner-icon @meniscus/core/icons/arrow-spinner.svg",
+    "build:tray-icons": "npm run --workspace @meniscus/generate-tray-icons generate -- --output static/build/tray --input @meniscus/icon/icons/logo-lens.svg --notice-icon @meniscus/icon/icons/notice.svg --spinner-icon @meniscus/icon/icons/arrow-spinner.svg",
     "download:binaries": "npm run --workspace @meniscus/ensure-binaries ensure -- --package package.json --base-dir binaries/client",
     "postinstall": "electron-rebuild"
   },

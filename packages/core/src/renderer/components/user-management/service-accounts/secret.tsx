@@ -11,7 +11,7 @@ import React from "react";
 import type { Secret } from "@meniscus/kube-object";
 import type { StrictReactNode } from "@meniscus/utilities";
 import { prevDefault } from "@meniscus/utilities";
-import { Icon } from "../../icon";
+import { Icon } from "@meniscus/icon";
 
 export interface ServiceAccountsSecretProps {
   secret: Secret | string;

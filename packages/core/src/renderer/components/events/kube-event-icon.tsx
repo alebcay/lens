@@ -6,7 +6,7 @@
 import "./kube-event-icon.scss";
 
 import React from "react";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import type { KubeObject, KubeEvent } from "@meniscus/kube-object";
 import { cssNames } from "@meniscus/utilities";
 import { KubeObjectAge } from "../kube-object/age";

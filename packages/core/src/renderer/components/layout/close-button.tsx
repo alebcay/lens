@@ -7,7 +7,7 @@ import styles from "./close-button.module.scss";
 
 import type { HTMLAttributes } from "react";
 import React from "react";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 
 export interface CloseButtonProps extends HTMLAttributes<HTMLDivElement> {
 }

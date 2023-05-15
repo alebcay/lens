@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 import type { Secret, ServiceAccount } from "@meniscus/kube-object";
 import { DrawerItem, DrawerTitle } from "../../drawer";
-import { Icon } from "../../icon";
+import { Icon } from "@meniscus/icon";
 import type { KubeObjectDetailsProps } from "../../kube-object-details";
 import { Spinner } from "../../spinner";
 import { ServiceAccountsSecret } from "./secret";

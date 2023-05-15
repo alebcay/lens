@@ -8,7 +8,7 @@ import React from "react";
 import activeHotbarInjectable from "../../../../features/hotbar/storage/common/active.injectable";
 import { Avatar } from "../../avatar";
 import type { RegisteredAdditionalCategoryColumn } from "../custom-category-columns";
-import { Icon } from "../../icon";
+import { Icon } from "@meniscus/icon";
 import { prevDefault } from "@meniscus/utilities";
 
 const renderNamedCategoryColumnCellInjectable = getInjectable({

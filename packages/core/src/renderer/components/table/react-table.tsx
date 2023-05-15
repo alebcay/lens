@@ -7,7 +7,7 @@ import styles from "./react-table.module.scss";
 import React, { useCallback, useMemo } from "react";
 import type { Row, UseTableOptions } from "react-table";
 import { useFlexLayout, useSortBy, useTable } from "react-table";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import { cssNames } from "@meniscus/utilities";
 
 export interface ReactTableProps<Data extends object> extends UseTableOptions<Data> {

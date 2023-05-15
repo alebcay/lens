@@ -13,7 +13,7 @@ import { Input } from "../input";
 import { Button } from "@meniscus/button";
 import type { ShowNotification } from "../notifications";
 import { base64, toggle } from "@meniscus/utilities";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 import { Secret } from "@meniscus/kube-object";
 import type { Logger } from "@meniscus/logger";

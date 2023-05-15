@@ -9,7 +9,7 @@ import React from "react";
 import type { StrictReactNode } from "@meniscus/utilities";
 import { cssNames } from "@meniscus/utilities";
 import { Button } from "@meniscus/button";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 
 export interface AddRemoveButtonsProps extends React.HTMLAttributes<any> {
   onAdd?: () => void;

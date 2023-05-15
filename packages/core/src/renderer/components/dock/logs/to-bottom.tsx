@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import React from "react";
-import { Icon } from "../../icon";
+import { Icon } from "@meniscus/icon";
 
 export function ToBottom({ onClick }: { onClick: () => void }) {
   return (

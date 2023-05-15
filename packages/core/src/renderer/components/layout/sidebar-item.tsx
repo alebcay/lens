@@ -10,7 +10,7 @@ import { computed, makeObservable } from "mobx";
 import { cssNames } from "@meniscus/utilities";
 import { observer } from "mobx-react";
 import { NavLink } from "react-router-dom";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import type { SidebarStorageState } from "./sidebar-storage/sidebar-storage.injectable";
 import sidebarStorageInjectable from "./sidebar-storage/sidebar-storage.injectable";

@@ -14,7 +14,7 @@ import type { IngressClassStore } from "./ingress-class-store";
 import ingressClassStoreInjectable from "./ingress-class-store.injectable";
 import type { IngressClass } from "@meniscus/kube-object";
 import { cssNames } from "@meniscus/utilities";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 
 enum columnId {
   name = "name",

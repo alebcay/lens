@@ -6,7 +6,7 @@
 import styles from "./download-logs-dropdown.module.scss";
 
 import React, { useState } from "react";
-import { Icon } from "../../icon";
+import { Icon } from "@meniscus/icon";
 import { MenuItem } from "../../menu";
 import { Dropdown } from "../../dropdown/dropdown";
 

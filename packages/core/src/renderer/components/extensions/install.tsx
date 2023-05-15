@@ -7,7 +7,7 @@ import styles from "./install.module.scss";
 import React, { useEffect, useRef, useState } from "react";
 import { prevDefault } from "@meniscus/utilities";
 import { Button } from "@meniscus/button";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import { observer } from "mobx-react";
 import { Input, InputValidators } from "../input";
 import { SubTitle } from "../layout/sub-title";

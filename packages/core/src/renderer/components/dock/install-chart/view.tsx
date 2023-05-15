@@ -11,7 +11,7 @@ import { InfoPanel } from "../info-panel";
 import { Badge } from "../../badge";
 import { NamespaceSelect } from "../../namespaces/namespace-select";
 import { prevDefault } from "@meniscus/utilities";
-import { Icon } from "../../icon";
+import { Icon } from "@meniscus/icon";
 import { Button } from "@meniscus/button";
 import { LogsDialog } from "../../dialog/logs-dialog";
 import { Select } from "../../select";

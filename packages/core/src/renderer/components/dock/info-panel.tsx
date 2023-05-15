@@ -11,7 +11,7 @@ import { disposeOnUnmount, observer } from "mobx-react";
 import type { StrictReactNode } from "@meniscus/utilities";
 import { cssNames } from "@meniscus/utilities";
 import { Button } from "@meniscus/button";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import { Spinner } from "../spinner";
 import type { DockStore, TabId } from "./dock/store";
 import type { ShowNotification } from "../notifications";

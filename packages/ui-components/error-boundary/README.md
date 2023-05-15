@@ -9,7 +9,7 @@ $ npm install @meniscus/error-boundary
 ```
 
 ```typescript
-import "@meniscus/error-boundary/dist/index.css";
+import "@meniscus/error-boundary/styles";
 ```
 
 ## Extendability

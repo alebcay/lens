@@ -13,7 +13,7 @@ import type { Disposer } from "@meniscus/utilities";
 import { cssNames, prevDefault } from "@meniscus/utilities";
 import type { CreateNotificationOptions, Notification, NotificationMessage, NotificationsStore } from "./notifications.store";
 import { Animate } from "../animate";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import notificationsStoreInjectable from "./notifications-store.injectable";
 

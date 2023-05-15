@@ -6,7 +6,7 @@
 import styles from "./cluster-no-metrics.module.scss";
 
 import React from "react";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import { cssNames } from "@meniscus/utilities";
 import type { NavigateToEntitySettings } from "../../../common/front-end-routing/routes/entity-settings/navigate-to-entity-settings.injectable";
 import { withInjectables } from "@ogre-tools/injectable-react";

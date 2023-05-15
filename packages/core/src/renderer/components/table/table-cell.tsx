@@ -7,7 +7,7 @@ import "./table-cell.scss";
 
 import React from "react";
 import { cssNames } from "@meniscus/utilities";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import { Checkbox } from "../checkbox";
 import autoBindReact from "auto-bind/react";
 import type { TableCellProps } from "@meniscus/list-layout";

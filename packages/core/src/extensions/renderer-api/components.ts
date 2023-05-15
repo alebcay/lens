@@ -61,7 +61,7 @@ export const ConfirmDialog = Object.assign(_ConfirmDialog, {
   confirm: asLegacyGlobalFunctionForExtensionApi(confirmInjectable),
 });
 
-export * from "../../renderer/components/icon";
+export * from "@meniscus/icon";
 export * from "@meniscus/tooltip";
 export * from "../../renderer/components/tabs";
 export * from "../../renderer/components/table";

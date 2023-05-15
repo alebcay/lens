@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 import { iter, stopPropagation } from "@meniscus/utilities";
 import { KubeObjectListLayout } from "../kube-object-list-layout";
 import { Select } from "../select";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import { KubeObjectAge } from "../kube-object/age";
 import { TabLayout } from "../layout/tab-layout-2";
 import type { PageParam } from "../../navigation/page-param";

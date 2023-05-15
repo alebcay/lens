@@ -6,7 +6,7 @@ import React from "react";
 import type { KubeObjectMenuProps } from "../kube-object-menu";
 import type { StatefulSet } from "@meniscus/kube-object";
 import { MenuItem } from "../menu";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import statefulSetApiInjectable from "../../../common/k8s-api/endpoints/stateful-set.api.injectable";
 import type { OpenConfirmDialog } from "../confirm-dialog/open.injectable";

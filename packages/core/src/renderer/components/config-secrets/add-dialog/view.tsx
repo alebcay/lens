@@ -19,7 +19,7 @@ import { reverseSecretTypeMap, SecretType } from "@meniscus/kube-object";
 import { SubTitle } from "../../layout/sub-title";
 import { NamespaceSelect } from "../../namespaces/namespace-select";
 import { Select } from "../../select";
-import { Icon } from "../../icon";
+import { Icon } from "@meniscus/icon";
 import { base64, iter, object } from "@meniscus/utilities";
 import upperFirst from "lodash/upperFirst";
 import type { ShowDetails } from "../../kube-detail-params/show-details.injectable";

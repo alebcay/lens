@@ -5,7 +5,7 @@
 
 import "./drawer-param-toggler.scss";
 import React from "react";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import type { StrictReactNode } from "@meniscus/utilities";
 import { cssNames } from "@meniscus/utilities";
 

@@ -8,7 +8,7 @@ import type { MouseEventHandler } from "react";
 import React, { useState } from "react";
 import type { StrictReactNode } from "@meniscus/utilities";
 import { cssNames } from "@meniscus/utilities";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 
 export interface TreeViewClasses {
   root?: string;

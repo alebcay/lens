@@ -9,7 +9,7 @@ import React from "react";
 import { observer } from "mobx-react";
 import type { IComputedValue } from "mobx";
 import { computed, makeObservable } from "mobx";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import { SubHeader } from "../layout/sub-header";
 import { Table, TableCell, TableHead, TableRow } from "../table";
 import { cssNames, prevDefault } from "@meniscus/utilities";

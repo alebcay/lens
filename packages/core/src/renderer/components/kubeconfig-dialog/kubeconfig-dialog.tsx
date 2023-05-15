@@ -12,7 +12,7 @@ import { cssNames } from "@meniscus/utilities";
 import { Button } from "@meniscus/button";
 import type { DialogProps } from "../dialog";
 import { Dialog } from "../dialog";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import type { ShowNotification } from "../notifications";
 import { Wizard, WizardStep } from "../wizard";
 import { MonacoEditor } from "../monaco-editor";

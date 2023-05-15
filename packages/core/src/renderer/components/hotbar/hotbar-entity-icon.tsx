@@ -13,7 +13,7 @@ import { observer } from "mobx-react";
 import type { CatalogCategoryRegistry, CatalogEntity, CatalogEntityContextMenu } from "../../../common/catalog";
 import type { IClassName } from "@meniscus/utilities";
 import { cssNames } from "@meniscus/utilities";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import { HotbarIcon } from "./hotbar-icon";
 import { LensKubernetesClusterStatus } from "../../../common/catalog-entities/kubernetes-cluster";
 import type { VisitEntityContextMenu } from "../../../common/catalog/visit-entity-context-menu.injectable";

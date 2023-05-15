@@ -8,7 +8,7 @@ import type { DOMAttributes } from "react";
 import React from "react";
 
 import { cssNames } from "@meniscus/utilities";
-import { Icon } from "../../../../renderer/components/icon";
+import { Icon } from "@meniscus/icon";
 
 export interface RemovableItemProps extends DOMAttributes<any>{
   icon?: string;

@@ -16,7 +16,7 @@ import { ItemListLayout } from "../item-object-list/list-layout";
 import { KubeObjectMenu } from "../kube-object-menu";
 import { NamespaceSelectFilter } from "../namespaces/namespace-select-filter";
 import { ResourceKindMap, ResourceNames } from "../../utils/rbac";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import { TooltipPosition } from "@meniscus/tooltip";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import clusterFrameContextForNamespacedResourcesInjectable from "../../cluster-frame-context/for-namespaced-resources.injectable";

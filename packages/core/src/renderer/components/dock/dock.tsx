@@ -7,7 +7,7 @@ import "./dock.scss";
 import React from "react";
 import { observer } from "mobx-react";
 import { cssNames } from "@meniscus/utilities";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import { MenuItem } from "../menu";
 import { MenuActions } from "../menu/menu-actions";
 import { ResizeDirection, ResizingAnchor } from "@meniscus/resizing-anchor";

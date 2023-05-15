@@ -10,7 +10,7 @@ import { clipboard } from "electron";
 import { createPortal } from "react-dom";
 import type { StrictReactNode } from "@meniscus/utilities";
 import { cssNames, noop } from "@meniscus/utilities";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import type { AnimateName } from "../animate";
 import { Animate } from "../animate";
 import { ResizeDirection, ResizeGrowthDirection, ResizeSide, ResizingAnchor } from "@meniscus/resizing-anchor";

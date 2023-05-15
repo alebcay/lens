@@ -15,7 +15,7 @@ import type { ButtonProps } from "@meniscus/button";
 import { Button } from "@meniscus/button";
 import type { DialogProps } from "../dialog";
 import { Dialog } from "../dialog";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import type { ShowNotification } from "../notifications";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import confirmDialogStateInjectable from "./state.injectable";

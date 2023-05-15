@@ -9,7 +9,7 @@ import { cssNames } from "@meniscus/utilities";
 import type { MenuActionsProps } from "../menu/menu-actions";
 import { MenuActions } from "../menu/menu-actions";
 import { MenuItem } from "../menu";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import createUpgradeChartTabInjectable from "../dock/upgrade-chart/create-upgrade-chart-tab.injectable";
 import deleteReleaseInjectable from "./delete-release/delete-release.injectable";
