@@ -3,7 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import { kubeApiInjectionToken, ReplicationControllerApi } from "@meniscus/kube-api";
+import { ReplicationControllerApi } from "@meniscus/kube-api";
+import { kubeApiInjectionToken } from "@meniscus/kube-api-specifics";
 import { loggerInjectionToken } from "@meniscus/logger";
 import maybeKubeApiInjectable from "../maybe-kube-api.injectable";
 

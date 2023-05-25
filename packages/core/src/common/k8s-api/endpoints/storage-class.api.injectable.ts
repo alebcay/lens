@@ -5,7 +5,8 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import assert from "assert";
 import { storesAndApisCanBeCreatedInjectionToken } from "../stores-apis-can-be-created.token";
-import { kubeApiInjectionToken, StorageClassApi } from "@meniscus/kube-api";
+import { StorageClassApi } from "@meniscus/kube-api";
+import { kubeApiInjectionToken } from "@meniscus/kube-api-specifics";
 import { loggerInjectionToken } from "@meniscus/logger";
 import maybeKubeApiInjectable from "../maybe-kube-api.injectable";
 
