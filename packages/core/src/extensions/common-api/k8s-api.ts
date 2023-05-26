@@ -20,10 +20,9 @@ import type { KubeJsonApiDataFor, KubeObject } from "@meniscus/kube-object";
 import type { DerivedKubeApiOptions, KubeApiDependencies, KubeApiOptions, KubeJsonApi as InternalKubeJsonApi } from "@meniscus/kube-api";
 import clusterFrameContextForNamespacedResourcesInjectable from "../../renderer/cluster-frame-context/for-namespaced-resources.injectable";
 import type { ClusterContext } from "../../renderer/cluster-frame-context/cluster-frame-context";
-import { loggerInjectionToken } from "@meniscus/logger";
-import maybeKubeApiInjectable from "../../common/k8s-api/maybe-kube-api.injectable";
+import { logErrorInjectionToken, loggerInjectionToken, logInfoInjectionToken, logWarningInjectionToken } from "@meniscus/logger";
+import { maybeKubeApiInjectable, storesAndApisCanBeCreatedInjectionToken } from "@meniscus/kube-api-specifics";
 import { DeploymentApi as InternalDeploymentApi, IngressApi as InternalIngressApi, NodeApi, PersistentVolumeClaimApi, PodApi, KubeApi as InternalKubeApi } from "@meniscus/kube-api";
-import { storesAndApisCanBeCreatedInjectionToken } from "../../common/k8s-api/stores-apis-can-be-created.token";
 import type { JsonApiConfig } from "@meniscus/json-api";
 import createKubeJsonApiInjectable from "../../common/k8s-api/create-kube-json-api.injectable";
 import type { RequestInit } from "@meniscus/node-fetch";
@@ -40,7 +39,9 @@ const getKubeApiDeps = (): KubeApiDependencies => {
   const di = getLegacyGlobalDiForExtensionApi();
 
   return {
-    logger: di.inject(loggerInjectionToken),
+    logError: di.inject(logErrorInjectionToken),
+    logInfo: di.inject(logInfoInjectionToken),
+    logWarn: di.inject(logWarningInjectionToken),
     maybeKubeApi: di.inject(maybeKubeApiInjectable),
   };
 };

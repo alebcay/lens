@@ -10,7 +10,7 @@ import podStoreInjectable from "../../../renderer/components/workloads-pods/stor
 import type { PodMetrics, PodStatus } from "@meniscus/kube-object";
 import { Pod } from "@meniscus/kube-object";
 import type { PodMetricsApi } from "@meniscus/kube-api";
-import podMetricsApiInjectable from "../../../common/k8s-api/endpoints/pod-metrics.api.injectable";
+import { podMetricsApiInjectable } from "@meniscus/kube-api-specifics";
 import type { RequestMetrics } from "../../../common/k8s-api/endpoints/metrics.api/request-metrics.injectable";
 import requestMetricsInjectable from "../../../common/k8s-api/endpoints/metrics.api/request-metrics.injectable";
 

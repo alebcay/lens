@@ -11,7 +11,7 @@ import { reaction } from "mobx";
 import { observer } from "mobx-react";
 import type { Pod, Secret } from "@meniscus/kube-object";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import secretApiInjectable from "../../../common/k8s-api/endpoints/secret.api.injectable";
+import { secretApiInjectable } from "@meniscus/kube-api-specifics";
 import type { GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";
 import getDetailsUrlInjectable from "../kube-detail-params/get-details-url.injectable";
 import type { SecretApi } from "@meniscus/kube-api";

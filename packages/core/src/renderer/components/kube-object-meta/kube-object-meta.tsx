@@ -20,7 +20,7 @@ import getDetailsUrlInjectable from "../kube-detail-params/get-details-url.injec
 import apiManagerInjectable from "../../../common/k8s-api/api-manager/manager.injectable";
 import { loggerInjectionToken } from "@meniscus/logger";
 import type { NamespaceApi } from "@meniscus/kube-api";
-import namespaceApiInjectable from "../../../common/k8s-api/endpoints/namespace.api.injectable";
+import { namespaceApiInjectable } from "@meniscus/kube-api-specifics";
 
 export interface KubeObjectMetaProps {
   object: KubeObject;

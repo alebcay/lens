@@ -3,9 +3,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import { loggerInjectionToken } from "@meniscus/logger";
+import { logErrorInjectionToken, logInfoInjectionToken, logWarningInjectionToken } from "@meniscus/logger";
 import type { DerivedKubeApiOptions, KubeApiDependencies } from "@meniscus/kube-api";
-import maybeKubeApiInjectable from "./maybe-kube-api.injectable";
+import { maybeKubeApiInjectable } from "@meniscus/kube-api-specifics";
 
 export interface CreateKubeApi {
   <Api>(ctor: new (deps: KubeApiDependencies, opts: DerivedKubeApiOptions) => Api, opts?: DerivedKubeApiOptions): Api;
@@ -15,7 +15,9 @@ const createKubeApiInjectable = getInjectable({
   id: "create-kube-api",
   instantiate: (di): CreateKubeApi => {
     const deps: KubeApiDependencies = {
-      logger: di.inject(loggerInjectionToken),
+      logError: di.inject(logErrorInjectionToken),
+      logInfo: di.inject(logInfoInjectionToken),
+      logWarn: di.inject(logWarningInjectionToken),
       maybeKubeApi: di.inject(maybeKubeApiInjectable),
     };
 

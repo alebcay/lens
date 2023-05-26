@@ -7,7 +7,7 @@ import { kubeObjectStoreInjectionToken } from "../../../common/k8s-api/api-manag
 import { ReplicationControllerStore } from "./replication-controller-store";
 import clusterFrameContextForNamespacedResourcesInjectable from "../../cluster-frame-context/for-namespaced-resources.injectable";
 import { loggerInjectionToken } from "@meniscus/logger";
-import replicationControllerApiInjectable from "../../../common/k8s-api/endpoints/replication-controller.api.injectable";
+import { replicationControllerApiInjectable } from "@meniscus/kube-api-specifics";
 
 const replicationControllerStoreInjectable = getInjectable({
   id: "replication-controller-store",

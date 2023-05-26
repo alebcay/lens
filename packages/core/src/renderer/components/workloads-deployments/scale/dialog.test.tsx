@@ -9,7 +9,7 @@ import { DeploymentScaleDialog } from "./dialog";
 import type { DeploymentApi } from "@meniscus/kube-api";
 import { Deployment } from "@meniscus/kube-object";
 import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
-import deploymentApiInjectable from "../../../../common/k8s-api/endpoints/deployment.api.injectable";
+import { deploymentApiInjectable } from "@meniscus/kube-api-specifics";
 import type { OpenDeploymentScaleDialog } from "./open.injectable";
 import openDeploymentScaleDialogInjectable from "./open.injectable";
 import storesAndApisCanBeCreatedInjectable from "../../../stores-apis-can-be-created.injectable";

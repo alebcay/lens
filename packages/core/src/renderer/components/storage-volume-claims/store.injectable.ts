@@ -5,16 +5,15 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import assert from "assert";
 import { kubeObjectStoreInjectionToken } from "../../../common/k8s-api/api-manager/kube-object-store-token";
-import persistentVolumeClaimApiInjectable from "../../../common/k8s-api/endpoints/persistent-volume-claim.api.injectable";
+import { persistentVolumeClaimApiInjectable, storesAndApisCanBeCreatedInjectionToken } from "@meniscus/kube-api-specifics";
 import { loggerInjectionToken } from "@meniscus/logger";
 import clusterFrameContextForNamespacedResourcesInjectable from "../../cluster-frame-context/for-namespaced-resources.injectable";
-import storesAndApisCanBeCreatedInjectable from "../../stores-apis-can-be-created.injectable";
 import { PersistentVolumeClaimStore } from "./store";
 
 const persistentVolumeClaimStoreInjectable = getInjectable({
   id: "persistent-volume-claim-store",
   instantiate: (di) => {
-    assert(di.inject(storesAndApisCanBeCreatedInjectable), "persistentVolumeClaimStore is only available in certain environments");
+    assert(di.inject(storesAndApisCanBeCreatedInjectionToken), "persistentVolumeClaimStore is only available in certain environments");
 
     const api = di.inject(persistentVolumeClaimApiInjectable);
 

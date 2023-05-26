@@ -6,7 +6,7 @@
 import { withInjectables } from "@ogre-tools/injectable-react";
 import React from "react";
 import type { PersistentVolumeClaimApi } from "@meniscus/kube-api";
-import persistentVolumeClaimApiInjectable from "../../../../../../common/k8s-api/endpoints/persistent-volume-claim.api.injectable";
+import { persistentVolumeClaimApiInjectable } from "@meniscus/kube-api-specifics";
 import type { PodVolumeVariantSpecificProps } from "../variant-helpers";
 import { LocalRef } from "../variant-helpers";
 

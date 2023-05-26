@@ -20,7 +20,7 @@ import type { PodStore } from "../workloads-pods/store";
 import getDetailsUrlInjectable from "../kube-detail-params/get-details-url.injectable";
 import podStoreInjectable from "../workloads-pods/store.injectable";
 import { stopPropagation } from "@meniscus/utilities";
-import storageClassApiInjectable from "../../../common/k8s-api/endpoints/storage-class.api.injectable";
+import { storageClassApiInjectable } from "@meniscus/kube-api-specifics";
 import { loggerInjectionToken } from "@meniscus/logger";
 
 export interface PersistentVolumeClaimDetailsProps extends KubeObjectDetailsProps<PersistentVolumeClaim> {

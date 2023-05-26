@@ -14,10 +14,9 @@ import { cssNames } from "@meniscus/utilities";
 import type { PodApi, ServiceApi } from "@meniscus/kube-api";
 import { PortForwardMenu } from "./port-forward-menu";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import serviceApiInjectable from "../../../common/k8s-api/endpoints/service.api.injectable";
+import { serviceApiInjectable, podApiInjectable } from "@meniscus/kube-api-specifics";
 import type { GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";
 import getDetailsUrlInjectable from "../kube-detail-params/get-details-url.injectable";
-import podApiInjectable from "../../../common/k8s-api/endpoints/pod.api.injectable";
 
 export interface PortForwardDetailsProps {
   portForward: PortForwardItem;

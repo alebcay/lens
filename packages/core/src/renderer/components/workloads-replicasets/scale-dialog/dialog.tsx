@@ -17,7 +17,7 @@ import { Slider } from "../../slider";
 import { cssNames } from "@meniscus/utilities";
 import type { ReplicaSet } from "@meniscus/kube-object";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import replicaSetApiInjectable from "../../../../common/k8s-api/endpoints/replica-set.api.injectable";
+import { replicaSetApiInjectable } from "@meniscus/kube-api-specifics";
 import replicaSetScaleDialogStateInjectable from "./state.injectable";
 import type { ShowCheckedErrorNotification } from "../../notifications/show-checked-error.injectable";
 import showCheckedErrorNotificationInjectable from "../../notifications/show-checked-error.injectable";
