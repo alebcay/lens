@@ -1,0 +1,1 @@
+module.exports = require("@meniscus/webpack").configForNode;

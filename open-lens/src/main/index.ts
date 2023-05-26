@@ -14,6 +14,7 @@ import { messagingFeatureForMain } from "@meniscus/messaging-for-main";
 import { loggerFeature } from "@meniscus/logger";
 import { randomFeature } from "@meniscus/random";
 import { kubeApiSpecificsFeature } from "@meniscus/kube-api-specifics";
+import { prometheusFeature } from "@meniscus/prometheus";
 
 const environment = "main";
 
@@ -26,12 +27,10 @@ registerMobX(di);
 runInAction(() => {
   registerLensCore(di, environment);
 
-  registerFeature(di,
-    loggerFeature,
-  );
-
   registerFeature(
     di,
+    loggerFeature,
+    prometheusFeature,
     applicationFeature,
     applicationFeatureForElectronMain,
     messagingFeatureForMain,

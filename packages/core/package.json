@@ -228,6 +228,7 @@
     "@meniscus/messaging-for-renderer": "^1.0.0",
     "@meniscus/metrics": "^6.5.0",
     "@meniscus/node-fetch": "^6.5.0",
+    "@meniscus/prometheus": "^1.0.0",
     "@meniscus/react-application": "^1.0.0",
     "@meniscus/random": "^1.0.0",
     "@meniscus/resizing-anchor": "^1.0.0",
