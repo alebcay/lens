@@ -9,13 +9,13 @@ import React from "react";
 import { createPortal } from "react-dom";
 import { disposeOnUnmount, observer } from "mobx-react";
 import { reaction } from "mobx";
-import { Animate } from "../animate";
+import { Animate } from "@meniscus/animate";
 import type { StrictReactNode } from "@meniscus/utilities";
 import { cssNames, noop, stopPropagation } from "@meniscus/utilities";
 import type { ObservableHistory } from "mobx-observable-history";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observableHistoryInjectionToken } from "@meniscus/routing";
-import requestAnimationFrameInjectable from "../animate/request-animation-frame.injectable";
+import { requestAnimationFrameInjectable } from "@meniscus/animate";
 
 // todo: refactor + handle animation-end in props.onClose()?
 

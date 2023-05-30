@@ -12,7 +12,7 @@ import { JsonApiErrorParsed } from "@meniscus/json-api";
 import type { Disposer } from "@meniscus/utilities";
 import { cssNames, prevDefault } from "@meniscus/utilities";
 import type { CreateNotificationOptions, Notification, NotificationMessage, NotificationsStore } from "./notifications.store";
-import { Animate } from "../animate";
+import { Animate } from "@meniscus/animate";
 import { Icon } from "@meniscus/icon";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import notificationsStoreInjectable from "./notifications-store.injectable";

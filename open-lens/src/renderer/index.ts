@@ -4,6 +4,7 @@ import "@meniscus/error-boundary/styles";
 import "@meniscus/tooltip/styles";
 import "@meniscus/resizing-anchor/styles";
 import "@meniscus/icon/styles";
+import "@meniscus/animate/styles";
 
 import { runInAction } from "mobx";
 import {
@@ -26,6 +27,7 @@ import { keyboardShortcutsFeature } from "@meniscus/keyboard-shortcuts";
 import { reactApplicationFeature } from "@meniscus/react-application";
 import { routingFeature } from "@meniscus/routing";
 import { loggerFeature } from "@meniscus/logger";
+import { animateFeature } from "@meniscus/animate";
 
 const environment = "renderer";
 
@@ -51,6 +53,7 @@ runInAction(() => {
     reactApplicationFeature,
     routingFeature,
     metricsFeature,
+    animateFeature,
   );
 
   autoRegister({
