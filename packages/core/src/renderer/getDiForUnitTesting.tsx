@@ -9,7 +9,7 @@ import { getOverrideFsWithFakes } from "../test-utils/override-fs-with-fakes";
 import terminalSpawningPoolInjectable from "./components/dock/terminal/terminal-spawning-pool.injectable";
 import hostedClusterIdInjectable from "./cluster-frame-context/hosted-cluster-id.injectable";
 import { runInAction } from "mobx";
-import { requestAnimationFrameInjectable } from "@meniscus/animate";
+import { animateFeature, requestAnimationFrameInjectable } from "@meniscus/animate";
 import startTopbarStateSyncInjectable from "./components/layout/top-bar/start-state-sync.injectable";
 import watchHistoryStateInjectable from "./remote-helpers/watch-history-state.injectable";
 import legacyOnChannelListenInjectable from "./ipc/legacy-channel-listen.injectable";
@@ -21,7 +21,6 @@ import { registerFeature } from "@meniscus/feature-core";
 import { messagingFeature, testUtils as messagingTestUtils } from "@meniscus/messaging";
 import { routingFeature } from "@meniscus/routing";
 import { loggerFeature } from "@meniscus/logger";
-import { animateFeature } from "@meniscus/animate";
 
 export const getDiForUnitTesting = () => {
   const environment = "renderer";
