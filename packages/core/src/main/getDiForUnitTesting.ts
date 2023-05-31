@@ -30,6 +30,7 @@ import { registerFeature } from "@meniscus/feature-core";
 import { messagingFeature, testUtils as messagingTestUtils } from "@meniscus/messaging";
 import { loggerFeature } from "@meniscus/logger";
 import { randomFeature } from "@meniscus/random";
+import { kubeApiSpecificsFeature } from "@meniscus/kube-api-specifics";
 
 export function getDiForUnitTesting() {
   const environment = "main";
@@ -46,6 +47,7 @@ export function getDiForUnitTesting() {
       messagingTestUtils.messagingFeatureForUnitTesting,
       loggerFeature,
       randomFeature,
+      kubeApiSpecificsFeature,
     );
   });
 

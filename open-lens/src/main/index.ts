@@ -13,6 +13,7 @@ import { applicationFeatureForElectronMain } from '@meniscus/application-for-ele
 import { messagingFeatureForMain } from "@meniscus/messaging-for-main";
 import { loggerFeature } from "@meniscus/logger";
 import { randomFeature } from "@meniscus/random";
+import { kubeApiSpecificsFeature } from "@meniscus/kube-api-specifics";
 
 const environment = "main";
 
@@ -35,6 +36,7 @@ runInAction(() => {
     applicationFeatureForElectronMain,
     messagingFeatureForMain,
     randomFeature,
+    kubeApiSpecificsFeature,
   );
 
   try {

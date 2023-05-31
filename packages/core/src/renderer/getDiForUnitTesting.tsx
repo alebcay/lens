@@ -23,6 +23,7 @@ import { routingFeature } from "@meniscus/routing";
 import { loggerFeature } from "@meniscus/logger";
 import { clusterSidebarFeature } from "@meniscus/cluster-sidebar";
 import { randomFeature } from "@meniscus/random";
+import { kubeApiSpecificsFeature } from "@meniscus/kube-api-specifics";
 
 export const getDiForUnitTesting = () => {
   const environment = "renderer";
@@ -43,6 +44,7 @@ export const getDiForUnitTesting = () => {
       animateFeature,
       clusterSidebarFeature,
       randomFeature,
+      kubeApiSpecificsFeature,
     );
   });
 

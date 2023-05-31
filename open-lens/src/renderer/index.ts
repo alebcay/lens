@@ -30,6 +30,7 @@ import { loggerFeature } from "@meniscus/logger";
 import { animateFeature } from "@meniscus/animate";
 import { clusterSidebarFeature } from "@meniscus/cluster-sidebar";
 import { randomFeature } from "@meniscus/random";
+import { kubeApiSpecificsFeature } from "@meniscus/kube-api-specifics";
 
 const environment = "renderer";
 
@@ -58,6 +59,7 @@ runInAction(() => {
     animateFeature,
     clusterSidebarFeature,
     randomFeature,
+    kubeApiSpecificsFeature,
   );
 
   autoRegister({
