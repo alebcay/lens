@@ -29,6 +29,7 @@ import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { registerFeature } from "@meniscus/feature-core";
 import { messagingFeature, testUtils as messagingTestUtils } from "@meniscus/messaging";
 import { loggerFeature } from "@meniscus/logger";
+import { randomFeature } from "@meniscus/random";
 
 export function getDiForUnitTesting() {
   const environment = "main";
@@ -44,6 +45,7 @@ export function getDiForUnitTesting() {
       messagingFeature,
       messagingTestUtils.messagingFeatureForUnitTesting,
       loggerFeature,
+      randomFeature,
     );
   });
 

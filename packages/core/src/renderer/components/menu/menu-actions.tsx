@@ -19,7 +19,7 @@ import type { TooltipDecoratorProps } from "@meniscus/tooltip";
 import type { OpenConfirmDialog } from "../confirm-dialog/open.injectable";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import openConfirmDialogInjectable from "../confirm-dialog/open.injectable";
-import getRandomIdInjectable from "../../../common/utils/get-random-id.injectable";
+import { getRandomIdInjectable } from "@meniscus/random";
 import autoBindReact from "auto-bind/react";
 
 export interface MenuActionsProps extends Partial<MenuProps> {

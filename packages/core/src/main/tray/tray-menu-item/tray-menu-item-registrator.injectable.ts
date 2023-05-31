@@ -14,7 +14,7 @@ import type { TrayMenuRegistration } from "../tray-menu-registration";
 import { withErrorSuppression } from "../../../common/utils/with-error-suppression/with-error-suppression";
 import type { WithErrorLoggingFor } from "../../../common/utils/with-error-logging/with-error-logging.injectable";
 import withErrorLoggingInjectable from "../../../common/utils/with-error-logging/with-error-logging.injectable";
-import getRandomIdInjectable from "../../../common/utils/get-random-id.injectable";
+import { getRandomIdInjectable } from "@meniscus/random";
 import { isBoolean, isString } from "@meniscus/utilities";
 
 const trayMenuItemRegistratorInjectable = getInjectable({
