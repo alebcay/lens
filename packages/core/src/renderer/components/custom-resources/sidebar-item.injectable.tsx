@@ -6,7 +6,7 @@ import { sidebarItemInjectionToken } from "@meniscus/cluster-sidebar";
 import { noop } from "@meniscus/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import React from "react";
-import { Icon } from "../icon";
+import { Icon } from "@meniscus/icon";
 
 const customResourcesSidebarItemInjectable = getInjectable({
   id: "sidebar-item-custom-resources",
