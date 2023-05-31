@@ -4,6 +4,6 @@
  */
 
 import { getGlobalOverride } from "@meniscus/test-utils";
-import { getRandomIdInjectable } from "@meniscus/random";
+import { getRandomIdInjectionToken } from "@meniscus/random";
 
-export default getGlobalOverride(getRandomIdInjectable, () => () => "some-irrelevant-random-id");
+export default getGlobalOverride(getRandomIdInjectionToken, () => () => "some-irrelevant-random-id");

@@ -4,7 +4,7 @@
  */
 import type { ApplicationBuilder } from "../../renderer/components/test-utils/get-application-builder";
 import { getApplicationBuilder } from "../../renderer/components/test-utils/get-application-builder";
-import { getRandomIdInjectable } from "@meniscus/random";
+import { getRandomIdInjectionToken } from "@meniscus/random";
 
 describe("multiple separators originating from extension", () => {
   let builder: ApplicationBuilder;
@@ -13,8 +13,8 @@ describe("multiple separators originating from extension", () => {
     builder = getApplicationBuilder();
 
     builder.beforeApplicationStart(({ mainDi }) => {
-      mainDi.unoverride(getRandomIdInjectable);
-      mainDi.permitSideEffects(getRandomIdInjectable);
+      mainDi.unoverride(getRandomIdInjectionToken);
+      mainDi.permitSideEffects(getRandomIdInjectionToken);
     });
 
     await builder.render();

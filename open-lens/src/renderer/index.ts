@@ -29,6 +29,7 @@ import { routingFeature } from "@meniscus/routing";
 import { loggerFeature } from "@meniscus/logger";
 import { animateFeature } from "@meniscus/animate";
 import { clusterSidebarFeature } from "@meniscus/cluster-sidebar";
+import { randomFeature } from "@meniscus/random";
 
 const environment = "renderer";
 
@@ -56,6 +57,7 @@ runInAction(() => {
     metricsFeature,
     animateFeature,
     clusterSidebarFeature,
+    randomFeature,
   );
 
   autoRegister({

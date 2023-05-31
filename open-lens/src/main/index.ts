@@ -12,6 +12,7 @@ import { applicationFeature, startApplicationInjectionToken } from '@meniscus/ap
 import { applicationFeatureForElectronMain } from '@meniscus/application-for-electron-main'
 import { messagingFeatureForMain } from "@meniscus/messaging-for-main";
 import { loggerFeature } from "@meniscus/logger";
+import { randomFeature } from "@meniscus/random";
 
 const environment = "main";
 
@@ -33,6 +34,7 @@ runInAction(() => {
     applicationFeature,
     applicationFeatureForElectronMain,
     messagingFeatureForMain,
+    randomFeature,
   );
 
   try {
