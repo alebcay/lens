@@ -15,7 +15,6 @@ import { loggerFeature } from "@meniscus/logger";
 import { randomFeature } from "@meniscus/random";
 import { kubeApiSpecificsFeature } from "@meniscus/kube-api-specifics";
 import { prometheusFeature } from "@meniscus/prometheus";
-import { notificationsFeature } from "@meniscus/notifications";
 
 const environment = "main";
 
@@ -37,7 +36,6 @@ runInAction(() => {
     messagingFeatureForMain,
     randomFeature,
     kubeApiSpecificsFeature,
-    notificationsFeature,
   );
 
   try {
