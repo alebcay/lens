@@ -13,8 +13,8 @@ import { Badge } from "../badge";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 import type { ReplicationController } from "@meniscus/kube-object";
 import { replicationControllerApiInjectable } from "@meniscus/kube-api-specifics";
-import showErrorNotificationInjectable from "../notifications/show-error-notification.injectable";
-import type { ShowNotification } from "../notifications";
+import { showErrorNotificationInjectable } from "@meniscus/notifications";
+import type { ShowNotification } from "@meniscus/notifications";
 import { Slider } from "../slider";
 import type { ReplicationControllerApi } from "@meniscus/kube-api";
 

@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getMessageChannelListenerInjectable } from "@meniscus/messaging";
-import showErrorNotificationInjectable from "../../../renderer/components/notifications/show-error-notification.injectable";
+import { showErrorNotificationInjectable } from "@meniscus/notifications";
 import { shellSyncFailedChannel } from "../common/failure-channel";
 
 const shellSyncFailureListenerInjectable = getMessageChannelListenerInjectable({

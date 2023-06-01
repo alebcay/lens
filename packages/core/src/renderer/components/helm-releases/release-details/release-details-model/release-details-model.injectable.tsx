@@ -18,10 +18,8 @@ import type { GetResourceDetailsUrl } from "./get-resource-details-url.injectabl
 import getResourceDetailsUrlInjectable from "./get-resource-details-url.injectable";
 import type { RequestHelmReleaseUpdate } from "../../../../../common/k8s-api/endpoints/helm-releases.api/request-update.injectable";
 import updateReleaseInjectable from "../../update-release/update-release.injectable";
-import type { ShowCheckedErrorNotification } from "../../../notifications/show-checked-error.injectable";
-import showCheckedErrorNotificationInjectable from "../../../notifications/show-checked-error.injectable";
-import type { ShowNotification } from "../../../notifications";
-import showSuccessNotificationInjectable from "../../../notifications/show-success-notification.injectable";
+import type { ShowCheckedErrorNotification, ShowNotification } from "@meniscus/notifications";
+import { showCheckedErrorNotificationInjectable, showSuccessNotificationInjectable } from "@meniscus/notifications";
 import React from "react";
 import createUpgradeChartTabInjectable from "../../../dock/upgrade-chart/create-upgrade-chart-tab.injectable";
 import type { HelmRelease } from "../../../../../common/k8s-api/endpoints/helm-releases.api";

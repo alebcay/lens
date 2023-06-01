@@ -19,8 +19,8 @@ import { cssNames } from "@meniscus/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { statefulSetApiInjectable } from "@meniscus/kube-api-specifics";
 import statefulSetDialogStateInjectable from "./dialog-state.injectable";
-import type { ShowCheckedErrorNotification } from "../../notifications/show-checked-error.injectable";
-import showCheckedErrorNotificationInjectable from "../../notifications/show-checked-error.injectable";
+import type { ShowCheckedErrorNotification } from "@meniscus/notifications";
+import { showCheckedErrorNotificationInjectable } from "@meniscus/notifications";
 import type { StatefulSetApi } from "@meniscus/kube-api";
 
 export interface StatefulSetScaleDialogProps extends Partial<DialogProps> {

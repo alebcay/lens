@@ -207,6 +207,7 @@
     "@hapi/call": "^9.0.1",
     "@hapi/subtext": "^7.1.0",
     "@meniscus/animate": "^1.0.0",
+    "@meniscus/notifications": "^1.0.0",
     "@meniscus/application": "^6.5.0",
     "@meniscus/application-for-electron-main": "^6.5.0",
     "@meniscus/button": "^1.0.0",

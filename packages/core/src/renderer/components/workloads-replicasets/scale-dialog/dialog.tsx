@@ -19,8 +19,8 @@ import type { ReplicaSet } from "@meniscus/kube-object";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { replicaSetApiInjectable } from "@meniscus/kube-api-specifics";
 import replicaSetScaleDialogStateInjectable from "./state.injectable";
-import type { ShowCheckedErrorNotification } from "../../notifications/show-checked-error.injectable";
-import showCheckedErrorNotificationInjectable from "../../notifications/show-checked-error.injectable";
+import type { ShowCheckedErrorNotification } from "@meniscus/notifications";
+import { showCheckedErrorNotificationInjectable } from "@meniscus/notifications";
 import type { ReplicaSetApi } from "@meniscus/kube-api";
 
 export interface ReplicaSetScaleDialogProps extends Partial<DialogProps> {

@@ -21,8 +21,8 @@ import type { RollbackRelease } from "../rollback-release/rollback-release.injec
 import rollbackReleaseInjectable from "../rollback-release/rollback-release.injectable";
 import type { HelmReleaseRevision, RequestHelmReleaseHistory } from "../../../../common/k8s-api/endpoints/helm-releases.api/request-history.injectable";
 import requestHelmReleaseHistoryInjectable from "../../../../common/k8s-api/endpoints/helm-releases.api/request-history.injectable";
-import type { ShowCheckedErrorNotification } from "../../notifications/show-checked-error.injectable";
-import showCheckedErrorNotificationInjectable from "../../notifications/show-checked-error.injectable";
+import type { ShowCheckedErrorNotification } from "@meniscus/notifications";
+import { showCheckedErrorNotificationInjectable } from "@meniscus/notifications";
 
 export interface ReleaseRollbackDialogProps extends DialogProps {
 }

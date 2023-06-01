@@ -13,8 +13,8 @@ import type { Cluster } from "../../../common/cluster/cluster";
 import { Avatar } from "../avatar";
 import { FilePicker, OverSizeLimitStyle } from "../file-picker";
 import { MenuActions, MenuItem } from "../menu";
-import type { ShowNotification } from "../notifications";
-import showErrorNotificationInjectable from "../notifications/show-error-notification.injectable";
+import type { ShowNotification } from "@meniscus/notifications";
+import { showErrorNotificationInjectable } from "@meniscus/notifications";
 import { clusterIconSettingsComponentInjectionToken, clusterIconSettingsMenuInjectionToken } from "@meniscus/cluster-settings";
 import type { ClusterIconMenuItem, ClusterIconSettingsComponent } from "@meniscus/cluster-settings";
 

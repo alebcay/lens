@@ -25,8 +25,8 @@ import { withInjectables } from "@ogre-tools/injectable-react";
 import closeAddQuotaDialogInjectable from "./close.injectable";
 import isAddQuotaDialogOpenInjectable from "./is-open.injectable";
 import { resourceQuotaApiInjectable } from "@meniscus/kube-api-specifics";
-import type { ShowCheckedErrorNotification } from "../../notifications/show-checked-error.injectable";
-import showCheckedErrorNotificationInjectable from "../../notifications/show-checked-error.injectable";
+import type { ShowCheckedErrorNotification } from "@meniscus/notifications";
+import { showCheckedErrorNotificationInjectable } from "@meniscus/notifications";
 
 export interface AddQuotaDialogProps extends DialogProps {
 }

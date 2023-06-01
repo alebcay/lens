@@ -12,7 +12,7 @@ import { loggerInjectionToken } from "@meniscus/logger";
 import writeFileInjectable from "../../../../common/fs/write-file.injectable";
 import joinPathsInjectable from "../../../../common/path/join-paths.injectable";
 import tempDirectoryPathInjectable from "../../../../common/os/temp-directory-path.injectable";
-import showErrorNotificationInjectable from "../../notifications/show-error-notification.injectable";
+import { showErrorNotificationInjectable } from "@meniscus/notifications";
 import type { LensExtensionId, LensExtensionManifest } from "@meniscus/legacy-extensions";
 
 export interface InstallRequestValidated {

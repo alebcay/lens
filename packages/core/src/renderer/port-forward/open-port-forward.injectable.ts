@@ -5,7 +5,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import { loggerInjectionToken } from "@meniscus/logger";
 import openLinkInBrowserInjectable from "../../common/utils/open-link-in-browser.injectable";
-import showErrorNotificationInjectable from "../components/notifications/show-error-notification.injectable";
+import { showErrorNotificationInjectable } from "@meniscus/notifications";
 import type { ForwardedPort } from "./port-forward-item";
 import { portForwardAddress } from "./port-forward-utils";
 

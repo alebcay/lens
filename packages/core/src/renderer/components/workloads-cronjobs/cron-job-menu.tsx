@@ -13,8 +13,8 @@ import openConfirmDialogInjectable from "../confirm-dialog/open.injectable";
 import type { OpenCronJobTriggerDialog } from "./trigger-dialog/open.injectable";
 import openCronJobTriggerDialogInjectable from "./trigger-dialog/open.injectable";
 import { cronJobApiInjectable } from "@meniscus/kube-api-specifics";
-import type { ShowCheckedErrorNotification } from "../notifications/show-checked-error.injectable";
-import showCheckedErrorNotificationInjectable from "../notifications/show-checked-error.injectable";
+import type { ShowCheckedErrorNotification } from "@meniscus/notifications";
+import { showCheckedErrorNotificationInjectable } from "@meniscus/notifications";
 import type { CronJobApi } from "@meniscus/kube-api";
 
 export interface CronJobMenuProps extends KubeObjectMenuProps<CronJob> {}

@@ -11,8 +11,8 @@ import { withInjectables } from "@ogre-tools/injectable-react";
 import { daemonSetApiInjectable } from "@meniscus/kube-api-specifics";
 import type { OpenConfirmDialog } from "../confirm-dialog/open.injectable";
 import openConfirmDialogInjectable from "../confirm-dialog/open.injectable";
-import type { ShowCheckedErrorNotification } from "../notifications/show-checked-error.injectable";
-import showCheckedErrorNotificationInjectable from "../notifications/show-checked-error.injectable";
+import type { ShowCheckedErrorNotification } from "@meniscus/notifications";
+import { showCheckedErrorNotificationInjectable } from "@meniscus/notifications";
 import type { DaemonSetApi } from "@meniscus/kube-api";
 
 export interface DaemonSetMenuProps extends KubeObjectMenuProps<DaemonSet> {}

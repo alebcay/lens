@@ -14,7 +14,7 @@ import createTempFilesAndValidateInjectable from "./create-temp-files-and-valida
 import extensionInstallationStateStoreInjectable from "../../../../extensions/extension-installation-state-store/extension-installation-state-store.injectable";
 import type { Disposer } from "@meniscus/utilities";
 import { disposer } from "@meniscus/utilities";
-import type { ShowNotification } from "../../notifications";
+import type { ShowNotification } from "@meniscus/notifications";
 import { Button } from "@meniscus/button";
 import type { ExtensionLoader } from "../../../../extensions/extension-loader";
 import React from "react";
@@ -22,8 +22,7 @@ import { remove as removeDir } from "fs-extra";
 import { shell } from "electron";
 import type { ExtensionInstallationStateStore } from "../../../../extensions/extension-installation-state-store/extension-installation-state-store";
 import { ExtensionInstallationState } from "../../../../extensions/extension-installation-state-store/extension-installation-state-store";
-import showErrorNotificationInjectable from "../../notifications/show-error-notification.injectable";
-import showInfoNotificationInjectable from "../../notifications/show-info-notification.injectable";
+import { showErrorNotificationInjectable, showInfoNotificationInjectable } from "@meniscus/notifications";
 import type { LensExtensionId } from "@meniscus/legacy-extensions";
 
 export interface InstallRequest {

@@ -10,7 +10,7 @@ import { disposeOnUnmount, observer } from "mobx-react";
 import type { ContainerPort, Pod } from "@meniscus/kube-object";
 import { action, makeObservable, observable, reaction } from "mobx";
 import { cssNames } from "@meniscus/utilities";
-import type { ShowNotification } from "../notifications";
+import type { ShowNotification } from "@meniscus/notifications";
 import { Button } from "@meniscus/button";
 import type { ForwardedPort, PortForwardStore } from "../../port-forward";
 import { predictProtocol } from "../../port-forward";
@@ -24,7 +24,7 @@ import notifyErrorPortForwardingInjectable from "../../port-forward/notify-error
 import type { OpenPortForward } from "../../port-forward/open-port-forward.injectable";
 import openPortForwardInjectable from "../../port-forward/open-port-forward.injectable";
 import { loggerInjectionToken } from "@meniscus/logger";
-import showErrorNotificationInjectable from "../notifications/show-error-notification.injectable";
+import { showErrorNotificationInjectable } from "@meniscus/notifications";
 
 export interface PodContainerPortProps {
   pod: Pod;

@@ -13,7 +13,7 @@ import { observer } from "mobx-react";
 import type { CreateResourceTabStore } from "./store";
 import { EditorPanel } from "../editor-panel";
 import { InfoPanel } from "../info-panel";
-import type { ShowNotification } from "../../notifications";
+import type { ShowNotification, ShowCheckedErrorNotification } from "@meniscus/notifications";
 import type { Logger } from "@meniscus/logger";
 import type { ApiManager } from "../../../../common/k8s-api/api-manager";
 import { isObject, prevDefault } from "@meniscus/utilities";
@@ -30,9 +30,7 @@ import navigateInjectable from "../../../navigation/navigate.injectable";
 import type { RequestKubeObjectCreation } from "../../../../common/k8s-api/endpoints/resource-applier.api/request-update.injectable";
 import requestKubeObjectCreationInjectable from "../../../../common/k8s-api/endpoints/resource-applier.api/request-update.injectable";
 import { loggerInjectionToken } from "@meniscus/logger";
-import type { ShowCheckedErrorNotification } from "../../notifications/show-checked-error.injectable";
-import showSuccessNotificationInjectable from "../../notifications/show-success-notification.injectable";
-import showCheckedErrorNotificationInjectable from "../../notifications/show-checked-error.injectable";
+import { showSuccessNotificationInjectable, showCheckedErrorNotificationInjectable } from "@meniscus/notifications";
 
 export interface CreateResourceProps {
   tabId: string;

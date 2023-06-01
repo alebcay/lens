@@ -6,7 +6,7 @@ import { getInjectable } from "@ogre-tools/injectable";
 import React from "react";
 import navigateToPortForwardsInjectable from "../../common/front-end-routing/routes/cluster/network/port-forwards/navigate-to-port-forwards.injectable";
 import { Button } from "@meniscus/button";
-import showSuccessNotificationInjectable from "../components/notifications/show-success-notification.injectable";
+import { showSuccessNotificationInjectable } from "@meniscus/notifications";
 
 const aboutPortForwardingInjectable = getInjectable({
   id: "about-port-forwarding",

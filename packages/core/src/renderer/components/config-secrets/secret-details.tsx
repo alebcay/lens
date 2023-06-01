@@ -11,7 +11,7 @@ import { disposeOnUnmount, observer } from "mobx-react";
 import { DrawerItem, DrawerTitle } from "../drawer";
 import { Input } from "../input";
 import { Button } from "@meniscus/button";
-import type { ShowNotification } from "../notifications";
+import type { ShowNotification, ShowCheckedErrorNotification } from "@meniscus/notifications";
 import { base64, toggle } from "@meniscus/utilities";
 import { Icon } from "@meniscus/icon";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
@@ -21,9 +21,7 @@ import type { SecretStore } from "./store";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { loggerInjectionToken } from "@meniscus/logger";
 import secretStoreInjectable from "./store.injectable";
-import showSuccessNotificationInjectable from "../notifications/show-success-notification.injectable";
-import type { ShowCheckedErrorNotification } from "../notifications/show-checked-error.injectable";
-import showCheckedErrorNotificationInjectable from "../notifications/show-checked-error.injectable";
+import { showSuccessNotificationInjectable, showCheckedErrorNotificationInjectable } from "@meniscus/notifications";
 
 export interface SecretDetailsProps extends KubeObjectDetailsProps<Secret> {
 }

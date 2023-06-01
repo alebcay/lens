@@ -12,7 +12,7 @@ import attemptInstallByInfoInjectable from "./attempt-install-by-info.injectable
 import extensionInstallationStateStoreInjectable from "../../../extensions/extension-installation-state-store/extension-installation-state-store.injectable";
 import readFileNotifyInjectable from "./read-file-notify/read-file-notify.injectable";
 import getBasenameOfPathInjectable from "../../../common/path/get-basename.injectable";
-import showErrorNotificationInjectable from "../notifications/show-error-notification.injectable";
+import { showErrorNotificationInjectable } from "@meniscus/notifications";
 import { loggerInjectionToken } from "@meniscus/logger";
 import downloadBinaryInjectable from "../../../common/fetch/download-binary.injectable";
 import { withTimeout } from "../../../common/fetch/timeout-controller";

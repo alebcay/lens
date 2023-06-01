@@ -11,7 +11,7 @@ import assert from "assert";
 import emitAppEventInjectable from "../../../../common/app-event-bus/emit-event.injectable";
 import loadExtensionsInjectable from "../../load-extensions.injectable";
 import { loggerInjectionToken } from "@meniscus/logger";
-import showErrorNotificationInjectable from "../../../components/notifications/show-error-notification.injectable";
+import { showErrorNotificationInjectable } from "@meniscus/notifications";
 
 const initClusterFrameInjectable = getInjectable({
   id: "init-cluster-frame",

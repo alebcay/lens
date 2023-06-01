@@ -9,7 +9,7 @@ import { apiKubeInjectionToken } from "@meniscus/kube-api";
 import { storesAndApisCanBeCreatedInjectionToken } from "@meniscus/kube-api-specifics";
 import createKubeJsonApiInjectable from "../../common/k8s-api/create-kube-json-api.injectable";
 import isDevelopmentInjectable from "../../common/vars/is-development.injectable";
-import showErrorNotificationInjectable from "../components/notifications/show-error-notification.injectable";
+import { showErrorNotificationInjectable } from "@meniscus/notifications";
 import windowLocationInjectable from "../../common/k8s-api/window-location.injectable";
 import { apiBaseServerAddressInjectionToken } from "../../common/k8s-api/api-base-configs";
 

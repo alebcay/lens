@@ -4,7 +4,7 @@
  */
 import { getMessageFromError } from "../get-message-from-error/get-message-from-error";
 import { getInjectable } from "@ogre-tools/injectable";
-import showErrorNotificationInjectable from "../../notifications/show-error-notification.injectable";
+import { showErrorNotificationInjectable } from "@meniscus/notifications";
 import { loggerInjectionToken } from "@meniscus/logger";
 import readFileBufferInjectable from "../../../../common/fs/read-file-buffer.injectable";
 

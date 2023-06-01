@@ -10,7 +10,7 @@ import { observer } from "mobx-react";
 import React from "react";
 
 import { Button } from "@meniscus/button";
-import type { ShowNotification } from "../notifications";
+import type { ShowNotification } from "@meniscus/notifications";
 import { Dialog } from "../dialog";
 import { Icon } from "@meniscus/icon";
 import { Select } from "../select";
@@ -26,7 +26,7 @@ import type { RequestDeleteCluster } from "../../../features/cluster/delete-dial
 import requestDeleteClusterInjectable from "../../../features/cluster/delete-dialog/renderer/request-delete.injectable";
 import type { SaveKubeconfig } from "./save-kubeconfig.injectable";
 import saveKubeconfigInjectable from "./save-kubeconfig.injectable";
-import showErrorNotificationInjectable from "../notifications/show-error-notification.injectable";
+import { showErrorNotificationInjectable } from "@meniscus/notifications";
 import { isCurrentContext } from "./is-current-context";
 import type { IsInLocalKubeconfig } from "./is-in-local-kubeconfig.injectable";
 import isInLocalKubeconfigInjectable from "./is-in-local-kubeconfig.injectable";

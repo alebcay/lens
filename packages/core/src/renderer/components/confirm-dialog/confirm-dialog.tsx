@@ -16,10 +16,10 @@ import { Button } from "@meniscus/button";
 import type { DialogProps } from "../dialog";
 import { Dialog } from "../dialog";
 import { Icon } from "@meniscus/icon";
-import type { ShowNotification } from "../notifications";
+import type { ShowNotification } from "@meniscus/notifications";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import confirmDialogStateInjectable from "./state.injectable";
-import showErrorNotificationInjectable from "../notifications/show-error-notification.injectable";
+import { showErrorNotificationInjectable } from "@meniscus/notifications";
 
 export interface ConfirmDialogProps extends Partial<DialogProps> {
 }

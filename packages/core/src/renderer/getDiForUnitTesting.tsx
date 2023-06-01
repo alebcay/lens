@@ -24,6 +24,7 @@ import { loggerFeature } from "@meniscus/logger";
 import { clusterSidebarFeature } from "@meniscus/cluster-sidebar";
 import { randomFeature } from "@meniscus/random";
 import { kubeApiSpecificsFeature } from "@meniscus/kube-api-specifics";
+import { notificationsFeature } from "@meniscus/notifications";
 
 export const getDiForUnitTesting = () => {
   const environment = "renderer";
@@ -45,6 +46,7 @@ export const getDiForUnitTesting = () => {
       clusterSidebarFeature,
       randomFeature,
       kubeApiSpecificsFeature,
+      notificationsFeature,
     );
   });
 

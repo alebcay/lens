@@ -4,7 +4,7 @@
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { loggerInjectionToken } from "@meniscus/logger";
-import showCheckedErrorNotificationInjectable from "../notifications/show-checked-error.injectable";
+import { showCheckedErrorNotificationInjectable } from "@meniscus/notifications";
 import kubeconfigDialogStateInjectable from "./state.injectable";
 import type { StrictReactNode } from "@meniscus/utilities";
 

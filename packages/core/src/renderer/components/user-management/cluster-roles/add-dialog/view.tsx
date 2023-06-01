@@ -20,8 +20,8 @@ import closeAddClusterRoleDialogInjectable from "./close.injectable";
 import clusterRoleStoreInjectable from "../store.injectable";
 import showDetailsInjectable from "../../../kube-detail-params/show-details.injectable";
 import addClusterRoleDialogStateInjectable from "./state.injectable";
-import type { ShowCheckedErrorNotification } from "../../../notifications/show-checked-error.injectable";
-import showCheckedErrorNotificationInjectable from "../../../notifications/show-checked-error.injectable";
+import type { ShowCheckedErrorNotification } from "@meniscus/notifications";
+import { showCheckedErrorNotificationInjectable } from "@meniscus/notifications";
 
 export interface AddClusterRoleDialogProps extends Partial<DialogProps> {
 }

@@ -22,8 +22,8 @@ import closeAddRoleDialogInjectable from "./close.injectable";
 import roleStoreInjectable from "../store.injectable";
 import showDetailsInjectable from "../../../kube-detail-params/show-details.injectable";
 import addRoleDialogStateInjectable from "./state.injectable";
-import type { ShowCheckedErrorNotification } from "../../../notifications/show-checked-error.injectable";
-import showCheckedErrorNotificationInjectable from "../../../notifications/show-checked-error.injectable";
+import type { ShowCheckedErrorNotification } from "@meniscus/notifications";
+import { showCheckedErrorNotificationInjectable } from "@meniscus/notifications";
 
 export interface AddRoleDialogProps extends Partial<DialogProps> {
 }

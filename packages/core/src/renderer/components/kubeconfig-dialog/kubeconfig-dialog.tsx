@@ -13,12 +13,12 @@ import { Button } from "@meniscus/button";
 import type { DialogProps } from "../dialog";
 import { Dialog } from "../dialog";
 import { Icon } from "@meniscus/icon";
-import type { ShowNotification } from "../notifications";
+import type { ShowNotification } from "@meniscus/notifications";
 import { Wizard, WizardStep } from "../wizard";
 import { MonacoEditor } from "../monaco-editor";
 import { clipboard } from "electron";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import showSuccessNotificationInjectable from "../notifications/show-success-notification.injectable";
+import { showSuccessNotificationInjectable } from "@meniscus/notifications";
 import kubeconfigDialogStateInjectable from "./state.injectable";
 import { saveFileDialog } from "../../utils/saveFile";
 

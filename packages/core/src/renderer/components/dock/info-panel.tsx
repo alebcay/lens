@@ -14,12 +14,10 @@ import { Button } from "@meniscus/button";
 import { Icon } from "@meniscus/icon";
 import { Spinner } from "../spinner";
 import type { DockStore, TabId } from "./dock/store";
-import type { ShowNotification } from "../notifications";
+import type { ShowNotification, ShowCheckedErrorNotification } from "@meniscus/notifications";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import dockStoreInjectable from "./dock/store.injectable";
-import type { ShowCheckedErrorNotification } from "../notifications/show-checked-error.injectable";
-import showSuccessNotificationInjectable from "../notifications/show-success-notification.injectable";
-import showCheckedErrorNotificationInjectable from "../notifications/show-checked-error.injectable";
+import { showSuccessNotificationInjectable, showCheckedErrorNotificationInjectable } from "@meniscus/notifications";
 
 export interface InfoPanelProps extends OptionalProps {
   tabId: TabId;

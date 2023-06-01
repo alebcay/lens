@@ -5,6 +5,7 @@ import "@meniscus/tooltip/styles";
 import "@meniscus/resizing-anchor/styles";
 import "@meniscus/icon/styles";
 import "@meniscus/animate/styles";
+import "@meniscus/notifications/styles";
 
 import { runInAction } from "mobx";
 import {
@@ -31,6 +32,7 @@ import { animateFeature } from "@meniscus/animate";
 import { clusterSidebarFeature } from "@meniscus/cluster-sidebar";
 import { randomFeature } from "@meniscus/random";
 import { kubeApiSpecificsFeature } from "@meniscus/kube-api-specifics";
+import { notificationsFeature } from "@meniscus/notifications";
 
 const environment = "renderer";
 
@@ -60,6 +62,7 @@ runInAction(() => {
     clusterSidebarFeature,
     randomFeature,
     kubeApiSpecificsFeature,
+    notificationsFeature,
   );
 
   autoRegister({

@@ -28,8 +28,8 @@ import closeAddSecretDialogInjectable from "./close.injectable";
 import { secretApiInjectable } from "@meniscus/kube-api-specifics";
 import showDetailsInjectable from "../../kube-detail-params/show-details.injectable";
 import isAddSecretDialogOpenInjectable from "./is-open.injectable";
-import type { ShowCheckedErrorNotification } from "../../notifications/show-checked-error.injectable";
-import showCheckedErrorNotificationInjectable from "../../notifications/show-checked-error.injectable";
+import type { ShowCheckedErrorNotification } from "@meniscus/notifications";
+import { showCheckedErrorNotificationInjectable } from "@meniscus/notifications";
 
 export interface AddSecretDialogProps extends Partial<DialogProps> {
 }

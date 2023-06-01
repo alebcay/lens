@@ -15,7 +15,7 @@ import helmBinaryPathInjectable from "../../main/helm/helm-binary-path.injectabl
 import { loggerInjectionToken } from "@meniscus/logger";
 import type { Logger } from "@meniscus/logger";
 import requestPublicHelmRepositoriesInjectable from "./child-features/preferences/renderer/adding-of-public-helm-repository/public-helm-repositories/request-public-helm-repositories.injectable";
-import showErrorNotificationInjectable from "../../renderer/components/notifications/show-error-notification.injectable";
+import { showErrorNotificationInjectable } from "@meniscus/notifications";
 import { noop } from "@meniscus/utilities";
 
 describe("listing active helm repositories in preferences", () => {

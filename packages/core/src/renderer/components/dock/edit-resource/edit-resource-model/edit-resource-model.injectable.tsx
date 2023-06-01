@@ -15,10 +15,9 @@ import assert from "assert";
 import type { RequestPatchKubeResource } from "./request-patch-kube-resource.injectable";
 import requestPatchKubeResourceInjectable from "./request-patch-kube-resource.injectable";
 import { createPatch } from "rfc6902";
-import type { ShowNotification } from "../../../notifications";
-import showSuccessNotificationInjectable from "../../../notifications/show-success-notification.injectable";
+import type { ShowNotification } from "@meniscus/notifications";
+import { showSuccessNotificationInjectable, showErrorNotificationInjectable } from "@meniscus/notifications";
 import React from "react";
-import showErrorNotificationInjectable from "../../../notifications/show-error-notification.injectable";
 import { createKubeApiURL, parseKubeApi } from "@meniscus/kube-api";
 
 const editResourceModelInjectable = getInjectable({
