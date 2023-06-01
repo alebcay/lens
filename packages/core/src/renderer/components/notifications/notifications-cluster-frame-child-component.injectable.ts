@@ -5,7 +5,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed } from "mobx";
 import { Notifications } from "./notifications";
-import { clusterFrameChildComponentInjectionToken } from "../../frames/cluster-frame/cluster-frame-child-component-injection-token";
+import { clusterFrameChildComponentInjectionToken } from "@meniscus/react-application";
 
 const notificationsClusterFrameChildComponentInjectable = getInjectable({
   id: "notifications-cluster-frame-child-component",

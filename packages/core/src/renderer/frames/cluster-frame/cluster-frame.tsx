@@ -11,8 +11,8 @@ import namespaceStoreInjectable  from "../../components/namespaces/store.injecta
 import type { SubscribeStores } from "../../kube-watch-api/kube-watch-api";
 import { disposer } from "@meniscus/utilities";
 import subscribeStoresInjectable from "../../kube-watch-api/subscribe-stores.injectable";
-import type { ClusterFrameChildComponent } from "./cluster-frame-child-component-injection-token";
-import { clusterFrameChildComponentInjectionToken } from "./cluster-frame-child-component-injection-token";
+import type { ClusterFrameChildComponent } from "@meniscus/react-application";
+import { clusterFrameChildComponentInjectionToken } from "@meniscus/react-application";
 import watchHistoryStateInjectable from "../../remote-helpers/watch-history-state.injectable";
 import { computedInjectManyInjectable } from "@ogre-tools/injectable-extension-for-mobx";
 import type { IComputedValue } from "mobx";

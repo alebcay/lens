@@ -4,7 +4,7 @@
  */
 import React from "react";
 import { getInjectable } from "@ogre-tools/injectable";
-import { clusterFrameChildComponentInjectionToken } from "./cluster-frame-child-component-injection-token";
+import { clusterFrameChildComponentInjectionToken } from "@meniscus/react-application";
 import { MainLayout } from "../../components/layout/main-layout";
 import { Sidebar } from "../../components/layout/sidebar";
 import { Dock } from "../../components/dock";
