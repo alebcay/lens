@@ -13,7 +13,7 @@ import { Icon } from "@meniscus/icon";
 import { SubHeader } from "../layout/sub-header";
 import { Table, TableCell, TableHead, TableRow } from "../table";
 import { cssNames, prevDefault } from "@meniscus/utilities";
-import { Spinner } from "../spinner";
+import { Spinner } from "@meniscus/spinner";
 import type { ApiManager } from "../../../common/k8s-api/api-manager";
 import { KubeObjectAge } from "../kube-object/age";
 import { withInjectables } from "@ogre-tools/injectable-react";

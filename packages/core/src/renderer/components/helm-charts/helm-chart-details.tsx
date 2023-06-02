@@ -11,7 +11,7 @@ import { observer } from "mobx-react";
 import { Drawer, DrawerItem } from "../drawer";
 import { stopPropagation } from "@meniscus/utilities";
 import { MarkdownViewer } from "../markdown-viewer";
-import { Spinner } from "../spinner";
+import { Spinner } from "@meniscus/spinner";
 import { Button } from "@meniscus/button";
 import { Select } from "../select";
 import { Badge } from "../badge";

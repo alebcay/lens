@@ -14,7 +14,7 @@ import type { IClassName } from "@meniscus/utilities";
 import { hasTypedProperty, isObject, isString, cssNames } from "@meniscus/utilities";
 import { Button } from "@meniscus/button";
 import { Icon } from "@meniscus/icon";
-import { Spinner } from "../spinner";
+import { Spinner } from "@meniscus/spinner";
 import type { KubeAuthUpdate } from "../../../common/cluster-types";
 import type { CatalogEntityRegistry } from "../../api/catalog/entity/registry";
 import type { NavigateToEntitySettings } from "../../../common/front-end-routing/routes/entity-settings/navigate-to-entity-settings.injectable";

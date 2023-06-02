@@ -12,7 +12,7 @@ import type { StrictReactNode } from "@meniscus/utilities";
 import { cssNames } from "@meniscus/utilities";
 import { Button } from "@meniscus/button";
 import { Icon } from "@meniscus/icon";
-import { Spinner } from "../spinner";
+import { Spinner } from "@meniscus/spinner";
 import type { DockStore, TabId } from "./dock/store";
 import type { ShowNotification, ShowCheckedErrorNotification } from "@meniscus/notifications";
 import { withInjectables } from "@ogre-tools/injectable-react";

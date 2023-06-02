@@ -10,7 +10,7 @@ import { cssNames, prevDefault } from "@meniscus/utilities";
 import { Button } from "@meniscus/button";
 import { Stepper } from "../stepper";
 import { SubTitle } from "../layout/sub-title";
-import { Spinner } from "../spinner";
+import { Spinner } from "@meniscus/spinner";
 import { debounce } from "lodash";
 
 export interface WizardCommonProps<D> {

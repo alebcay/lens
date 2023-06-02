@@ -13,7 +13,7 @@ import type { Pod, KubeObject } from "@meniscus/kube-object";
 import { bytesToUnits, cssNames, interval, prevDefault } from "@meniscus/utilities";
 import { LineProgress } from "../line-progress";
 import { Table, TableCell, TableHead, TableRow } from "../table";
-import { Spinner } from "../spinner";
+import { Spinner } from "@meniscus/spinner";
 import { DrawerTitle } from "../drawer";
 import { KubeObjectStatusIcon } from "../kube-object-status-icon";
 import type { PodStore } from "./store";

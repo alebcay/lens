@@ -10,7 +10,7 @@ import { observer } from "mobx-react";
 import { cssNames } from "@meniscus/utilities";
 import type { DockTab } from "../dock/store";
 import { InfoPanel } from "../info-panel";
-import { Spinner } from "../../spinner";
+import { Spinner } from "@meniscus/spinner";
 import { Badge } from "../../badge";
 import { EditorPanel } from "../editor-panel";
 import type { SelectOption } from "../../select";

@@ -8,7 +8,7 @@ import React from "react";
 import { Icon } from "@meniscus/icon";
 import { List } from "../list/list";
 import { MenuActions, MenuItem } from "../menu";
-import { Spinner } from "../spinner";
+import { Spinner } from "@meniscus/spinner";
 import { cssNames } from "@meniscus/utilities";
 import { observer } from "mobx-react";
 import type { Row } from "react-table";

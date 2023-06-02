@@ -11,7 +11,7 @@ import type { PersistentVolume } from "@meniscus/kube-object";
 import { TableRow } from "../table/table-row";
 import { cssNames, prevDefault } from "@meniscus/utilities";
 import { TableCell } from "../table/table-cell";
-import { Spinner } from "../spinner/spinner";
+import { Spinner } from "@meniscus/spinner";
 import { DrawerTitle } from "../drawer/drawer-title";
 import { Table } from "../table/table";
 import { TableHead } from "../table/table-head";

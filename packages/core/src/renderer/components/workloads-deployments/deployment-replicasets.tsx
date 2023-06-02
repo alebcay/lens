@@ -9,7 +9,7 @@ import React from "react";
 import { observer } from "mobx-react";
 import type { ReplicaSet } from "@meniscus/kube-object";
 import { KubeObjectMenu } from "../kube-object-menu";
-import { Spinner } from "../spinner";
+import { Spinner } from "@meniscus/spinner";
 import { prevDefault, stopPropagation } from "@meniscus/utilities";
 import { DrawerTitle } from "../drawer";
 import { Table, TableCell, TableHead, TableRow } from "../table";

@@ -9,11 +9,11 @@ $ npm install @meniscus/animate
 ```
 
 ```typescript
-export type { AnimateName, AnimateProps } from "@meniscus/button";
-export type { Animate } from "@meniscus/button";
-export { defaultEnterDurationForAnimatedInjectable } from "@meniscus/button";
-export { defaultLeaveDurationForAnimatedInjectable } from "@meniscus/button";
-export { requestAnimationFrameInjectable } from "@meniscus/button";
+import { animateFeature } from "@meniscus/animate";
+import { animateFeature, requestAnimationFrameInjectable } from "@meniscus/animate";
+import { Animate } from "@meniscus/animate";
+import type { AnimateName } from "@meniscus/animate";
+import type { RequestAnimationFrame } from "@meniscus/animate";
 ```
 
 ## Extendability

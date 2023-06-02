@@ -14,7 +14,7 @@ import type { ShowNotification } from "@meniscus/notifications";
 import { Button } from "@meniscus/button";
 import type { ForwardedPort, PortForwardStore } from "../../port-forward";
 import { predictProtocol } from "../../port-forward";
-import { Spinner } from "../spinner";
+import { Spinner } from "@meniscus/spinner";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import portForwardStoreInjectable from "../../port-forward/port-forward-store/port-forward-store.injectable";
 import portForwardDialogModelInjectable from "../../port-forward/port-forward-dialog-model/port-forward-dialog-model.injectable";

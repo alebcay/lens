@@ -236,6 +236,7 @@
     "@meniscus/resource-templates": "^1.0.0",
     "@meniscus/routing": "^1.0.0",
     "@meniscus/run-many": "^1.0.0",
+    "@meniscus/spinner": "^1.0.0",
     "@meniscus/startable-stoppable": "^1.0.0",
     "@meniscus/tooltip": "^1.0.0",
     "@meniscus/utilities": "^1.0.0",

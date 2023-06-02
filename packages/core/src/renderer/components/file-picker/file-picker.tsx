@@ -9,7 +9,7 @@ import React from "react";
 import fse from "fs-extra";
 import path from "path";
 import { Icon } from "@meniscus/icon";
-import { Spinner } from "../spinner";
+import { Spinner } from "@meniscus/spinner";
 import { observable, makeObservable } from "mobx";
 import { observer } from "mobx-react";
 import _ from "lodash";

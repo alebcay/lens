@@ -6,6 +6,7 @@ import "@meniscus/resizing-anchor/styles";
 import "@meniscus/icon/styles";
 import "@meniscus/animate/styles";
 import "@meniscus/notifications/styles";
+import "@meniscus/spinner/styles";
 
 import { runInAction } from "mobx";
 import {
