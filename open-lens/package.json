@@ -177,6 +177,7 @@
     }
   },
   "dependencies": {
+    "@meniscus/node-pod-menu": "^0.1.2",
     "@astronautlabs/jsonpath": "^1.1.0",
     "@hapi/call": "^9.0.1",
     "@hapi/subtext": "^7.1.0",
