@@ -1,4 +1,4 @@
-import "@k8slens/core/styles";
+import "@meniscus/core/styles";
 import "@meniscus/button/styles";
 import "@k8slens/error-boundary/styles";
 import "@k8slens/tooltip/styles";
@@ -10,7 +10,7 @@ import {
   commonExtensionApi as Common,
   registerLensCore,
   metricsFeature,
-} from "@k8slens/core/renderer";
+} from "@meniscus/core/renderer";
 import { autoRegister } from "@ogre-tools/injectable-extension-for-auto-registration";
 import { registerFeature } from "@k8slens/feature-core";
 import {
@@ -73,7 +73,7 @@ export {
   ReactRouterDom,
   Mobx,
   MobxReact,
-} from "@k8slens/core/renderer";
+} from "@meniscus/core/renderer";
 
 export const LensExtensions = {
   Renderer,

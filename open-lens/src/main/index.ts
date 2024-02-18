@@ -4,7 +4,7 @@ import {
   mainExtensionApi as Main,
   commonExtensionApi as Common,
   registerLensCore,
-} from "@k8slens/core/main";
+} from "@meniscus/core/main";
 import { createContainer } from "@ogre-tools/injectable";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { registerFeature } from "@k8slens/feature-core";
@@ -59,7 +59,7 @@ startApplication().catch((error) => {
 export {
   Mobx,
   Pty,
-} from "@k8slens/core/main";
+} from "@meniscus/core/main";
 
 export const LensExtensions = {
   Main,

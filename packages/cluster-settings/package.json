@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/cluster-settings",
+  "name": "@meniscus/cluster-settings",
   "version": "6.5.0",
   "description": "Injection token exporter for cluster settings configuration",
   "license": "MIT",

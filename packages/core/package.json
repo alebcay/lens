@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/core",
+  "name": "@meniscus/core",
   "productName": "",
   "description": "Lens Desktop Core",
   "homepage": "https://github.com/lensapp/lens",
@@ -211,7 +211,7 @@
     "@meniscus/application": "^6.5.0-alpha.0",
     "@meniscus/application-for-electron-main": "^6.5.0-alpha.0",
     "@meniscus/button": "^1.0.0-alpha.5",
-    "@k8slens/cluster-settings": "^6.5.0-alpha.1",
+    "@meniscus/cluster-settings": "^6.5.0-alpha.1",
     "@k8slens/error-boundary": "^1.0.0-alpha.5",
     "@k8slens/event-emitter": "^1.0.0-alpha.1",
     "@k8slens/kubectl-versions": "^1.0.0-alpha.0",
