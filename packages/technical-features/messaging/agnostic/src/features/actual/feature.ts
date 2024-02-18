@@ -1,6 +1,6 @@
 import { autoRegister } from "@ogre-tools/injectable-extension-for-auto-registration";
 import { applicationFeature } from "@meniscus/application";
-import { getFeature } from "@k8slens/feature-core";
+import { getFeature } from "@meniscus/feature-core";
 
 export const messagingFeature = getFeature({
   id: "messaging",

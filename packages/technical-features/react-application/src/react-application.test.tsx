@@ -1,4 +1,4 @@
-import { registerFeature } from "@k8slens/feature-core";
+import { registerFeature } from "@meniscus/feature-core";
 import { createContainer, DiContainer, getInjectable } from "@ogre-tools/injectable";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { registerInjectableReact } from "@ogre-tools/injectable-react";

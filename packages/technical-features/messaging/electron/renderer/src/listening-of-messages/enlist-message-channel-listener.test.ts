@@ -2,7 +2,7 @@ import type { IpcRendererEvent, IpcRenderer } from "electron";
 import ipcRendererInjectable from "../ipc/ipc-renderer.injectable";
 import { EnlistMessageChannelListener, enlistMessageChannelListenerInjectionToken } from "@k8slens/messaging";
 import { createContainer } from "@ogre-tools/injectable";
-import { registerFeature } from "@k8slens/feature-core";
+import { registerFeature } from "@meniscus/feature-core";
 import { messagingFeatureForRenderer } from "../feature";
 
 describe("enlist message channel listener in renderer", () => {

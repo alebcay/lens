@@ -8,7 +8,7 @@ $ npm install @k8slens/react-application
 
 ```typescript
 import { reactApplicationFeature } from "@k8slens/react-application";
-import { registerFeature } from "@k8slens/feature-core";
+import { registerFeature } from "@meniscus/feature-core";
 import { createContainer } from "@ogre-tools/injectable";
 
 const di = createContainer("some-container");

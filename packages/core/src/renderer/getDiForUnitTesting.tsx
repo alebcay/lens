@@ -17,7 +17,7 @@ import type { GlobalOverride } from "@k8slens/test-utils";
 import { setLegacyGlobalDiForExtensionApi } from "@k8slens/legacy-global-di";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { registerInjectableReact } from "@ogre-tools/injectable-react";
-import { registerFeature } from "@k8slens/feature-core";
+import { registerFeature } from "@meniscus/feature-core";
 import { messagingFeature, testUtils as messagingTestUtils } from "@k8slens/messaging";
 import { routingFeature } from "@k8slens/routing";
 import { loggerFeature } from "@k8slens/logger";

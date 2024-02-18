@@ -1,5 +1,5 @@
 import { createContainer, DiContainer } from "@ogre-tools/injectable";
-import { registerFeature } from "@k8slens/feature-core";
+import { registerFeature } from "@meniscus/feature-core";
 import { sendMessageToChannelInjectionToken } from "@k8slens/messaging";
 import { messagingFeatureForRenderer } from "../feature";
 import type { MessageChannel } from "@k8slens/messaging";

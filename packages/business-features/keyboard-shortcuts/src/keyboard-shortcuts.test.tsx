@@ -5,7 +5,7 @@ import { createContainer, DiContainer, getInjectable } from "@ogre-tools/injecta
 import { registerInjectableReact } from "@ogre-tools/injectable-react";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { keyboardShortcutInjectionToken } from "./keyboard-shortcut-injection-token";
-import { registerFeature } from "@k8slens/feature-core";
+import { registerFeature } from "@meniscus/feature-core";
 import { keyboardShortcutsFeature } from "./feature";
 import React from "react";
 import { computed, runInAction } from "mobx";

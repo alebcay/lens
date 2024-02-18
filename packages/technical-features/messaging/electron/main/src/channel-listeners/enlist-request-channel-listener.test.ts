@@ -7,7 +7,7 @@ import enlistRequestChannelListenerInjectable from "./enlist-request-channel-lis
 import type { RequestChannel, RequestChannelHandler } from "@k8slens/messaging";
 import { getPromiseStatus } from "@k8slens/test-utils";
 import { createContainer } from "@ogre-tools/injectable";
-import { registerFeature } from "@k8slens/feature-core";
+import { registerFeature } from "@meniscus/feature-core";
 import { messagingFeatureForMain } from "../feature";
 
 type TestRequestChannel = RequestChannel<unknown, unknown>;

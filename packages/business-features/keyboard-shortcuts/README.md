@@ -10,7 +10,7 @@ $ npm install @k8slens/keyboard-shortcuts
 
 ```typescript
 import { keyboardShortcutsFeature } from "@k8slens/keyboard-shortcuts";
-import { registerFeature } from "@k8slens/feature-core";
+import { registerFeature } from "@meniscus/feature-core";
 import { createContainer } from "@ogre-tools/injectable";
 
 const di = createContainer("some-container");

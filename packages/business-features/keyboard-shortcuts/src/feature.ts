@@ -1,4 +1,4 @@
-import { getFeature } from "@k8slens/feature-core";
+import { getFeature } from "@meniscus/feature-core";
 import { autoRegister } from "@ogre-tools/injectable-extension-for-auto-registration";
 import { reactApplicationFeature } from "@k8slens/react-application";
 

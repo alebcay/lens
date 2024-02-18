@@ -7,7 +7,7 @@ import { computed, IComputedValue, IObservableValue, observable, reaction, runIn
 import type { MessageChannel } from "@k8slens/messaging";
 import { getMessageChannelListenerInjectable } from "@k8slens/messaging";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
-import { registerFeature } from "@k8slens/feature-core";
+import { registerFeature } from "@meniscus/feature-core";
 import { testUtils } from "@k8slens/messaging";
 import { computedChannelInjectionToken, computedChannelObserverInjectionToken } from "./computed-channel.injectable";
 import { runWithThrownMobxReactions, renderFor } from "@k8slens/test-utils";

@@ -1,6 +1,6 @@
 import { createContainer, DiContainer, Injectable } from "@ogre-tools/injectable";
 import asyncFn, { AsyncFnMock } from "@async-fn/jest";
-import { registerFeature } from "@k8slens/feature-core";
+import { registerFeature } from "@meniscus/feature-core";
 import {
   getMessageChannel,
   getMessageChannelListenerInjectable,

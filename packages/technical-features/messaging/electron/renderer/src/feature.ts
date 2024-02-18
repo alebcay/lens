@@ -1,5 +1,5 @@
 import { autoRegister } from "@ogre-tools/injectable-extension-for-auto-registration";
-import { getFeature } from "@k8slens/feature-core";
+import { getFeature } from "@meniscus/feature-core";
 import { messagingFeature } from "@k8slens/messaging";
 
 export const messagingFeatureForRenderer = getFeature({

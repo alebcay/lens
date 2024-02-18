@@ -10,7 +10,7 @@ $ npm install @meniscus/application-for-electron-main
 
 ```typescript
 import { applicationFeature, startApplicationInjectionToken } from "@meniscus/application";
-import { registerFeature } from "@k8slens/feature-core";
+import { registerFeature } from "@meniscus/feature-core";
 import { createContainer } from "@ogre-tools/injectable";
 
 const di = createContainer("some-container");

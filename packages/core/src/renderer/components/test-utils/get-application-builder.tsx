@@ -64,7 +64,7 @@ import fsInjectable from "../../../common/fs/fs.injectable";
 import joinPathsInjectable from "../../../common/path/join-paths.injectable";
 import homeDirectoryPathInjectable from "../../../common/os/home-directory-path.injectable";
 import selectedNamespacesStorageInjectable from "../../../features/namespace-filtering/renderer/storage.injectable";
-import { registerFeature } from "@k8slens/feature-core";
+import { registerFeature } from "@meniscus/feature-core";
 import { applicationFeatureForElectronMain, testUtils as applicationForElectronTestUtils } from "@meniscus/application-for-electron-main";
 import { applicationFeature, startApplicationInjectionToken } from "@meniscus/application";
 import { testUsingFakeTime } from "../../../test-utils/use-fake-time";

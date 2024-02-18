@@ -12,7 +12,7 @@ import {
   metricsFeature,
 } from "@meniscus/core/renderer";
 import { autoRegister } from "@ogre-tools/injectable-extension-for-auto-registration";
-import { registerFeature } from "@k8slens/feature-core";
+import { registerFeature } from "@meniscus/feature-core";
 import {
   applicationFeature,
   startApplicationInjectionToken

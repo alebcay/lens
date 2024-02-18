@@ -7,7 +7,7 @@ import {
 } from "@meniscus/core/main";
 import { createContainer } from "@ogre-tools/injectable";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
-import { registerFeature } from "@k8slens/feature-core";
+import { registerFeature } from "@meniscus/feature-core";
 import { applicationFeature, startApplicationInjectionToken } from '@meniscus/application'
 import { applicationFeatureForElectronMain } from '@meniscus/application-for-electron-main'
 import { messagingFeatureForMain } from "@k8slens/messaging-for-main";

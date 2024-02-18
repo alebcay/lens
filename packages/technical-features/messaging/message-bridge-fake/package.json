@@ -32,7 +32,7 @@
   },
   "peerDependencies": {
     "@async-fn/jest": "^1.6.4",
-    "@k8slens/feature-core": "^6.5.0-alpha.2",
+    "@meniscus/feature-core": "^6.5.0-alpha.2",
     "@k8slens/messaging": "^1.0.0-alpha.1",
     "@ogre-tools/fp": "^16.1.0",
     "@ogre-tools/injectable": "^16.1.0",

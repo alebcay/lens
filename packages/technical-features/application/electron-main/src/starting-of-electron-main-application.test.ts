@@ -1,5 +1,5 @@
 import { createContainer, DiContainer, getInjectable } from "@ogre-tools/injectable";
-import { registerFeature } from "@k8slens/feature-core";
+import { registerFeature } from "@meniscus/feature-core";
 import { applicationFeatureForElectronMain } from "./feature";
 import { beforeApplicationIsLoadingInjectionToken, startApplicationInjectionToken } from "@meniscus/application";
 import asyncFn, { AsyncFnMock } from "@async-fn/jest";
