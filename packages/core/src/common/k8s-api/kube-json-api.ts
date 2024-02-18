@@ -5,7 +5,7 @@
 
 import type { JsonApiError } from "@k8slens/json-api";
 import { JsonApi } from "@k8slens/json-api";
-import type { Response } from "@k8slens/node-fetch";
+import type { Response } from "@meniscus/node-fetch";
 import type { KubeJsonApiData } from "@meniscus/kube-object";
 
 export interface KubeJsonApiError extends JsonApiError {

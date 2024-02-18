@@ -11,8 +11,8 @@ import type { Patch } from "rfc6902";
 import type { PartialDeep, ValueOf } from "type-fest";
 import { EventEmitter } from "@meniscus/event-emitter";
 import type { Logger } from "@meniscus/logger";
-import type Fetch from "@k8slens/node-fetch";
-import type { RequestInit, Response } from "@k8slens/node-fetch";
+import type Fetch from "@meniscus/node-fetch";
+import type { RequestInit, Response } from "@meniscus/node-fetch";
 import type { Defaulted } from "@k8slens/utilities";
 import { isObject, isString, json } from "@k8slens/utilities";
 

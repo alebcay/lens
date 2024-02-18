@@ -4,7 +4,7 @@
  */
 import type { AsyncResult } from "@k8slens/utilities";
 import type { Fetch } from "../fetch.injectable";
-import type { RequestInit, Response } from "@k8slens/node-fetch";
+import type { RequestInit, Response } from "@meniscus/node-fetch";
 
 export interface DownloadJsonOptions {
   signal?: AbortSignal | null | undefined;

@@ -32,7 +32,7 @@
     "lint:fix": "lens-lint --fix"
   },
   "dependencies": {
-    "@k8slens/node-fetch": "^6.5.0"
+    "@meniscus/node-fetch": "^6.5.0"
   },
   "peerDependencies": {
     "@meniscus/event-emitter": "^1.0.0-alpha.1",
