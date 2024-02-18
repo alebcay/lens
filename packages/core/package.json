@@ -217,7 +217,7 @@
     "@meniscus/kubectl-versions": "^1.0.0-alpha.0",
     "@meniscus/legacy-extensions": "^1.0.0-alpha.0",
     "@meniscus/legacy-global-di": "^1.0.0-alpha.0",
-    "@k8slens/list-layout": "^1.0.0-alpha.4",
+    "@meniscus/list-layout": "^1.0.0-alpha.4",
     "@k8slens/logger": "^1.0.0-alpha.5",
     "@k8slens/messaging": "^1.0.0-alpha.1",
     "@k8slens/messaging-for-main": "^1.0.0-alpha.1",

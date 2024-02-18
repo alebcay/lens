@@ -9,7 +9,7 @@ import nodeApiInjectable from "../../../../common/k8s-api/endpoints/node.api.inj
 import { Badge } from "../../badge";
 import getDetailsUrlInjectable from "../../kube-detail-params/get-details-url.injectable";
 import { stopPropagation } from "@k8slens/utilities";
-import { podListLayoutColumnInjectionToken } from "@k8slens/list-layout";
+import { podListLayoutColumnInjectionToken } from "@meniscus/list-layout";
 
 export const podsNodeColumnInjectable = getInjectable({
   id: "pods-node-column",

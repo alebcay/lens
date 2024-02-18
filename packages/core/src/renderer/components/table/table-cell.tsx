@@ -10,7 +10,7 @@ import { cssNames } from "@k8slens/utilities";
 import { Icon } from "../icon";
 import { Checkbox } from "../checkbox";
 import autoBindReact from "auto-bind/react";
-import type { TableCellProps } from "@k8slens/list-layout";
+import type { TableCellProps } from "@meniscus/list-layout";
 
 export type TableCellElem = React.ReactElement<TableCellProps>;
 

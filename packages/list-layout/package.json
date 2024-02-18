@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/list-layout",
+  "name": "@meniscus/list-layout",
   "private": false,
   "version": "1.0.0",
   "description": "Injection tokens for list layout",

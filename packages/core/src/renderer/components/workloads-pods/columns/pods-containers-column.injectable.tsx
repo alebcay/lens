@@ -7,7 +7,7 @@ import { getInjectable } from "@ogre-tools/injectable";
 import startCase from "lodash/startCase";
 import React from "react";
 import type { ContainerStateValues, Pod } from "@meniscus/kube-object";
-import { podListLayoutColumnInjectionToken } from "@k8slens/list-layout";
+import { podListLayoutColumnInjectionToken } from "@meniscus/list-layout";
 import { StatusBrick } from "../../status-brick";
 
 const renderState = (name: string, ready: boolean, key: string, data?: ContainerStateValues) => (

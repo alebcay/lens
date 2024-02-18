@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import apiManagerInjectable from "../../../../common/k8s-api/api-manager/manager.injectable";
 import { Badge } from "../../badge";
 import getDetailsUrlInjectable from "../../kube-detail-params/get-details-url.injectable";
-import { podListLayoutColumnInjectionToken } from "@k8slens/list-layout";
+import { podListLayoutColumnInjectionToken } from "@meniscus/list-layout";
 
 export const podsOwnersColumnInjectable = getInjectable({
   id: "pods-owners-column",

@@ -13,7 +13,7 @@ import type { TableProps, TableRowProps, TableSortCallbacks } from "../table";
 import type { IClassName, StrictReactNode, SingleOrMany } from "@k8slens/utilities";
 import { cssNames, noop } from "@k8slens/utilities";
 import type { AddRemoveButtonsProps } from "../add-remove-buttons";
-import type { ItemObject, TableCellProps } from "@k8slens/list-layout";
+import type { ItemObject, TableCellProps } from "@meniscus/list-layout";
 import type { SearchInputUrlProps } from "../input";
 import type { PageFiltersStore } from "./page-filters/store";
 import { FilterType } from "./page-filters/store";

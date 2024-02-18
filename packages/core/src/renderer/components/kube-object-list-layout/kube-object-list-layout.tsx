@@ -28,8 +28,8 @@ import type { ToggleKubeDetailsPane } from "../kube-detail-params/toggle-details
 import kubeSelectedUrlParamInjectable from "../kube-detail-params/kube-selected-url.injectable";
 import toggleKubeDetailsPaneInjectable from "../kube-detail-params/toggle-details.injectable";
 import type { ClusterContext } from "../../cluster-frame-context/cluster-frame-context";
-import type { GeneralKubeObjectListLayoutColumn, SpecificKubeListLayoutColumn } from "@k8slens/list-layout";
-import { kubeObjectListLayoutColumnInjectionToken } from "@k8slens/list-layout";
+import type { GeneralKubeObjectListLayoutColumn, SpecificKubeListLayoutColumn } from "@meniscus/list-layout";
+import { kubeObjectListLayoutColumnInjectionToken } from "@meniscus/list-layout";
 import { sortBy } from "lodash";
 
 export type KubeItemListStore<K extends KubeObject> = ItemListStore<K, false> & SubscribableStore & {

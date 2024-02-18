@@ -20,7 +20,7 @@ import type { CustomResourceDefinitionStore } from "./definition.store";
 import apiManagerInjectable from "../../../common/k8s-api/api-manager/manager.injectable";
 import customResourceDefinitionStoreInjectable from "./definition.store.injectable";
 import { NamespaceSelectBadge } from "../namespaces/namespace-select-badge";
-import type { TableCellProps } from "@k8slens/list-layout";
+import type { TableCellProps } from "@meniscus/list-layout";
 
 enum columnId {
   name = "name",
