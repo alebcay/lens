@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/metrics",
+  "name": "@meniscus/metrics",
   "private": false,
   "version": "6.5.0",
   "description": "Injection tokens for implementing metrics for Lens",

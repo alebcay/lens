@@ -21,8 +21,8 @@ import { withInjectables } from "@ogre-tools/injectable-react";
 import portForwardStoreInjectable from "../../port-forward/port-forward-store/port-forward-store.injectable";
 import type { IComputedValue } from "mobx";
 import enabledMetricsInjectable from "../../api/catalog/entity/metrics-enabled.injectable";
-import type { PodDetailsContainerMetricsComponent } from "@k8slens/metrics";
-import { podDetailsContainerMetricsInjectionToken } from "@k8slens/metrics";
+import type { PodDetailsContainerMetricsComponent } from "@meniscus/metrics";
+import { podDetailsContainerMetricsInjectionToken } from "@meniscus/metrics";
 
 export interface PodDetailsContainerProps {
   pod: Pod;

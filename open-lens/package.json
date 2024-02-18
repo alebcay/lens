@@ -201,7 +201,7 @@
     "@meniscus/messaging": "^1.0.0",
     "@meniscus/messaging-for-main": "^1.0.0",
     "@meniscus/messaging-for-renderer": "^1.0.0",
-    "@k8slens/metrics": "^6.5.0",
+    "@meniscus/metrics": "^6.5.0",
     "@k8slens/node-fetch": "^6.5.0",
     "@k8slens/react-application": "^1.0.0",
     "@k8slens/resizing-anchor": "^1.0.0",

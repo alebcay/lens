@@ -2,7 +2,7 @@
  * Copyright (c) OpenLens Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import type { KubeObjectDetailMetrics } from "@k8slens/metrics";
+import type { KubeObjectDetailMetrics } from "@meniscus/metrics";
 import type { IComputedValue } from "mobx";
 import { observer } from "mobx-react";
 import React from "react";

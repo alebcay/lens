@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import React from "react";
-import type { KubeObjectDetailMetrics } from "@k8slens/metrics";
+import type { KubeObjectDetailMetrics } from "@meniscus/metrics";
 import type { InjectionToken } from "@ogre-tools/injectable";
 import { getInjectable } from "@ogre-tools/injectable";
 import type { ClusterMetricsResourceType } from "../../../../../common/cluster-types";
