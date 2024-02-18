@@ -4,7 +4,7 @@
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { persistStateToConfigInjectionToken } from "../../common/persistent-storage/save-to-file";
-import { noop } from "@k8slens/utilities";
+import { noop } from "@meniscus/utilities";
 
 const persistStateToConfigInjectable = getInjectable({
   id: "persist-state-to-config",

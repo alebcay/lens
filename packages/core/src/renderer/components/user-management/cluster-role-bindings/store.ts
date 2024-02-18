@@ -5,7 +5,7 @@
 
 import type { Subject, ClusterRoleBinding, ClusterRoleBindingData } from "@meniscus/kube-object";
 import { KubeObjectStore } from "../../../../common/k8s-api/kube-object.store";
-import { HashSet } from "@k8slens/utilities";
+import { HashSet } from "@meniscus/utilities";
 import { hashSubject } from "../hashers";
 import type { ClusterRoleBindingApi } from "../../../../common/k8s-api/endpoints";
 

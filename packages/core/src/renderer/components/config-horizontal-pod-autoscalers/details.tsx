@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import { DrawerItem, DrawerTitle } from "../drawer";
 import { Badge } from "../badge";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@meniscus/utilities";
 import type { HorizontalPodAutoscalerMetricSpec, HorizontalPodAutoscalerMetricTarget } from "@meniscus/kube-object";
 import { HorizontalPodAutoscaler } from "@meniscus/kube-object";
 import { Table, TableCell, TableHead, TableRow } from "../table";

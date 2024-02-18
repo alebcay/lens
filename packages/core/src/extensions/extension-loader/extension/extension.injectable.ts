@@ -4,7 +4,7 @@
  */
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
 import { reaction, runInAction } from "mobx";
-import { disposer } from "@k8slens/utilities";
+import { disposer } from "@meniscus/utilities";
 import { extensionRegistratorInjectionToken } from "../extension-registrator-injection-token";
 import { injectableDifferencingRegistratorWith } from "../../../common/utils/registrator-helper";
 import type { LegacyLensExtension } from "@meniscus/legacy-extensions";

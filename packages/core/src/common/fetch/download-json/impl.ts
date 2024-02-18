@@ -2,7 +2,7 @@
  * Copyright (c) OpenLens Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import type { AsyncResult } from "@k8slens/utilities";
+import type { AsyncResult } from "@meniscus/utilities";
 import type { Fetch } from "../fetch.injectable";
 import type { RequestInit, Response } from "@meniscus/node-fetch";
 

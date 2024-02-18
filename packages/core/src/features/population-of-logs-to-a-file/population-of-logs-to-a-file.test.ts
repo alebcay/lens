@@ -8,7 +8,7 @@ import type { ApplicationBuilder } from "../../renderer/components/test-utils/ge
 import { getApplicationBuilder } from "../../renderer/components/test-utils/get-application-builder";
 import type winston from "winston";
 import { MESSAGE } from "triple-beam";
-import { noop } from "@k8slens/utilities";
+import { noop } from "@meniscus/utilities";
 import windowLocationInjectable from "../../common/k8s-api/window-location.injectable";
 import closeRendererLogFileInjectable from "./renderer/close-renderer-log-file.injectable";
 import createIpcFileLoggerTransportInjectable from "./main/create-ipc-file-transport.injectable";

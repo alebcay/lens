@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import nodeApiInjectable from "../../../../common/k8s-api/endpoints/node.api.injectable";
 import { Badge } from "../../badge";
 import getDetailsUrlInjectable from "../../kube-detail-params/get-details-url.injectable";
-import { stopPropagation } from "@k8slens/utilities";
+import { stopPropagation } from "@meniscus/utilities";
 import { podListLayoutColumnInjectionToken } from "@meniscus/list-layout";
 
 export const podsNodeColumnInjectable = getInjectable({

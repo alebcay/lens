@@ -5,7 +5,7 @@
 import React, { useState } from "react";
 import type { EnvVarKeySelector } from "@meniscus/kube-object";
 import { Icon } from "../icon";
-import { base64, cssNames, isObject } from "@k8slens/utilities";
+import { base64, cssNames, isObject } from "@meniscus/utilities";
 import type { SecretStore } from "../config-secrets/store";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import secretStoreInjectable from "../config-secrets/store.injectable";

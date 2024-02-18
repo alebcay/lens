@@ -4,7 +4,7 @@
  */
 
 import * as yaml from "js-yaml";
-import { iter, put, sortBySemverVersion } from "@k8slens/utilities";
+import { iter, put, sortBySemverVersion } from "@meniscus/utilities";
 import type { HelmRepo } from "../../common/helm/helm-repo";
 import type { HelmChartManagerCache } from "./helm-chart-manager-cache.injectable";
 import type { Logger } from "@meniscus/logger";

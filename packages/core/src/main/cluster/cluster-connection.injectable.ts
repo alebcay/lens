@@ -12,7 +12,7 @@ import { clusterListNamespaceForbiddenChannel } from "../../common/ipc/cluster";
 import type { Logger } from "@meniscus/logger";
 import type { KubeApiResource } from "../../common/rbac";
 import { formatKubeApiResource } from "../../common/rbac";
-import { disposer, isDefined, isRequestError, withConcurrencyLimit } from "@k8slens/utilities";
+import { disposer, isDefined, isRequestError, withConcurrencyLimit } from "@meniscus/utilities";
 import type { ClusterPrometheusHandler } from "./prometheus-handler/prometheus-handler";
 import type { BroadcastConnectionUpdate } from "./broadcast-connection-update.injectable";
 import type { KubeAuthProxyServer } from "./kube-auth-proxy-server.injectable";

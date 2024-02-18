@@ -5,7 +5,7 @@
 import { applicationInformationToken } from "@meniscus/application";
 import { getInjectable } from "@ogre-tools/injectable";
 import { bundledExtensionInjectionToken } from "@meniscus/legacy-extensions";
-import { object } from "@k8slens/utilities";
+import { object } from "@meniscus/utilities";
 import semanticBuildVersionInjectable from "../../../../../vars/common/semantic-build-version.injectable";
 
 const specificVersionsInjectable = getInjectable({

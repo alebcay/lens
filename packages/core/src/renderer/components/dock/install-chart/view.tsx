@@ -10,7 +10,7 @@ import { observer } from "mobx-react";
 import { InfoPanel } from "../info-panel";
 import { Badge } from "../../badge";
 import { NamespaceSelect } from "../../namespaces/namespace-select";
-import { prevDefault } from "@k8slens/utilities";
+import { prevDefault } from "@meniscus/utilities";
 import { Icon } from "../../icon";
 import { Button } from "@meniscus/button";
 import { LogsDialog } from "../../dialog/logs-dialog";

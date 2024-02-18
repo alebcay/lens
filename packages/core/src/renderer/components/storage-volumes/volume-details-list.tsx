@@ -9,7 +9,7 @@ import React from "react";
 import { observer } from "mobx-react";
 import type { PersistentVolume } from "@meniscus/kube-object";
 import { TableRow } from "../table/table-row";
-import { cssNames, prevDefault } from "@k8slens/utilities";
+import { cssNames, prevDefault } from "@meniscus/utilities";
 import { TableCell } from "../table/table-cell";
 import { Spinner } from "../spinner/spinner";
 import { DrawerTitle } from "../drawer/drawer-title";

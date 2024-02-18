@@ -12,7 +12,7 @@ import { Icon } from "../icon";
 import type { PieChartData } from "../chart";
 import { PieChart } from "../chart";
 import { ClusterNoMetrics } from "./cluster-no-metrics";
-import { bytesToUnits, cssNames } from "@k8slens/utilities";
+import { bytesToUnits, cssNames } from "@meniscus/utilities";
 import type { LensTheme } from "../../themes/lens-theme";
 import { getMetricLastPoints } from "../../../common/k8s-api/endpoints/metrics.api";
 import type { IAsyncComputed } from "@ogre-tools/injectable-react";

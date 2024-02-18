@@ -5,7 +5,7 @@
 
 import styles from "./install.module.scss";
 import React, { useEffect, useRef, useState } from "react";
-import { prevDefault } from "@k8slens/utilities";
+import { prevDefault } from "@meniscus/utilities";
 import { Button } from "@meniscus/button";
 import { Icon } from "../icon";
 import { observer } from "mobx-react";

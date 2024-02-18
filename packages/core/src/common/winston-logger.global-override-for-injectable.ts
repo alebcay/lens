@@ -5,7 +5,7 @@
 
 import type winston from "winston";
 import { getGlobalOverride } from "@k8slens/test-utils";
-import { noop } from "@k8slens/utilities";
+import { noop } from "@meniscus/utilities";
 import { winstonLoggerInjectable } from "@meniscus/logger";
 
 export default getGlobalOverride(winstonLoggerInjectable, () => ({

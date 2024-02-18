@@ -8,7 +8,7 @@ import "./icon.scss";
 import React, { createRef } from "react";
 import { NavLink } from "react-router-dom";
 import type { LocationDescriptor } from "history";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@meniscus/utilities";
 import { withTooltip } from "@meniscus/tooltip";
 import isNumber from "lodash/isNumber";
 import Configuration from "./configuration.svg";
@@ -36,7 +36,7 @@ import Workloads from "./workloads.svg";
 import type { Logger } from "@meniscus/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { loggerInjectionToken } from "@meniscus/logger";
-import type { StrictReactNode } from "@k8slens/utilities";
+import type { StrictReactNode } from "@meniscus/utilities";
 
 const hrefValidation = /https?:\/\//;
 

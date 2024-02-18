@@ -7,7 +7,7 @@ import "./upgrade-chart.scss";
 
 import React from "react";
 import { observer } from "mobx-react";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@meniscus/utilities";
 import type { DockTab } from "../dock/store";
 import { InfoPanel } from "../info-panel";
 import { Spinner } from "../../spinner";

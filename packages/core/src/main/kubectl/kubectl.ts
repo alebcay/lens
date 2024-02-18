@@ -17,7 +17,7 @@ import type { GetBasenameOfPath } from "../../common/path/get-basename.injectabl
 import type { NormalizedPlatform } from "../../common/vars/normalized-platform.injectable";
 import type { Logger } from "@meniscus/logger";
 import type { ExecFile } from "../../common/fs/exec-file.injectable";
-import { hasTypedProperty, isObject, isString, json } from "@k8slens/utilities";
+import { hasTypedProperty, isObject, isString, json } from "@meniscus/utilities";
 import type { Unlink } from "../../common/fs/unlink.injectable";
 import { packageMirrors, defaultPackageMirror } from "../../features/user-preferences/common/preferences-helpers";
 

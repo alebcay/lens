@@ -7,7 +7,7 @@ import type { IconProps } from "../icon";
 import type React from "react";
 import type { PageTarget } from "../../routes/page-registration";
 import type { IComputedValue } from "mobx";
-import type { StrictReactNode } from "@k8slens/utilities";
+import type { StrictReactNode } from "@meniscus/utilities";
 
 export interface ClusterPageMenuRegistration {
   id?: string;

@@ -10,7 +10,7 @@ import { observer } from "mobx-react";
 import type { Container } from "@meniscus/kube-object";
 import { DrawerItem } from "../drawer";
 import { autorun } from "mobx";
-import { object } from "@k8slens/utilities";
+import { object } from "@meniscus/utilities";
 import _ from "lodash";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import type { ConfigMapStore } from "../config-maps/store";

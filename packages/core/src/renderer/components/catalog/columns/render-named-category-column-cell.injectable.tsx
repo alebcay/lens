@@ -9,7 +9,7 @@ import activeHotbarInjectable from "../../../../features/hotbar/storage/common/a
 import { Avatar } from "../../avatar";
 import type { RegisteredAdditionalCategoryColumn } from "../custom-category-columns";
 import { Icon } from "../../icon";
-import { prevDefault } from "@k8slens/utilities";
+import { prevDefault } from "@meniscus/utilities";
 
 const renderNamedCategoryColumnCellInjectable = getInjectable({
   id: "render-named-category-column-cell",

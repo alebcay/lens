@@ -6,7 +6,7 @@
 import "./button.scss";
 import type { ButtonHTMLAttributes } from "react";
 import React from "react";
-import { cssNames, StrictReactNode } from "@k8slens/utilities";
+import { cssNames, StrictReactNode } from "@meniscus/utilities";
 import { withTooltip } from "@meniscus/tooltip";
 
 export interface ButtonProps extends ButtonHTMLAttributes<any> {

@@ -3,8 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import type { AsyncResult } from "@k8slens/utilities";
-import { isObject } from "@k8slens/utilities";
+import type { AsyncResult } from "@meniscus/utilities";
+import { isObject } from "@meniscus/utilities";
 import execHelmInjectable from "../../../exec-helm/exec-helm.injectable";
 import yaml from "js-yaml";
 import type { KubeJsonApiData, KubeJsonApiDataList } from "@meniscus/kube-object";

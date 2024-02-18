@@ -4,7 +4,7 @@
  */
 
 import { Disposers, LensExtension } from "./lens-extension";
-import type { Disposer } from "@k8slens/utilities";
+import type { Disposer } from "@meniscus/utilities";
 import type { LensExtensionDependencies } from "./lens-extension";
 import type { CatalogEntity, CategoryFilter, CatalogCategoryRegistry } from "../common/catalog";
 import type { EntityFilter, CatalogEntityRegistry } from "../renderer/api/catalog/entity/registry";

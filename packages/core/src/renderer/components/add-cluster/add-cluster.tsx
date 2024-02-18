@@ -14,7 +14,7 @@ import React from "react";
 import * as uuid from "uuid";
 import { loadConfigFromString, splitConfig } from "../../../common/kube-helpers";
 import { docsUrl } from "../../../common/vars";
-import { isDefined, iter } from "@k8slens/utilities";
+import { isDefined, iter } from "@meniscus/utilities";
 import { Button } from "@meniscus/button";
 import type { ShowNotification } from "../notifications";
 import { SettingLayout } from "../layout/setting-layout";

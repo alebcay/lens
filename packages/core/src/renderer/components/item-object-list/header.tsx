@@ -7,8 +7,8 @@ import "./item-list-layout.scss";
 
 import React from "react";
 import { observer } from "mobx-react";
-import type { IClassName, StrictReactNode } from "@k8slens/utilities";
-import { cssNames, isDefined } from "@k8slens/utilities";
+import type { IClassName, StrictReactNode } from "@meniscus/utilities";
+import { cssNames, isDefined } from "@meniscus/utilities";
 import type { ItemObject } from "@meniscus/list-layout";
 import type { Filter } from "./page-filters/store";
 import type { HeaderCustomizer, HeaderPlaceholders, ItemListStore, SearchFilter } from "./list-layout";

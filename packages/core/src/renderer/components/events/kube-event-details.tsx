@@ -9,7 +9,7 @@ import React from "react";
 import { disposeOnUnmount, observer } from "mobx-react";
 import { KubeObject } from "@meniscus/kube-object";
 import { DrawerItem, DrawerTitle } from "../drawer";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@meniscus/utilities";
 import { LocaleDate } from "../locale-date";
 import type { EventStore } from "./store";
 import type { Logger } from "@meniscus/logger";

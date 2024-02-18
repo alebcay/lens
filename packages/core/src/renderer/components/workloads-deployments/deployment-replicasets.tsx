@@ -10,7 +10,7 @@ import { observer } from "mobx-react";
 import type { ReplicaSet } from "@meniscus/kube-object";
 import { KubeObjectMenu } from "../kube-object-menu";
 import { Spinner } from "../spinner";
-import { prevDefault, stopPropagation } from "@k8slens/utilities";
+import { prevDefault, stopPropagation } from "@meniscus/utilities";
 import { DrawerTitle } from "../drawer";
 import { Table, TableCell, TableHead, TableRow } from "../table";
 import { KubeObjectStatusIcon } from "../kube-object-status-icon";

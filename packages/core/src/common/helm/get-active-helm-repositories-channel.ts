@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type { HelmRepo } from "./helm-repo";
-import type { AsyncResult } from "@k8slens/utilities";
+import type { AsyncResult } from "@meniscus/utilities";
 import { getRequestChannel } from "@meniscus/messaging";
 
 export const getActiveHelmRepositoriesChannel = getRequestChannel<

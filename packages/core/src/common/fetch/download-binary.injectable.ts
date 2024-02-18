@@ -4,7 +4,7 @@
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import type { RequestInit, Response } from "@meniscus/node-fetch";
-import type { AsyncResult } from "@k8slens/utilities";
+import type { AsyncResult } from "@meniscus/utilities";
 import fetchInjectable from "./fetch.injectable";
 
 export interface DownloadBinaryOptions {

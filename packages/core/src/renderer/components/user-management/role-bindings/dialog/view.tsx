@@ -20,7 +20,7 @@ import type { SelectOption } from "../../../select";
 import { onMultiSelectFor, Select } from "../../../select";
 import { Wizard, WizardStep } from "../../../wizard";
 import { Input } from "../../../input";
-import { ObservableHashSet, iter } from "@k8slens/utilities";
+import { ObservableHashSet, iter } from "@meniscus/utilities";
 import type { RoleBindingDialogState } from "./state.injectable";
 import type { RoleBindingStore } from "../store";
 import { withInjectables } from "@ogre-tools/injectable-react";

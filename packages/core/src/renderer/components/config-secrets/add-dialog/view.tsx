@@ -20,7 +20,7 @@ import { SubTitle } from "../../layout/sub-title";
 import { NamespaceSelect } from "../../namespaces/namespace-select";
 import { Select } from "../../select";
 import { Icon } from "../../icon";
-import { base64, iter, object } from "@k8slens/utilities";
+import { base64, iter, object } from "@meniscus/utilities";
 import upperFirst from "lodash/upperFirst";
 import type { ShowDetails } from "../../kube-detail-params/show-details.injectable";
 import { withInjectables } from "@ogre-tools/injectable-react";

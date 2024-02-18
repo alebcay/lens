@@ -4,7 +4,7 @@
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed, observable } from "mobx";
-import { delay, getOrInsert, isErrnoException } from "@k8slens/utilities";
+import { delay, getOrInsert, isErrnoException } from "@meniscus/utilities";
 import { readFile } from "fs/promises";
 import { hasCorrectExtension } from "./has-correct-extension";
 import type { RawTemplate, RawTemplates } from "./create-resource-templates.injectable";

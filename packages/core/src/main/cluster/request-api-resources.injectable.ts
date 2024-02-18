@@ -8,9 +8,9 @@ import { loggerInjectionToken } from "@meniscus/logger";
 import type { KubeApiResource } from "../../common/rbac";
 import type { Cluster } from "../../common/cluster/cluster";
 import { apiVersionsRequesterInjectionToken } from "./api-versions-requester";
-import { backoffCaller, withConcurrencyLimit } from "@k8slens/utilities";
+import { backoffCaller, withConcurrencyLimit } from "@meniscus/utilities";
 import requestKubeApiResourcesForInjectable from "./request-kube-api-resources-for.injectable";
-import type { AsyncResult } from "@k8slens/utilities";
+import type { AsyncResult } from "@meniscus/utilities";
 import broadcastConnectionUpdateInjectable from "./broadcast-connection-update.injectable";
 import { byOrderNumber } from "../../common/utils/composable-responsibilities/orderable/orderable";
 

@@ -4,7 +4,7 @@
  */
 
 import React from "react";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@meniscus/utilities";
 import type { KubeObject } from "@meniscus/kube-object";
 import type { MenuActionsProps } from "../menu";
 import { MenuItem, MenuActions } from "../menu";

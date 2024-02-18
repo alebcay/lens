@@ -2,7 +2,7 @@
  * Copyright (c) OpenLens Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { disposer, isPromiseLike } from "@k8slens/utilities";
+import { disposer, isPromiseLike } from "@meniscus/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import type { Options } from "conf/dist/source";
 import { isEqual, kebabCase } from "lodash";

@@ -8,7 +8,7 @@ import React from "react";
 import kebabCase from "lodash/kebabCase";
 import { observer } from "mobx-react";
 import { DrawerItem, DrawerTitle } from "../drawer";
-import { cpuUnitsToNumber, cssNames, unitsToBytes, metricUnitsToNumber, object, hasDefinedTupleValue } from "@k8slens/utilities";
+import { cpuUnitsToNumber, cssNames, unitsToBytes, metricUnitsToNumber, object, hasDefinedTupleValue } from "@meniscus/utilities";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 import { ResourceQuota } from "@meniscus/kube-object";
 import { LineProgress } from "../line-progress";

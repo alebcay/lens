@@ -16,7 +16,7 @@ import type { ExecFile } from "../../common/fs/exec-file.injectable";
 import type { JoinPaths } from "../../common/path/join-paths.injectable";
 import type { CreateKubectl } from "../kubectl/create-kubectl.injectable";
 import type { KubeconfigManager } from "../kubeconfig-manager/kubeconfig-manager";
-import type { AsyncResult } from "@k8slens/utilities";
+import type { AsyncResult } from "@meniscus/utilities";
 
 export interface ResourceApplierDependencies {
   emitAppEvent: EmitAppEvent;

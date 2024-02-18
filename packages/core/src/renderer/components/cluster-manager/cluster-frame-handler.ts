@@ -5,8 +5,8 @@
 
 import { action, makeObservable, observable, when } from "mobx";
 import type { ClusterId } from "../../../common/cluster-types";
-import type { Disposer } from "@k8slens/utilities";
-import { onceDefined } from "@k8slens/utilities";
+import type { Disposer } from "@meniscus/utilities";
+import { onceDefined } from "@meniscus/utilities";
 import assert from "assert";
 import type { Logger } from "@meniscus/logger";
 import { getClusterFrameUrl } from "../../../common/utils";

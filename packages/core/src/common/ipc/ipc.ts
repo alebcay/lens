@@ -9,7 +9,7 @@
 
 import { ipcMain, ipcRenderer, webContents } from "electron";
 import { toJS } from "../utils/toJS";
-import type { Disposer } from "@k8slens/utilities";
+import type { Disposer } from "@meniscus/utilities";
 import { getLegacyGlobalDiForExtensionApi } from "@meniscus/legacy-global-di";
 import ipcRendererInjectable from "../../renderer/utils/channel/ipc-renderer.injectable";
 import { loggerInjectionToken } from "@meniscus/logger";

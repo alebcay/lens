@@ -12,7 +12,7 @@ import { Tooltip, TooltipPosition } from "@meniscus/tooltip";
 import { observer } from "mobx-react";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import commandOverlayInjectable from "../command-palette/command-overlay.injectable";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@meniscus/utilities";
 import type { IComputedValue } from "mobx";
 import activeHotbarInjectable from "../../../features/hotbar/storage/common/active.injectable";
 import type { SwitchToPreviousHotbar } from "../../../features/hotbar/storage/common/switch-to-previous.injectable";

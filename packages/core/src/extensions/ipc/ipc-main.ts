@@ -6,7 +6,7 @@ import { ipcMain } from "electron";
 import { IpcPrefix, IpcRegistrar } from "./ipc-registrar";
 import { Disposers } from "../lens-extension";
 import type { LensMainExtension } from "../lens-main-extension";
-import type { Disposer } from "@k8slens/utilities";
+import type { Disposer } from "@meniscus/utilities";
 import { once } from "lodash";
 import { ipcMainHandle } from "../../common/ipc";
 import type { Logger } from "@meniscus/logger";

@@ -5,8 +5,8 @@
 
 import "./checkbox.scss";
 import React from "react";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { cssNames, noop } from "@k8slens/utilities";
+import type { StrictReactNode } from "@meniscus/utilities";
+import { cssNames, noop } from "@meniscus/utilities";
 
 export interface CheckboxProps {
   className?: string;

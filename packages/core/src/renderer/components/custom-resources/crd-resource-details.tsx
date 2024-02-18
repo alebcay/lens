@@ -7,8 +7,8 @@ import "./crd-resource-details.scss";
 
 import React from "react";
 import { observer } from "mobx-react";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { cssNames, safeJSONPathValue } from "@k8slens/utilities";
+import type { StrictReactNode } from "@meniscus/utilities";
+import { cssNames, safeJSONPathValue } from "@meniscus/utilities";
 import { Badge } from "../badge";
 import { DrawerItem } from "../drawer";
 import type { KubeObjectDetailsProps } from "../kube-object-details";

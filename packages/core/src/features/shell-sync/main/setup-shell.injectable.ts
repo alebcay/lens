@@ -9,7 +9,7 @@ import isSnapPackageInjectable from "../../../common/vars/is-snap-package.inject
 import electronAppInjectable from "../../../main/electron-app/electron-app.injectable";
 import computeShellEnvironmentInjectable from "./compute-shell-environment.injectable";
 import emitShellSyncFailedInjectable from "./emit-failure.injectable";
-import { unionPATHs } from "@k8slens/utilities";
+import { unionPATHs } from "@meniscus/utilities";
 import userShellSettingInjectable from "../../user-preferences/common/shell-setting.injectable";
 
 const setupShellInjectable = getInjectable({

@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 import { DrawerItem, DrawerTitle } from "../drawer";
 import { Badge } from "../badge";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@meniscus/utilities";
 import { ContainerScalingMode, ControlledValues, ResourceName, UpdateMode, VerticalPodAutoscaler } from "@meniscus/kube-object";
 import type { PodUpdatePolicy, PodResourcePolicy, VerticalPodAutoscalerStatus } from "@meniscus/kube-object";
 import type { ApiManager } from "../../../common/k8s-api/api-manager";

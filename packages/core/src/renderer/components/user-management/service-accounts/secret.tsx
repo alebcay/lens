@@ -9,8 +9,8 @@ import moment from "moment";
 import React from "react";
 
 import type { Secret } from "@meniscus/kube-object";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { prevDefault } from "@k8slens/utilities";
+import type { StrictReactNode } from "@meniscus/utilities";
+import { prevDefault } from "@meniscus/utilities";
 import { Icon } from "../../icon";
 
 export interface ServiceAccountsSecretProps {

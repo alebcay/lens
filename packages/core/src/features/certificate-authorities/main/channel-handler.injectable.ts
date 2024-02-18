@@ -5,7 +5,7 @@
 import { getRequestChannelListenerInjectable } from "@meniscus/messaging";
 import { casChannel } from "../common/channel";
 import { globalAgent } from "https";
-import { isString } from "@k8slens/utilities";
+import { isString } from "@meniscus/utilities";
 
 const certificateAuthoritiesChannelListenerInjectable = getRequestChannelListenerInjectable({
   id: "certificate-authorities-channel-listener",

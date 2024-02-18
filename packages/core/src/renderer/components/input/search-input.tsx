@@ -7,7 +7,7 @@ import "./search-input.scss";
 
 import React, { createRef } from "react";
 import { observer } from "mobx-react";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@meniscus/utilities";
 import { Icon } from "../icon";
 import type { InputProps } from "./input";
 import { Input } from "./input";

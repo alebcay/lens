@@ -6,7 +6,7 @@ import styles from "./subnamespace-badge.module.scss";
 
 import React from "react";
 import { Tooltip } from "@meniscus/tooltip";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@meniscus/utilities";
 
 interface SubnamespaceBadgeProps extends React.HTMLAttributes<HTMLSpanElement> {
   id: string;

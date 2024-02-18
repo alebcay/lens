@@ -5,7 +5,7 @@
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
 import type { RequestKubeResource } from "./request-kube-resource.injectable";
 import requestKubeResourceInjectable from "./request-kube-resource.injectable";
-import { waitUntilDefined } from "@k8slens/utilities";
+import { waitUntilDefined } from "@meniscus/utilities";
 import editResourceTabStoreInjectable from "../store.injectable";
 import type { EditingResource, EditResourceTabStore } from "../store";
 import { action, computed, observable, runInAction } from "mobx";

@@ -12,7 +12,7 @@ import { DrawerItem, DrawerTitle } from "../drawer";
 import { Input } from "../input";
 import { Button } from "@meniscus/button";
 import type { ShowNotification } from "../notifications";
-import { base64, toggle } from "@k8slens/utilities";
+import { base64, toggle } from "@meniscus/utilities";
 import { Icon } from "../icon";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 import { Secret } from "@meniscus/kube-object";

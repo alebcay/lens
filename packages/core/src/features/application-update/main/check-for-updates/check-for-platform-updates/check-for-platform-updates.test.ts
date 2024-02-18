@@ -12,7 +12,7 @@ import checkForPlatformUpdatesInjectable from "./check-for-platform-updates.inje
 import type { UpdateChannel, ReleaseChannel } from "../../../common/update-channels";
 import { getPromiseStatus } from "@k8slens/test-utils";
 import { loggerInjectionToken } from "@meniscus/logger";
-import { noop } from "@k8slens/utilities";
+import { noop } from "@meniscus/utilities";
 
 describe("check-for-platform-updates", () => {
   let checkForPlatformUpdates: CheckForPlatformUpdates;

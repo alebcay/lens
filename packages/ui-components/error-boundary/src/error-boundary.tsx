@@ -9,7 +9,7 @@ import type { ErrorInfo } from "react";
 import React from "react";
 import { observer } from "mobx-react";
 import { Button } from "@meniscus/button";
-import type { StrictReactNode } from "@k8slens/utilities";
+import type { StrictReactNode } from "@meniscus/utilities";
 import type { ObservableHistory } from "mobx-observable-history";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observableHistoryInjectionToken } from "@meniscus/routing";

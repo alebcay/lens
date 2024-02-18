@@ -15,7 +15,7 @@ import { Table, TableCell, TableHead, TableRow } from "../table";
 import type { Logger } from "@meniscus/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { loggerInjectionToken } from "@meniscus/logger";
-import type { StrictReactNode } from "@k8slens/utilities";
+import type { StrictReactNode } from "@meniscus/utilities";
 
 export interface PodSecurityPolicyDetailsProps extends KubeObjectDetailsProps<PodSecurityPolicy> {
 }

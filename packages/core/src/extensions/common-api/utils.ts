@@ -11,45 +11,45 @@ export { Singleton } from "../../common/utils/singleton";
 
 export {
   /**
-   * @deprecated Switch to using the `@k8slens/utilities` package
+   * @deprecated Switch to using the `@meniscus/utilities` package
    */
   prevDefault,
   /**
-   * @deprecated Switch to using the `@k8slens/utilities` package
+   * @deprecated Switch to using the `@meniscus/utilities` package
    */
   stopPropagation,
   /**
-   * @deprecated Switch to using the `@k8slens/utilities` package
+   * @deprecated Switch to using the `@meniscus/utilities` package
    */
   cssNames,
   /**
-   * @deprecated Switch to using the `@k8slens/utilities` package
+   * @deprecated Switch to using the `@meniscus/utilities` package
    */
   disposer,
-} from "@k8slens/utilities";
+} from "@meniscus/utilities";
 
 export type {
   /**
-   * @deprecated Switch to using the `@k8slens/utilities` package
+   * @deprecated Switch to using the `@meniscus/utilities` package
    */
   IClassName,
   /**
-   * @deprecated Switch to using the `@k8slens/utilities` package
+   * @deprecated Switch to using the `@meniscus/utilities` package
    */
   IgnoredClassNames,
   /**
-   * @deprecated Switch to using the `@k8slens/utilities` package
+   * @deprecated Switch to using the `@meniscus/utilities` package
    */
   Disposer,
   /**
-   * @deprecated Switch to using the `@k8slens/utilities` package
+   * @deprecated Switch to using the `@meniscus/utilities` package
    */
   Disposable,
   /**
-   * @deprecated Switch to using the `@k8slens/utilities` package
+   * @deprecated Switch to using the `@meniscus/utilities` package
    */
   ExtendableDisposer,
-} from "@k8slens/utilities";
+} from "@meniscus/utilities";
 
 export type { OpenLinkInBrowser } from "../../common/utils/open-link-in-browser.injectable";
 

@@ -10,7 +10,7 @@ import { autorun,  action, observable } from "mobx";
 import type { KubeApi } from "../kube-api";
 import type { KubeObject, ObjectReference } from "@meniscus/kube-object";
 import { parseKubeApi, createKubeApiURL } from "../kube-api-parse";
-import { getOrInsertWith, iter } from "@k8slens/utilities";
+import { getOrInsertWith, iter } from "@meniscus/utilities";
 import type { CreateCustomResourceStore } from "./create-custom-resource-store.injectable";
 
 export type RegisterableStore<Store> = Store extends KubeObjectStore<any, any, any>

@@ -4,7 +4,7 @@
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { loggerInjectionToken } from "@meniscus/logger";
-import { object } from "@k8slens/utilities";
+import { object } from "@meniscus/utilities";
 import type { LensTheme } from "./lens-theme";
 import resetThemeInjectable from "../../features/user-preferences/common/reset-theme.injectable";
 

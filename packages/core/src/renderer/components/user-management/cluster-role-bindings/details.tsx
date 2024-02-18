@@ -10,7 +10,7 @@ import { disposeOnUnmount, observer } from "mobx-react";
 import React from "react";
 
 import type { ClusterRoleBinding } from "@meniscus/kube-object";
-import { ObservableHashSet, prevDefault } from "@k8slens/utilities";
+import { ObservableHashSet, prevDefault } from "@meniscus/utilities";
 import { AddRemoveButtons } from "../../add-remove-buttons";
 import { DrawerTitle } from "../../drawer";
 import type { KubeObjectDetailsProps } from "../../kube-object-details";

@@ -6,7 +6,7 @@
 // Metrics api
 
 import moment from "moment";
-import { isDefined, object } from "@k8slens/utilities";
+import { isDefined, object } from "@meniscus/utilities";
 
 export interface MetricData {
   status: string;

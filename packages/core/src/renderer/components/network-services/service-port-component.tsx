@@ -9,7 +9,7 @@ import React from "react";
 import { disposeOnUnmount, observer } from "mobx-react";
 import type { Service, ServicePort } from "@meniscus/kube-object";
 import { action, makeObservable, observable, reaction } from "mobx";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@meniscus/utilities";
 import type { ShowNotification } from "../notifications";
 import { Button } from "@meniscus/button";
 import type { ForwardedPort, PortForwardStore } from "../../port-forward";

@@ -3,8 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getStartableStoppable } from "@meniscus/startable-stoppable";
-import type { Disposer } from "@k8slens/utilities";
-import { delay, disposer } from "@k8slens/utilities";
+import type { Disposer } from "@meniscus/utilities";
+import { delay, disposer } from "@meniscus/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { random } from "lodash";
 import { reaction, runInAction } from "mobx";

@@ -5,7 +5,7 @@
 
 import { getInjectionToken } from "@ogre-tools/injectable";
 import type { ClusterId } from "../cluster-types";
-import type { AsyncResult, Result } from "@k8slens/utilities";
+import type { AsyncResult, Result } from "@meniscus/utilities";
 import { getRequestChannel } from "@meniscus/messaging";
 
 export interface KubectlApplyAllArgs {

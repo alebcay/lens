@@ -8,7 +8,7 @@ import directoryForLensLocalStorageInjectable from "../../../../common/directory
 import removePathInjectable from "../../../../common/fs/remove.injectable";
 import joinPathsInjectable from "../../../../common/path/join-paths.injectable";
 import clusterConnectionInjectable from "../../../../main/cluster/cluster-connection.injectable";
-import { noop } from "@k8slens/utilities";
+import { noop } from "@meniscus/utilities";
 import { getRequestChannelListenerInjectable } from "@meniscus/messaging";
 import { deleteClusterChannel } from "../common/delete-channel";
 import clustersStateInjectable from "../../storage/common/state.injectable";

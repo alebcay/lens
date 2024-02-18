@@ -6,7 +6,7 @@
 import * as path from "path";
 import type { LensExtension } from "./lens-extension";
 import type { StaticThis } from "../common/utils/singleton";
-import { getOrInsertWith } from "@k8slens/utilities";
+import { getOrInsertWith } from "@meniscus/utilities";
 import { getLegacyGlobalDiForExtensionApi } from "@meniscus/legacy-global-di";
 import type { PersistentStorage, PersistentStorageParams } from "../common/persistent-storage/create.injectable";
 import createPersistentStorageInjectable from "../common/persistent-storage/create.injectable";

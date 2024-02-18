@@ -8,8 +8,8 @@ import type { GeneralEntity } from "../../../common/catalog-entities";
 import generalCategoryInjectable from "../../../common/catalog/categories/general.injectable";
 import isActiveRouteInjectable from "../../navigation/is-route-active.injectable";
 import { observableHistoryInjectionToken } from "@meniscus/routing";
-import type { Disposer } from "@k8slens/utilities";
-import { disposer } from "@k8slens/utilities";
+import type { Disposer } from "@meniscus/utilities";
+import { disposer } from "@meniscus/utilities";
 import catalogEntityRegistryInjectable from "../catalog/entity/registry.injectable";
 
 export type WatchForGeneralEntityNavigation = () => Disposer;

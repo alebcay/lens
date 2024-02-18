@@ -7,7 +7,7 @@ import countBy from "lodash/countBy";
 import { observable } from "mobx";
 import type { KubeObjectStoreDependencies, KubeObjectStoreOptions } from "../../../common/k8s-api/kube-object.store";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
-import { cpuUnitsToNumber, unitsToBytes } from "@k8slens/utilities";
+import { cpuUnitsToNumber, unitsToBytes } from "@meniscus/utilities";
 import type { Pod, PodMetrics, KubeObject, NamespaceScopedMetadata } from "@meniscus/kube-object";
 import type { PodApi, PodMetricsApi } from "../../../common/k8s-api/endpoints";
 

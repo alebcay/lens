@@ -2,8 +2,8 @@
  * Copyright (c) OpenLens Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import type { AsyncResult } from "@k8slens/utilities";
-import { isObject, json } from "@k8slens/utilities";
+import type { AsyncResult } from "@meniscus/utilities";
+import { isObject, json } from "@meniscus/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import type { HelmReleaseData } from "../../../features/helm-releases/common/channels";
 import execHelmInjectable from "../exec-helm/exec-helm.injectable";

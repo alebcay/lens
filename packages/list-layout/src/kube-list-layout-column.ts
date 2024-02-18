@@ -4,7 +4,7 @@
  */
 
 import type { KubeObject } from "@meniscus/kube-object";
-import type { StrictReactNode } from "@k8slens/utilities";
+import type { StrictReactNode } from "@meniscus/utilities";
 import type { TableSortCallback, SearchFilter, TableCellProps } from "./list-layout-column";
 
 export interface BaseKubeObjectListLayoutColumn<K extends KubeObject> {

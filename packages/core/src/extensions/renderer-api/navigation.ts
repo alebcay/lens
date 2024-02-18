@@ -14,7 +14,7 @@ import navigateInjectable from "../../renderer/navigation/navigate.injectable";
 import { asLegacyGlobalFunctionForExtensionApi } from "@meniscus/legacy-global-di";
 
 export type { PageParamInit, PageParam } from "../../renderer/navigation/page-param";
-export type { URLParams } from "@k8slens/utilities";
+export type { URLParams } from "@meniscus/utilities";
 
 export const getDetailsUrl = asLegacyGlobalFunctionForExtensionApi(getDetailsUrlInjectable);
 export const showDetails = asLegacyGlobalFunctionForExtensionApi(showDetailsInjectable);

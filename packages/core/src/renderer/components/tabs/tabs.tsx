@@ -6,8 +6,8 @@
 import "./tabs.scss";
 import type { DOMAttributes } from "react";
 import React from "react";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { cssNames } from "@k8slens/utilities";
+import type { StrictReactNode } from "@meniscus/utilities";
+import { cssNames } from "@meniscus/utilities";
 import { Icon } from "../icon";
 import autoBindReact from "auto-bind/react";
 

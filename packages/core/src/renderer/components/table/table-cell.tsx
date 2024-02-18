@@ -6,7 +6,7 @@
 import "./table-cell.scss";
 
 import React from "react";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@meniscus/utilities";
 import { Icon } from "../icon";
 import { Checkbox } from "../checkbox";
 import autoBindReact from "auto-bind/react";

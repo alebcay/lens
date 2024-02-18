@@ -6,8 +6,8 @@
 import type { IComputedValue } from "mobx";
 import { observable } from "mobx";
 import type { PodLogsQuery, Pod } from "@meniscus/kube-object";
-import { waitUntilDefined, getOrInsertWith, interval } from "@k8slens/utilities";
-import type { IntervalFn } from "@k8slens/utilities";
+import { waitUntilDefined, getOrInsertWith, interval } from "@meniscus/utilities";
+import type { IntervalFn } from "@meniscus/utilities";
 import type { TabId } from "../dock/store";
 import type { CallForLogs } from "./call-for-logs.injectable";
 import type { LogTabData } from "./tab-store";

@@ -7,7 +7,7 @@ import type { Cluster } from "../../../common/cluster/cluster";
 import { loggerInjectionToken } from "@meniscus/logger";
 import kubeconfigManagerInjectable from "../../kubeconfig-manager/kubeconfig-manager.injectable";
 import listHelmReleasesInjectable from "../list-helm-releases.injectable";
-import type { AsyncResult } from "@k8slens/utilities";
+import type { AsyncResult } from "@meniscus/utilities";
 import type { ListedHelmRelease } from "../../../features/helm-releases/common/channels";
 
 export type ListClusterHelmReleases = (cluster: Cluster, namespace?: string) => AsyncResult<ListedHelmRelease[], string>;

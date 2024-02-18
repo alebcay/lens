@@ -7,8 +7,8 @@ import styles from "./main-layout.module.scss";
 
 import React from "react";
 import { observer } from "mobx-react";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { cssNames } from "@k8slens/utilities";
+import type { StrictReactNode } from "@meniscus/utilities";
+import { cssNames } from "@meniscus/utilities";
 import { ErrorBoundary } from "@meniscus/error-boundary";
 import { ResizeDirection, ResizeGrowthDirection, ResizeSide, ResizingAnchor } from "@meniscus/resizing-anchor";
 import { withInjectables } from "@ogre-tools/injectable-react";

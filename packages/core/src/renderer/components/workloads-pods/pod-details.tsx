@@ -13,7 +13,7 @@ import { Pod } from "@meniscus/kube-object";
 import type { NodeApi, PriorityClassApi, RuntimeClassApi, ServiceAccountApi } from "../../../common/k8s-api/endpoints";
 import { DrawerItem } from "../drawer";
 import { Badge } from "../badge";
-import { cssNames, stopPropagation } from "@k8slens/utilities";
+import { cssNames, stopPropagation } from "@meniscus/utilities";
 import { PodDetailsAffinities } from "./pod-details-affinities";
 import { PodDetailsTolerations } from "./pod-details-tolerations";
 import { PodDetailsSecrets } from "./pod-details-secrets";

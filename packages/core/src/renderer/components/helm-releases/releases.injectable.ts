@@ -9,7 +9,7 @@ import releaseSecretsInjectable from "./release-secrets.injectable";
 import requestListHelmReleasesInjectable from "../../../features/helm-releases/renderer/request-list-helm-releases.injectable";
 import hostedClusterIdInjectable from "../../cluster-frame-context/hosted-cluster-id.injectable";
 import assert from "assert";
-import { iter } from "@k8slens/utilities";
+import { iter } from "@meniscus/utilities";
 import { prefixedLoggerInjectable } from "@meniscus/logger";
 import { toHelmRelease } from "./to-helm-release";
 

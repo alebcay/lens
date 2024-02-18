@@ -12,7 +12,7 @@ import asyncFn from "@async-fn/jest";
 import { getPromiseStatus } from "@k8slens/test-utils";
 import type { DiContainer } from "@ogre-tools/injectable";
 import { loggerInjectionToken } from "@meniscus/logger";
-import { noop } from "@k8slens/utilities";
+import { noop } from "@meniscus/utilities";
 
 describe("download-platform-update", () => {
   let downloadPlatformUpdate: DownloadPlatformUpdate;

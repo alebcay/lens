@@ -4,8 +4,8 @@
  */
 
 import { action, computed, makeObservable, observable, reaction } from "mobx";
-import type { Disposer } from "@k8slens/utilities";
-import { waitUntilDefined, includes, rejectPromiseBy, object } from "@k8slens/utilities";
+import type { Disposer } from "@meniscus/utilities";
+import { waitUntilDefined, includes, rejectPromiseBy, object } from "@meniscus/utilities";
 import type { KubeJsonApiDataFor, KubeObject } from "@meniscus/kube-object";
 import { KubeStatus } from "@meniscus/kube-object";
 import type { IKubeWatchEvent } from "./kube-watch-event";

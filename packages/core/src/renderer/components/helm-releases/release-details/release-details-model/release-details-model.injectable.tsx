@@ -32,7 +32,7 @@ import activeThemeInjectable from "../../../../themes/active.injectable";
 import hostedClusterIdInjectable from "../../../../cluster-frame-context/hosted-cluster-id.injectable";
 import helmChartRepoInjectable from "../../helm-chart-repo.injectable";
 import type { IAsyncComputed } from "@ogre-tools/injectable-react";
-import { waitUntilDefined } from "@k8slens/utilities";
+import { waitUntilDefined } from "@meniscus/utilities";
 
 const releaseDetailsModelInjectable = getInjectable({
   id: "release-details-model",

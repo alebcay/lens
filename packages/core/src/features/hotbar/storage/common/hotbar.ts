@@ -12,7 +12,7 @@ import { broadcastMessage } from "../../../../common/ipc";
 import { hotbarTooManyItemsChannel } from "../../../../common/ipc/hotbar";
 import * as uuid from "uuid";
 import type { Logger } from "@meniscus/logger";
-import { tuple } from "@k8slens/utilities";
+import { tuple } from "@meniscus/utilities";
 
 export interface HotbarDependencies {
   readonly logger: Logger;

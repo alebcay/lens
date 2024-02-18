@@ -3,8 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { comparer, reaction } from "mobx";
-import type { Disposer } from "@k8slens/utilities";
-import { disposer, getOrInsert, noop, WrappedAbortController } from "@k8slens/utilities";
+import type { Disposer } from "@meniscus/utilities";
+import { disposer, getOrInsert, noop, WrappedAbortController } from "@meniscus/utilities";
 import { once } from "lodash";
 import type { Logger } from "@meniscus/logger";
 import type { KubeObjectStoreLoadAllParams, KubeObjectStoreSubscribeParams } from "../../common/k8s-api/kube-object.store";

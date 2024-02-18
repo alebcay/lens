@@ -13,8 +13,8 @@ import { EventEmitter } from "@meniscus/event-emitter";
 import type { Logger } from "@meniscus/logger";
 import type Fetch from "@meniscus/node-fetch";
 import type { RequestInit, Response } from "@meniscus/node-fetch";
-import type { Defaulted } from "@k8slens/utilities";
-import { isObject, isString, json } from "@k8slens/utilities";
+import type { Defaulted } from "@meniscus/utilities";
+import { isObject, isString, json } from "@meniscus/utilities";
 
 export interface JsonApiData {}
 

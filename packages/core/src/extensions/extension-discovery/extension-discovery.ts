@@ -8,7 +8,7 @@ import { EventEmitter } from "events";
 import { makeObservable, observable, reaction, when } from "mobx";
 import { broadcastMessage, ipcMainHandle, ipcRendererOn } from "../../common/ipc";
 import { toJS } from "../../common/utils";
-import { isErrnoException } from "@k8slens/utilities";
+import { isErrnoException } from "@meniscus/utilities";
 import type { ExtensionLoader } from "../extension-loader";
 import type { InstalledExtension, LensExtensionId, LensExtensionManifest, ExternalInstalledExtension } from "@meniscus/legacy-extensions";
 import type { ExtensionInstallationStateStore } from "../extension-installation-state-store/extension-installation-state-store";

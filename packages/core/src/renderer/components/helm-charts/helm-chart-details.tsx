@@ -9,7 +9,7 @@ import React, { Component } from "react";
 import type { HelmChart } from "../../../common/k8s-api/endpoints/helm-charts.api";
 import { observer } from "mobx-react";
 import { Drawer, DrawerItem } from "../drawer";
-import { stopPropagation } from "@k8slens/utilities";
+import { stopPropagation } from "@meniscus/utilities";
 import { MarkdownViewer } from "../markdown-viewer";
 import { Spinner } from "../spinner";
 import { Button } from "@meniscus/button";

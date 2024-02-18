@@ -7,8 +7,8 @@ import "./tab-layout.scss";
 
 import React from "react";
 import { observer } from "mobx-react";
-import type { StrictReactNode } from "@k8slens/utilities";
-import { cssNames } from "@k8slens/utilities";
+import type { StrictReactNode } from "@meniscus/utilities";
+import { cssNames } from "@meniscus/utilities";
 import { Tab, Tabs } from "../tabs";
 import { ErrorBoundary } from "@meniscus/error-boundary";
 import type { HierarchicalSidebarItem } from "./sidebar-items.injectable";

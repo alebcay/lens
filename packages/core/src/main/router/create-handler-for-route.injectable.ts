@@ -5,7 +5,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import type { ServerResponse } from "http";
 import { loggerInjectionToken } from "@meniscus/logger";
-import { object } from "@k8slens/utilities";
+import { object } from "@meniscus/utilities";
 import type { LensApiRequest, Route } from "./route";
 import { contentTypes } from "./router-content-types";
 

@@ -18,7 +18,7 @@ import { Icon } from "../../../icon";
 import { SubTitle } from "../../../layout/sub-title";
 import { onMultiSelectFor, Select } from "../../../select";
 import { Wizard, WizardStep } from "../../../wizard";
-import { ObservableHashSet, iter } from "@k8slens/utilities";
+import { ObservableHashSet, iter } from "@meniscus/utilities";
 import { Input } from "../../../input";
 import { TooltipPosition } from "@meniscus/tooltip";
 import type { ClusterRoleBindingDialogState } from "./state.injectable";

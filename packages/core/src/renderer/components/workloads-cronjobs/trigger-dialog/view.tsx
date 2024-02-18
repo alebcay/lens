@@ -14,7 +14,7 @@ import { Dialog } from "../../dialog";
 import { Wizard, WizardStep } from "../../wizard";
 import type { CronJob } from "@meniscus/kube-object";
 import type { ShowNotification } from "../../notifications";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@meniscus/utilities";
 import { Input } from "../../input";
 import { systemName, maxLength } from "../../input/input_validators";
 import { withInjectables } from "@ogre-tools/injectable-react";

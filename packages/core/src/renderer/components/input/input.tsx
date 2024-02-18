@@ -7,8 +7,8 @@ import "./input.scss";
 
 import type { DOMAttributes, InputHTMLAttributes, TextareaHTMLAttributes } from "react";
 import React from "react";
-import type { StrictReactNode, SingleOrMany } from "@k8slens/utilities";
-import { debouncePromise, isPromiseSettledFulfilled, cssNames } from "@k8slens/utilities";
+import type { StrictReactNode, SingleOrMany } from "@meniscus/utilities";
+import { debouncePromise, isPromiseSettledFulfilled, cssNames } from "@meniscus/utilities";
 import { Icon } from "../icon";
 import type { TooltipProps } from "@meniscus/tooltip";
 import { Tooltip } from "@meniscus/tooltip";

@@ -5,8 +5,8 @@
 
 import "./drop-file-input.scss";
 import React from "react";
-import type { IClassName } from "@k8slens/utilities";
-import { cssNames } from "@k8slens/utilities";
+import type { IClassName } from "@meniscus/utilities";
+import { cssNames } from "@meniscus/utilities";
 import { observable, makeObservable } from "mobx";
 import { observer } from "mobx-react";
 import type { Logger } from "@meniscus/logger";

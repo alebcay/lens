@@ -5,7 +5,7 @@
 import { getDiForUnitTesting } from "../../../../../getDiForUnitTesting";
 import type { ExecFileWithInput } from "./exec-file-with-input.injectable";
 import execFileWithInputInjectable from "./exec-file-with-input.injectable";
-import type { AsyncResult } from "@k8slens/utilities";
+import type { AsyncResult } from "@meniscus/utilities";
 import nonPromiseExecFileInjectable from "./non-promise-exec-file.injectable";
 import { getPromiseStatus } from "@k8slens/test-utils";
 import EventEmitter from "events";

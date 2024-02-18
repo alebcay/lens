@@ -6,7 +6,7 @@
 import { action, makeObservable, observable, reaction } from "mobx";
 import { ItemStore } from "../../../common/item.store";
 import type { StorageLayer } from "../../utils/storage-helper";
-import { disposer } from "@k8slens/utilities";
+import { disposer } from "@meniscus/utilities";
 import type { ForwardedPort } from "../port-forward-item";
 import { PortForwardItem } from "../port-forward-item";
 import { waitUntilFree } from "tcp-port-used";

@@ -5,7 +5,7 @@
 
 import styles from "./icon.module.css";
 
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@meniscus/utilities";
 import React, { useState } from "react";
 
 export interface HelmChartIconProps {

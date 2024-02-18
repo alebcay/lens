@@ -2,7 +2,7 @@
  * Copyright (c) OpenLens Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { stopPropagation } from "@k8slens/utilities";
+import { stopPropagation } from "@meniscus/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import React from "react";
 import { Link } from "react-router-dom";

@@ -5,7 +5,7 @@
 import type { InjectionToken } from "@ogre-tools/injectable";
 import { lifecycleEnum, getInjectable } from "@ogre-tools/injectable";
 import { loggerInjectionToken } from "@meniscus/logger";
-import { getOrInsert, iter, object } from "@k8slens/utilities";
+import { getOrInsert, iter, object } from "@meniscus/utilities";
 
 export type AllowedSetValue<T> = T extends (...args: any[]) => any
   ? never

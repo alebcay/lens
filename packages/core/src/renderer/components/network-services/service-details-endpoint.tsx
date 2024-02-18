@@ -6,7 +6,7 @@
 import { observer } from "mobx-react";
 import React from "react";
 import { Table, TableHead, TableCell, TableRow } from "../table";
-import { prevDefault } from "@k8slens/utilities";
+import { prevDefault } from "@meniscus/utilities";
 import type { Logger } from "@meniscus/logger";
 import { Endpoints } from "@meniscus/kube-object";
 import type { ShowDetails } from "../kube-detail-params/show-details.injectable";

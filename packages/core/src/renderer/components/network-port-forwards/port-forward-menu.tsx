@@ -4,7 +4,7 @@
  */
 
 import React from "react";
-import { cssNames } from "@k8slens/utilities";
+import { cssNames } from "@meniscus/utilities";
 import type { PortForwardItem, PortForwardStore } from "../../port-forward";
 import type { MenuActionsProps } from "../menu/menu-actions";
 import { MenuActions } from "../menu/menu-actions";

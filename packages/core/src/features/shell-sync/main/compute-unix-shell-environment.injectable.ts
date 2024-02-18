@@ -10,8 +10,8 @@ import randomUUIDInjectable from "../../../main/crypto/random-uuid.injectable";
 import { loggerInjectionToken } from "@meniscus/logger";
 import processExecPathInjectable from "./execPath.injectable";
 import processEnvInjectable from "./env.injectable";
-import { object } from "@k8slens/utilities";
-import type { AsyncResult } from "@k8slens/utilities";
+import { object } from "@meniscus/utilities";
+import type { AsyncResult } from "@meniscus/utilities";
 
 export interface UnixShellEnvOptions {
   signal: AbortSignal;

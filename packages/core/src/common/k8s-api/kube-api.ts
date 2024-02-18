@@ -13,8 +13,8 @@ import { isJsonApiData, isJsonApiDataList, isPartialJsonApiData, KubeStatus, isK
 import byline from "byline";
 import type { IKubeWatchEvent } from "./kube-watch-event";
 import type { KubeJsonApi } from "./kube-json-api";
-import type { Disposer } from "@k8slens/utilities";
-import { isDefined, noop, WrappedAbortController } from "@k8slens/utilities";
+import type { Disposer } from "@meniscus/utilities";
+import { isDefined, noop, WrappedAbortController } from "@meniscus/utilities";
 import type { RequestInit, Response } from "@meniscus/node-fetch";
 import type { Patch } from "rfc6902";
 import assert from "assert";

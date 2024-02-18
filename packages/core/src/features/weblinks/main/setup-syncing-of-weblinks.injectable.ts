@@ -8,7 +8,7 @@ import weblinkVerificationStartableStoppableInjectable from "./weblink-verificat
 import catalogEntityRegistryInjectable from "../../../main/catalog/entity-registry.injectable";
 import weblinkVerificationsInjectable from "./weblink-verifications.injectable";
 import { computed } from "mobx";
-import { iter } from "@k8slens/utilities";
+import { iter } from "@meniscus/utilities";
 
 const setupSyncingOfWeblinksInjectable = getInjectable({
   id: "setup-syncing-of-weblinks",
