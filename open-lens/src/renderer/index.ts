@@ -22,7 +22,7 @@ import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { registerInjectableReact } from "@ogre-tools/injectable-react";
 import { messagingFeatureForRenderer } from "@meniscus/messaging-for-renderer";
 import { keyboardShortcutsFeature } from "@meniscus/keyboard-shortcuts";
-import { reactApplicationFeature } from "@k8slens/react-application";
+import { reactApplicationFeature } from "@meniscus/react-application";
 import { routingFeature } from "@k8slens/routing";
 import { loggerFeature } from "@meniscus/logger";
 

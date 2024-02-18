@@ -1,13 +1,13 @@
-# @k8slens/react-application
+# @meniscus/react-application
 
 # Usage
 
 ```bash
-$ npm install @k8slens/react-application
+$ npm install @meniscus/react-application
 ```
 
 ```typescript
-import { reactApplicationFeature } from "@k8slens/react-application";
+import { reactApplicationFeature } from "@meniscus/react-application";
 import { registerFeature } from "@meniscus/feature-core";
 import { createContainer } from "@ogre-tools/injectable";
 

@@ -224,7 +224,7 @@
     "@meniscus/messaging-for-renderer": "^1.0.0-alpha.1",
     "@meniscus/metrics": "^6.5.0-alpha.7",
     "@meniscus/node-fetch": "^6.5.0-alpha.3",
-    "@k8slens/react-application": "^1.0.0-alpha.5",
+    "@meniscus/react-application": "^1.0.0-alpha.5",
     "@k8slens/resizing-anchor": "^1.0.0-alpha.5",
     "@k8slens/resource-templates": "^1.0.0-alpha.1",
     "@k8slens/routing": "^1.0.0-alpha.5",
