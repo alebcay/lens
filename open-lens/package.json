@@ -208,7 +208,7 @@
     "@meniscus/resource-templates": "^1.0.0",
     "@meniscus/routing": "^1.0.0",
     "@meniscus/run-many": "^1.0.0",
-    "@k8slens/startable-stoppable": "^1.0.0",
+    "@meniscus/startable-stoppable": "^1.0.0",
     "@k8slens/tooltip": "^1.0.0",
     "@k8slens/utilities": "^1.0.0",
     "@kubernetes/client-node": "^0.18.1",

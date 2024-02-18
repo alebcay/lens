@@ -2,7 +2,7 @@
  * Copyright (c) OpenLens Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { getStartableStoppable } from "@k8slens/startable-stoppable";
+import { getStartableStoppable } from "@meniscus/startable-stoppable";
 import type { Disposer } from "@k8slens/utilities";
 import { delay, disposer } from "@k8slens/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
