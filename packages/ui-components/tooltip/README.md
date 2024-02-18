@@ -1,19 +1,19 @@
-# @k8slens/tooltip
+# @meniscus/tooltip
 
 This package contains stuff related to creating Lens-applications. 
 
 # Usage
 
 ```bash
-$ npm install @k8slens/tooltip
+$ npm install @meniscus/tooltip
 ```
 
 ```typescript
-import { Tooltip, TooltipPosition } from "@k8slens/tooltip";
-import { withTooltip } from "@k8slens/tooltip";
+import { Tooltip, TooltipPosition } from "@meniscus/tooltip";
+import { withTooltip } from "@meniscus/tooltip";
 
-import type { TooltipProps } from "@k8slens/tooltip";
-import type { TooltipDecoratorProps } from "@k8slens/tooltip";
+import type { TooltipProps } from "@meniscus/tooltip";
+import type { TooltipDecoratorProps } from "@meniscus/tooltip";
 
 ```
 

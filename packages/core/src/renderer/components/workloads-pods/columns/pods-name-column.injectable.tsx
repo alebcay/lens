@@ -6,7 +6,7 @@ import { getConvertedParts } from "@k8slens/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import React from "react";
 import type { Pod } from "@meniscus/kube-object";
-import { Tooltip } from "@k8slens/tooltip";
+import { Tooltip } from "@meniscus/tooltip";
 import { podListLayoutColumnInjectionToken } from "@meniscus/list-layout";
 
 const columnId = "name";

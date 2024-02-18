@@ -16,7 +16,7 @@ import { KubeObjectListLayout } from "../kube-object-list-layout";
 import type { KubeEvent, KubeEventData } from "@meniscus/kube-object";
 import type { TableSortParams, TableSortCallbacks } from "../table";
 import type { HeaderCustomizer } from "../item-object-list";
-import { Tooltip } from "@k8slens/tooltip";
+import { Tooltip } from "@meniscus/tooltip";
 import { Link } from "react-router-dom";
 import type { IClassName } from "@k8slens/utilities";
 import { cssNames, stopPropagation } from "@k8slens/utilities";

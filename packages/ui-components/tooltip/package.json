@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/tooltip",
+  "name": "@meniscus/tooltip",
   "private": false,
   "version": "1.0.0",
   "description": "Highly extendable tooltip in the Lens.",

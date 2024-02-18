@@ -15,7 +15,7 @@ import { Icon } from "../icon";
 import type { MenuProps } from "./menu";
 import { Menu, MenuItem } from "./menu";
 import isString from "lodash/isString";
-import type { TooltipDecoratorProps } from "@k8slens/tooltip";
+import type { TooltipDecoratorProps } from "@meniscus/tooltip";
 import type { OpenConfirmDialog } from "../confirm-dialog/open.injectable";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import openConfirmDialogInjectable from "../confirm-dialog/open.injectable";

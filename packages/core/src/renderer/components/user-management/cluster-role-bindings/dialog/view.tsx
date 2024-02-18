@@ -20,7 +20,7 @@ import { onMultiSelectFor, Select } from "../../../select";
 import { Wizard, WizardStep } from "../../../wizard";
 import { ObservableHashSet, iter } from "@k8slens/utilities";
 import { Input } from "../../../input";
-import { TooltipPosition } from "@k8slens/tooltip";
+import { TooltipPosition } from "@meniscus/tooltip";
 import type { ClusterRoleBindingDialogState } from "./state.injectable";
 import type { ClusterRoleStore } from "../../cluster-roles/store";
 import type { ServiceAccountStore } from "../../service-accounts/store";

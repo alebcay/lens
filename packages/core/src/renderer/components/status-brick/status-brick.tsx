@@ -8,7 +8,7 @@ import "./status-brick.scss";
 import React from "react";
 import type { StrictReactNode } from "@k8slens/utilities";
 import { cssNames } from "@k8slens/utilities";
-import { withTooltip } from "@k8slens/tooltip";
+import { withTooltip } from "@meniscus/tooltip";
 
 export interface StatusBrickProps extends React.HTMLAttributes<HTMLDivElement> {
   children?: StrictReactNode;
