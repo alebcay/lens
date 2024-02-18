@@ -1,15 +1,15 @@
-# @k8slens/keyboard-shortcuts
+# @meniscus/keyboard-shortcuts
 
 This Feature enables keyboard shortcuts in Lens
 
 # Usage
 
 ```bash
-$ npm install @k8slens/keyboard-shortcuts
+$ npm install @meniscus/keyboard-shortcuts
 ```
 
 ```typescript
-import { keyboardShortcutsFeature } from "@k8slens/keyboard-shortcuts";
+import { keyboardShortcutsFeature } from "@meniscus/keyboard-shortcuts";
 import { registerFeature } from "@meniscus/feature-core";
 import { createContainer } from "@ogre-tools/injectable";
 

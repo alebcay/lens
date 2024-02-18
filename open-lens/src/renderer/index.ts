@@ -21,7 +21,7 @@ import { createContainer } from "@ogre-tools/injectable";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { registerInjectableReact } from "@ogre-tools/injectable-react";
 import { messagingFeatureForRenderer } from "@k8slens/messaging-for-renderer";
-import { keyboardShortcutsFeature } from "@k8slens/keyboard-shortcuts";
+import { keyboardShortcutsFeature } from "@meniscus/keyboard-shortcuts";
 import { reactApplicationFeature } from "@k8slens/react-application";
 import { routingFeature } from "@k8slens/routing";
 import { loggerFeature } from "@k8slens/logger";
