@@ -9,7 +9,7 @@ import { runInAction } from "mobx";
 import { observer } from "mobx-react";
 import React from "react";
 
-import { Button } from "@k8slens/button";
+import { Button } from "@meniscus/button";
 import type { ShowNotification } from "../notifications";
 import { Dialog } from "../dialog";
 import { Icon } from "../icon";

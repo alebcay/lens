@@ -10,7 +10,7 @@ import { computed, observable, reaction, makeObservable } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";
 import type { StrictReactNode } from "@k8slens/utilities";
 import { cssNames } from "@k8slens/utilities";
-import { Button } from "@k8slens/button";
+import { Button } from "@meniscus/button";
 import { Icon } from "../icon";
 import { Spinner } from "../spinner";
 import type { DockStore, TabId } from "./dock/store";

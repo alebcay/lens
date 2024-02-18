@@ -7,7 +7,7 @@ import "./wizard.scss";
 import React from "react";
 import type { StrictReactNode } from "@k8slens/utilities";
 import { cssNames, prevDefault } from "@k8slens/utilities";
-import { Button } from "@k8slens/button";
+import { Button } from "@meniscus/button";
 import { Stepper } from "../stepper";
 import { SubTitle } from "../layout/sub-title";
 import { Spinner } from "../spinner";

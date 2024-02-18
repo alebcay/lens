@@ -9,7 +9,7 @@ import type { IObservableValue } from "mobx";
 import { observer } from "mobx-react";
 import type { StrictReactNode } from "@k8slens/utilities";
 import { cssNames } from "@k8slens/utilities";
-import { Button } from "@k8slens/button";
+import { Button } from "@meniscus/button";
 import type { DialogProps } from "../dialog";
 import { Dialog } from "../dialog";
 import { Icon } from "../icon";

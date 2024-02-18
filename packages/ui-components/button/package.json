@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/button",
+  "name": "@meniscus/button",
   "private": false,
   "version": "1.0.0",
   "description": "Highly extendable button in the Lens.",

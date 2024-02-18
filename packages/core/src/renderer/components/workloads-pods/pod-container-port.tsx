@@ -11,7 +11,7 @@ import type { ContainerPort, Pod } from "@k8slens/kube-object";
 import { action, makeObservable, observable, reaction } from "mobx";
 import { cssNames } from "@k8slens/utilities";
 import type { ShowNotification } from "../notifications";
-import { Button } from "@k8slens/button";
+import { Button } from "@meniscus/button";
 import type { ForwardedPort, PortForwardStore } from "../../port-forward";
 import { predictProtocol } from "../../port-forward";
 import { Spinner } from "../spinner";

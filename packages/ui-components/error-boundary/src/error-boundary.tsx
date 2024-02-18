@@ -8,7 +8,7 @@ import "./error-boundary.scss";
 import type { ErrorInfo } from "react";
 import React from "react";
 import { observer } from "mobx-react";
-import { Button } from "@k8slens/button";
+import { Button } from "@meniscus/button";
 import type { StrictReactNode } from "@k8slens/utilities";
 import type { ObservableHistory } from "mobx-observable-history";
 import { withInjectables } from "@ogre-tools/injectable-react";

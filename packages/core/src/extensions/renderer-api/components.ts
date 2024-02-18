@@ -34,7 +34,7 @@ export * from "../../renderer/components/layout/wizard-layout";
 export * from "../../renderer/components/layout/tab-layout";
 
 // form-controls
-export * from "@k8slens/button";
+export * from "@meniscus/button";
 export * from "../../renderer/components/checkbox";
 export * from "../../renderer/components/radio";
 export * from "../../renderer/components/select";
