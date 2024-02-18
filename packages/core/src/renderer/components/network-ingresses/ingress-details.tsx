@@ -12,9 +12,9 @@ import type { ILoadBalancerIngress } from "@meniscus/kube-object";
 import { Ingress, computeRuleDeclarations } from "@meniscus/kube-object";
 import { Table, TableCell, TableHead, TableRow } from "../table";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@meniscus/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 
 export interface IngressDetailsProps extends KubeObjectDetailsProps<Ingress> {
 }

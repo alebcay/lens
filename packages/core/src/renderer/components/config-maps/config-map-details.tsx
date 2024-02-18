@@ -13,13 +13,13 @@ import type { ShowNotification } from "../notifications";
 import { Button } from "@meniscus/button";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 import { ConfigMap } from "@meniscus/kube-object";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@meniscus/logger";
 import type { ConfigMapStore } from "./store";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import configMapStoreInjectable from "./store.injectable";
 import showSuccessNotificationInjectable from "../notifications/show-success-notification.injectable";
 import showErrorNotificationInjectable from "../notifications/show-error-notification.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import { MonacoEditor } from "../monaco-editor";
 
 export interface ConfigMapDetailsProps extends KubeObjectDetailsProps<ConfigMap> {

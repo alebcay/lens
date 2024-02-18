@@ -4,7 +4,7 @@
  */
 import { beforeApplicationIsLoadingInjectionToken } from "@meniscus/application";
 import { getInjectable } from "@ogre-tools/injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import appNameInjectable from "../../common/vars/app-name.injectable";
 import { buildVersionInitializable } from "../../features/vars/build-version/common/token";
 import { buildVersionInitializationInjectable } from "../../features/vars/build-version/main/init.injectable";

@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import showCheckedErrorNotificationInjectable from "../notifications/show-checked-error.injectable";
 import kubeconfigDialogStateInjectable from "./state.injectable";
 import type { StrictReactNode } from "@k8slens/utilities";

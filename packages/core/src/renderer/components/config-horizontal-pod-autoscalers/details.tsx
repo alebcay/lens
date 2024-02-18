@@ -16,12 +16,12 @@ import type { HorizontalPodAutoscalerMetricSpec, HorizontalPodAutoscalerMetricTa
 import { HorizontalPodAutoscaler } from "@meniscus/kube-object";
 import { Table, TableCell, TableHead, TableRow } from "../table";
 import type { ApiManager } from "../../../common/k8s-api/api-manager";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@meniscus/logger";
 import type { GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import apiManagerInjectable from "../../../common/k8s-api/api-manager/manager.injectable";
 import getDetailsUrlInjectable from "../kube-detail-params/get-details-url.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import getHorizontalPodAutoscalerMetrics from "./get-metrics.injectable";
 import { getMetricName } from "./get-metric-name";
 

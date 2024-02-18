@@ -8,7 +8,7 @@ import { storesAndApisCanBeCreatedInjectionToken } from "../stores-apis-can-be-c
 import { CustomResourceDefinitionApi } from "./custom-resource-definition.api";
 import { kubeApiInjectionToken } from "../kube-api/kube-api-injection-token";
 import maybeKubeApiInjectable from "../maybe-kube-api.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 
 const customResourceDefinitionApiInjectable = getInjectable({
   id: "custom-resource-definition-api",

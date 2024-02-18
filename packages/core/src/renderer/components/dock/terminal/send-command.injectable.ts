@@ -4,7 +4,7 @@
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { when } from "mobx";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import { TerminalChannels } from "../../../../common/terminal/channels";
 import { waitUntilDefined, noop } from "@k8slens/utilities";
 import showSuccessNotificationInjectable from "../../notifications/show-success-notification.injectable";

@@ -10,7 +10,7 @@ import { stringify } from "querystring";
 import type { Patch } from "rfc6902";
 import type { PartialDeep, ValueOf } from "type-fest";
 import { EventEmitter } from "@meniscus/event-emitter";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@meniscus/logger";
 import type Fetch from "@k8slens/node-fetch";
 import type { RequestInit, Response } from "@k8slens/node-fetch";
 import type { Defaulted } from "@k8slens/utilities";

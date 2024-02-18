@@ -10,7 +10,7 @@ import assert from "assert";
 import storesAndApisCanBeCreatedInjectable from "../../stores-apis-can-be-created.injectable";
 import clusterFrameContextForClusterScopedResourcesInjectable from "../../cluster-frame-context/for-cluster-scoped-resources.injectable";
 import clusterConfiguredAccessibleNamespacesInjectable from "../../cluster/accessible-namespaces.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import selectedNamespacesStorageInjectable from "../../../features/namespace-filtering/renderer/storage.injectable";
 
 const namespaceStoreInjectable = getInjectable({

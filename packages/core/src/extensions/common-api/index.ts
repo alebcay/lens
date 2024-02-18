@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import { asLegacyGlobalForExtensionApi } from "@meniscus/legacy-global-di";
 
 // APIs
@@ -15,7 +15,7 @@ export * as Catalog from "./catalog";
 export * as Types from "./types";
 export * as Proxy from "./proxy";
 
-export type { Logger } from "@k8slens/logger";
+export type { Logger } from "@meniscus/logger";
 export type { LensExtension } from "../lens-extension";
 export type { PackageJson } from "type-fest";
 export type { LensExtensionManifest, InstalledExtension } from "@meniscus/legacy-extensions";

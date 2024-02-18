@@ -39,7 +39,7 @@ import type { InstalledExtension } from "./common-api";
 import { getEnvironmentSpecificLegacyGlobalDiForExtensionApi } from "@meniscus/legacy-global-di";
 import catalogCategoryRegistryInjectable from "../common/catalog/category-registry.injectable";
 import catalogEntityRegistryInjectable from "../renderer/api/catalog/entity/registry.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import getExtensionPageParametersInjectable from "../renderer/routes/get-extension-page-parameters.injectable";
 import navigateToRouteInjectable from "../renderer/routes/navigate-to-route.injectable";
 import routesInjectable from "../renderer/routes/routes.injectable";

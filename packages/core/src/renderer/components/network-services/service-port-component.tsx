@@ -18,12 +18,12 @@ import { Spinner } from "../spinner";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import portForwardStoreInjectable from "../../port-forward/port-forward-store/port-forward-store.injectable";
 import portForwardDialogModelInjectable from "../../port-forward/port-forward-dialog-model/port-forward-dialog-model.injectable";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@meniscus/logger";
 import aboutPortForwardingInjectable from "../../port-forward/about-port-forwarding.injectable";
 import notifyErrorPortForwardingInjectable from "../../port-forward/notify-error-port-forwarding.injectable";
 import type { OpenPortForward } from "../../port-forward/open-port-forward.injectable";
 import openPortForwardInjectable from "../../port-forward/open-port-forward.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import showErrorNotificationInjectable from "../notifications/show-error-notification.injectable";
 
 export interface ServicePortComponentProps {

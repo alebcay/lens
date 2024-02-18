@@ -9,7 +9,7 @@ import type { CustomResourceDefinition } from "@meniscus/kube-object";
 import { KubeApi } from "../../../common/k8s-api/kube-api";
 import { KubeObject } from "@meniscus/kube-object";
 import maybeKubeApiInjectable from "../../../common/k8s-api/maybe-kube-api.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import { injectableDifferencingRegistratorWith } from "../../../common/utils/registrator-helper";
 import customResourceDefinitionStoreInjectable from "../../components/custom-resources/definition.store.injectable";
 import { beforeClusterFrameStartsSecondInjectionToken } from "../tokens";

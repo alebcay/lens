@@ -8,7 +8,7 @@ import { storesAndApisCanBeCreatedInjectionToken } from "../stores-apis-can-be-c
 import { ComponentStatusApi } from "./component-status.api";
 import { kubeApiInjectionToken } from "../kube-api/kube-api-injection-token";
 import maybeKubeApiInjectable from "../maybe-kube-api.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 
 const componentStatusApiInjectable = getInjectable({
   id: "component-status-api",

@@ -15,9 +15,9 @@ import type { KubeObjectDetailsProps } from "../kube-object-details";
 import { Input } from "../input";
 import type { AdditionalPrinterColumnsV1, KubeObjectMetadata, KubeObjectStatus } from "@meniscus/kube-object";
 import { CustomResourceDefinition, KubeObject } from "@meniscus/kube-object";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@meniscus/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 
 export interface CustomResourceDetailsProps extends KubeObjectDetailsProps<KubeObject> {
   crd?: CustomResourceDefinition;

@@ -4,7 +4,7 @@
  */
 
 import { getInjectable } from "@ogre-tools/injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import type { KubeApiResource } from "../../common/rbac";
 import type { Cluster } from "../../common/cluster/cluster";
 import { apiVersionsRequesterInjectionToken } from "./api-versions-requester";

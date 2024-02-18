@@ -8,7 +8,7 @@ import type { ReadYamlFile } from "../../../../common/fs/read-yaml-file.injectab
 import readYamlFileInjectable from "../../../../common/fs/read-yaml-file.injectable";
 import getHelmEnvInjectable from "../../get-helm-env/get-helm-env.injectable";
 import execHelmInjectable from "../../exec-helm/exec-helm.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import type { AsyncResult } from "@k8slens/utilities";
 
 interface HelmRepositoryFromYaml {

@@ -18,13 +18,13 @@ import { Checkbox } from "../components/checkbox";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import type { PortForwardDialogData, PortForwardDialogModel } from "./port-forward-dialog-model/port-forward-dialog-model";
 import portForwardDialogModelInjectable from "./port-forward-dialog-model/port-forward-dialog-model.injectable";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@meniscus/logger";
 import portForwardStoreInjectable from "./port-forward-store/port-forward-store.injectable";
 import aboutPortForwardingInjectable from "./about-port-forwarding.injectable";
 import notifyErrorPortForwardingInjectable from "./notify-error-port-forwarding.injectable";
 import type { OpenPortForward } from "./open-port-forward.injectable";
 import openPortForwardInjectable from "./open-port-forward.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 
 export interface PortForwardDialogProps extends Partial<DialogProps> {}
 

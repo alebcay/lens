@@ -15,9 +15,9 @@ import type { KubeObjectDetailsProps } from "../kube-object-details";
 import { Table, TableCell, TableHead, TableRow } from "../table";
 import { Input } from "../input";
 import { MonacoEditor } from "../monaco-editor";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@meniscus/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 
 export interface CRDDetailsProps extends KubeObjectDetailsProps<CustomResourceDefinition> {
 }

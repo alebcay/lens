@@ -24,7 +24,7 @@ import { messagingFeatureForRenderer } from "@k8slens/messaging-for-renderer";
 import { keyboardShortcutsFeature } from "@meniscus/keyboard-shortcuts";
 import { reactApplicationFeature } from "@k8slens/react-application";
 import { routingFeature } from "@k8slens/routing";
-import { loggerFeature } from "@k8slens/logger";
+import { loggerFeature } from "@meniscus/logger";
 
 const environment = "renderer";
 

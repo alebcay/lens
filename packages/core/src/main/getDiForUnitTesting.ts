@@ -28,7 +28,7 @@ import { setLegacyGlobalDiForExtensionApi } from "@meniscus/legacy-global-di";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { registerFeature } from "@meniscus/feature-core";
 import { messagingFeature, testUtils as messagingTestUtils } from "@k8slens/messaging";
-import { loggerFeature } from "@k8slens/logger";
+import { loggerFeature } from "@meniscus/logger";
 
 export function getDiForUnitTesting() {
   const environment = "main";

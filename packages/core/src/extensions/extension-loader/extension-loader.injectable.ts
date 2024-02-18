@@ -6,7 +6,7 @@ import { getInjectable } from "@ogre-tools/injectable";
 import { ExtensionLoader } from "./extension-loader";
 import extensionInstancesInjectable from "./extension-instances.injectable";
 import extensionInjectable from "./extension/extension.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import joinPathsInjectable from "../../common/path/join-paths.injectable";
 import getDirnameOfPathInjectable from "../../common/path/get-dirname.injectable";
 import { bundledExtensionInjectionToken } from "@meniscus/legacy-extensions";

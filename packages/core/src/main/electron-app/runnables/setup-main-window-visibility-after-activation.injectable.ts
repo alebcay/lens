@@ -4,7 +4,7 @@
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import electronAppInjectable from "../electron-app.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import { onLoadOfApplicationInjectionToken } from "@meniscus/application";
 import showApplicationWindowInjectable from "../../start-main-application/lens-window/show-application-window.injectable";
 

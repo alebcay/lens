@@ -12,7 +12,7 @@ import { toJS } from "../utils/toJS";
 import type { Disposer } from "@k8slens/utilities";
 import { getLegacyGlobalDiForExtensionApi } from "@meniscus/legacy-global-di";
 import ipcRendererInjectable from "../../renderer/utils/channel/ipc-renderer.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import ipcMainInjectionToken from "./ipc-main-injection-token";
 import clusterFramesInjectable from "../cluster-frames.injectable";
 

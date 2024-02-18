@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import extensionDiscoveryInjectable from "../../../extensions/extension-discovery/extension-discovery.injectable";
 import extensionLoaderInjectable from "../../../extensions/extension-loader/extension-loader.injectable";
 import showErrorPopupInjectable from "../../electron-app/features/show-error-popup.injectable";

@@ -11,7 +11,7 @@ import { registerFeature } from "@meniscus/feature-core";
 import { applicationFeature, startApplicationInjectionToken } from '@meniscus/application'
 import { applicationFeatureForElectronMain } from '@meniscus/application-for-electron-main'
 import { messagingFeatureForMain } from "@k8slens/messaging-for-main";
-import { loggerFeature } from "@k8slens/logger";
+import { loggerFeature } from "@meniscus/logger";
 
 const environment = "main";
 

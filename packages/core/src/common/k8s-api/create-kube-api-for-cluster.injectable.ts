@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import { apiKubePrefix } from "../vars";
 import isDevelopmentInjectable from "../vars/is-development.injectable";
 import apiBaseInjectable from "./api-base.injectable";

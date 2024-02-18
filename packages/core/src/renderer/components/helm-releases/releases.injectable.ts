@@ -10,7 +10,7 @@ import requestListHelmReleasesInjectable from "../../../features/helm-releases/r
 import hostedClusterIdInjectable from "../../cluster-frame-context/hosted-cluster-id.injectable";
 import assert from "assert";
 import { iter } from "@k8slens/utilities";
-import { prefixedLoggerInjectable } from "@k8slens/logger";
+import { prefixedLoggerInjectable } from "@meniscus/logger";
 import { toHelmRelease } from "./to-helm-release";
 
 const releasesInjectable = getInjectable({

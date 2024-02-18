@@ -4,8 +4,8 @@
  */
 
 import React from "react";
-import type { Logger } from "@k8slens/logger";
-import { loggerInjectionToken } from "@k8slens/logger";
+import type { Logger } from "@meniscus/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import type { DiRender } from "../test-utils/renderFor";
 import { renderFor } from "../test-utils/renderFor";

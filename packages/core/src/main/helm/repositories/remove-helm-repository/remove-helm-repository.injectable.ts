@@ -5,7 +5,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import execHelmInjectable from "../../exec-helm/exec-helm.injectable";
 import type { HelmRepo } from "../../../../common/helm/helm-repo";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import type { AsyncResult } from "@k8slens/utilities";
 
 const removeHelmRepositoryInjectable = getInjectable({

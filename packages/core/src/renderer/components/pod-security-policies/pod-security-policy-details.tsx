@@ -12,9 +12,9 @@ import type { KubeObjectDetailsProps } from "../kube-object-details";
 import { PodSecurityPolicy } from "@meniscus/kube-object";
 import { Badge } from "../badge";
 import { Table, TableCell, TableHead, TableRow } from "../table";
-import type { Logger } from "@k8slens/logger";
+import type { Logger } from "@meniscus/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import type { StrictReactNode } from "@k8slens/utilities";
 
 export interface PodSecurityPolicyDetailsProps extends KubeObjectDetailsProps<PodSecurityPolicy> {

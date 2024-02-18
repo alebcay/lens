@@ -6,7 +6,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import React from "react";
 import execFileInjectable from "../../../../common/fs/exec-file.injectable";
-import { loggerInjectionToken } from "@k8slens/logger";
+import { loggerInjectionToken } from "@meniscus/logger";
 import { defaultExtensionRegistryUrl } from "../../../../features/user-preferences/common/preferences-helpers";
 import userPreferencesStateInjectable from "../../../../features/user-preferences/common/state.injectable";
 import showErrorNotificationInjectable from "../../notifications/show-error-notification.injectable";
