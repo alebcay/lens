@@ -1,2 +1,2 @@
 module.exports =
-  require("@k8slens/jest").monorepoPackageConfig(__dirname).configForReact;
+  require("@meniscus/jest").monorepoPackageConfig(__dirname).configForReact;
