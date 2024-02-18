@@ -11,7 +11,7 @@ import { loggerInjectionToken } from "@k8slens/logger";
 import isSnapPackageInjectable from "../../../common/vars/is-snap-package.injectable";
 import type { ClusterModel } from "../../../common/cluster-types";
 import pathExistsSyncInjectable from "../../../common/fs/path-exists-sync.injectable";
-import { applicationInformationToken } from "@k8slens/application";
+import { applicationInformationToken } from "@meniscus/application";
 
 const clusterStoreSnapMigrationInjectable = getInjectable({
   id: "cluster-store-snap-migration",

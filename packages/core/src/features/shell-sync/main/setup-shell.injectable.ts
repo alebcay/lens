@@ -4,7 +4,7 @@
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { loggerInjectionToken } from "@k8slens/logger";
-import { onLoadOfApplicationInjectionToken } from "@k8slens/application";
+import { onLoadOfApplicationInjectionToken } from "@meniscus/application";
 import isSnapPackageInjectable from "../../../common/vars/is-snap-package.injectable";
 import electronAppInjectable from "../../../main/electron-app/electron-app.injectable";
 import computeShellEnvironmentInjectable from "./compute-shell-environment.injectable";

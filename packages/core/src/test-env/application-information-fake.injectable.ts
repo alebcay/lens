@@ -4,7 +4,7 @@
  */
 
 import { getInjectable } from "@ogre-tools/injectable";
-import { applicationInformationToken } from "@k8slens/application";
+import { applicationInformationToken } from "@meniscus/application";
 
 export const applicationInformationFakeInjectable = getInjectable({
   id: "application-information-fake",

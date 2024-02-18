@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import { onLoadOfApplicationInjectionToken } from "@k8slens/application";
+import { onLoadOfApplicationInjectionToken } from "@meniscus/application";
 import weblinkVerificationStartableStoppableInjectable from "./weblink-verification.injectable";
 import catalogEntityRegistryInjectable from "../../../main/catalog/entity-registry.injectable";
 import weblinkVerificationsInjectable from "./weblink-verifications.injectable";

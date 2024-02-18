@@ -5,7 +5,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import { nodeEnvInjectionToken } from "../../../common/vars/node-env-injection-token";
 import { loggerInjectionToken } from "@k8slens/logger";
-import { onLoadOfApplicationInjectionToken } from "@k8slens/application";
+import { onLoadOfApplicationInjectionToken } from "@meniscus/application";
 
 const setupDeveloperToolsInDevelopmentEnvironmentInjectable = getInjectable({
   id: "setup-developer-tools-in-development-environment",

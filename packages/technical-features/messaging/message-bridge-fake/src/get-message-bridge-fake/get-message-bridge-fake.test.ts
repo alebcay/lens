@@ -17,7 +17,7 @@ import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { runInAction } from "mobx";
 import { getPromiseStatus } from "@k8slens/test-utils";
 import { getMessageBridgeFake } from "./get-message-bridge-fake";
-import { startApplicationInjectionToken } from "@k8slens/application";
+import { startApplicationInjectionToken } from "@meniscus/application";
 
 type SomeMessageChannel = MessageChannel<string>;
 type SomeRequestChannel = RequestChannel<string, number>;

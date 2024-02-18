@@ -1,6 +1,6 @@
 import { getFeature } from "@k8slens/feature-core";
 import { autoRegister } from "@ogre-tools/injectable-extension-for-auto-registration";
-import { applicationFeature } from "@k8slens/application";
+import { applicationFeature } from "@meniscus/application";
 
 export const applicationFeatureForElectronMain = getFeature({
   id: "application-for-electron-main",

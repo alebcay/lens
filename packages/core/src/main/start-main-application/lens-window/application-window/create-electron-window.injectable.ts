@@ -13,7 +13,7 @@ import getAbsolutePathInjectable from "../../../../common/path/get-absolute-path
 import lensResourcesDirInjectable from "../../../../common/vars/lens-resources-dir.injectable";
 import isLinuxInjectable from "../../../../common/vars/is-linux.injectable";
 import pathExistsSyncInjectable from "../../../../common/fs/path-exists-sync.injectable";
-import { applicationInformationToken } from "@k8slens/application";
+import { applicationInformationToken } from "@meniscus/application";
 import sessionCertificateVerifierInjectable from "./session-certificate-verifier.injectable";
 
 export type ElectronWindowTitleBarStyle = "hiddenInset" | "hidden" | "default" | "customButtonsOnHover";

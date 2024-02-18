@@ -31,7 +31,7 @@
     "lint:fix": "lens-lint --fix"
   },
   "peerDependencies": {
-    "@k8slens/application": "^6.5.0-alpha.0",
+    "@meniscus/application": "^6.5.0-alpha.0",
     "@k8slens/feature-core": "^6.5.0-alpha.0",
     "@k8slens/messaging": "^1.0.0-alpha.1",
     "@ogre-tools/fp": "^16.1.0",

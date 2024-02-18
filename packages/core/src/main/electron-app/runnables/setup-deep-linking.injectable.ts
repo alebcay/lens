@@ -8,7 +8,7 @@ import openDeepLinkInjectable from "../../protocol-handler/lens-protocol-router-
 import { loggerInjectionToken } from "@k8slens/logger";
 import commandLineArgumentsInjectable from "../../utils/command-line-arguments.injectable";
 import { startsWith, toLower } from "lodash/fp";
-import { onLoadOfApplicationInjectionToken } from "@k8slens/application";
+import { onLoadOfApplicationInjectionToken } from "@meniscus/application";
 import showApplicationWindowInjectable from "../../start-main-application/lens-window/show-application-window.injectable";
 
 const setupDeepLinkingInjectable = getInjectable({

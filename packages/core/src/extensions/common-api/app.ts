@@ -12,7 +12,7 @@ import { getLegacyGlobalDiForExtensionApi, asLegacyGlobalForExtensionApi } from 
 import { issuesTrackerUrl } from "../../common/vars";
 import enabledExtensionsInjectable from "../../features/extensions/enabled/common/enabled-extensions.injectable";
 import userPreferencesStateInjectable from "../../features/user-preferences/common/state.injectable";
-import { lensBuildEnvironmentInjectionToken } from "@k8slens/application";
+import { lensBuildEnvironmentInjectionToken } from "@meniscus/application";
 import { buildVersionInitializable } from "../../features/vars/build-version/common/token";
 
 const userStore = asLegacyGlobalForExtensionApi(userPreferencesStateInjectable);

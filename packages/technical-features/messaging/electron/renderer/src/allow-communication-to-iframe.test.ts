@@ -1,6 +1,6 @@
 import { createContainer, DiContainer } from "@ogre-tools/injectable";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
-import { startApplicationInjectionToken } from "@k8slens/application";
+import { startApplicationInjectionToken } from "@meniscus/application";
 import { registerFeature } from "@k8slens/feature-core";
 import { messagingFeatureForRenderer } from "./feature";
 import { runInAction } from "mobx";

@@ -11,7 +11,7 @@ import React from "react";
 import { computed, runInAction } from "mobx";
 import { KeyboardShortcutScope } from "./keyboard-shortcut-scope";
 import { Discover, discoverFor } from "@k8slens/react-testing-library-discovery";
-import { startApplicationInjectionToken } from "@k8slens/application";
+import { startApplicationInjectionToken } from "@meniscus/application";
 import { renderInjectionToken } from "@k8slens/react-application";
 import { reactApplicationChildrenInjectionToken } from "@k8slens/react-application";
 import platformInjectable from "./platform.injectable";

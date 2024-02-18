@@ -6,7 +6,7 @@ import { getInjectable } from "@ogre-tools/injectable";
 import appPathsStateInjectable from "../../common/app-paths/app-paths-state.injectable";
 import { appPathsChannel } from "../../common/app-paths/app-paths-channel";
 import { requestFromChannelInjectionToken } from "@k8slens/messaging";
-import { beforeApplicationIsLoadingInjectionToken } from "@k8slens/application";
+import { beforeApplicationIsLoadingInjectionToken } from "@meniscus/application";
 
 const setupAppPathsInjectable = getInjectable({
   id: "setup-app-paths",

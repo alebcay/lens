@@ -20,7 +20,7 @@ import {
 import { listeningOfChannelsInjectionToken } from "./features/actual/listening-of-channels/listening-of-channels.injectable";
 
 import { getMessageChannel } from "./features/actual/message/get-message-channel";
-import { applicationFeature, startApplicationInjectionToken } from "@k8slens/application";
+import { applicationFeature, startApplicationInjectionToken } from "@meniscus/application";
 
 describe("listening-of-messages", () => {
   let di: DiContainer;

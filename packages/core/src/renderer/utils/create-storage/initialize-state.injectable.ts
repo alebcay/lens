@@ -11,7 +11,7 @@ import writeJsonFileInjectable from "../../../common/fs/write-json-file.injectab
 import { loggerInjectionToken } from "@k8slens/logger";
 import joinPathsInjectable from "../../../common/path/join-paths.injectable";
 import setupAppPathsInjectable from "../../app-paths/setup-app-paths.injectable";
-import { beforeApplicationIsLoadingInjectionToken } from "@k8slens/application";
+import { beforeApplicationIsLoadingInjectionToken } from "@meniscus/application";
 import hostedClusterIdInjectable from "../../cluster-frame-context/hosted-cluster-id.injectable";
 import { storageHelperLogPrefix } from "../storage-helper";
 import lensLocalStorageStateInjectable from "./state.injectable";

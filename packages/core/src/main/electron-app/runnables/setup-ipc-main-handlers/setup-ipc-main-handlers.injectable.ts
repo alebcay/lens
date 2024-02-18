@@ -5,7 +5,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import { setupIpcMainHandlers } from "./setup-ipc-main-handlers";
 import { loggerInjectionToken } from "@k8slens/logger";
-import { onLoadOfApplicationInjectionToken } from "@k8slens/application";
+import { onLoadOfApplicationInjectionToken } from "@meniscus/application";
 import applicationMenuItemCompositeInjectable from "../../../../features/application-menu/main/application-menu-item-composite.injectable";
 import pushCatalogToRendererInjectable from "../../../catalog-sync-to-renderer/push-catalog-to-renderer.injectable";
 import clusterFramesInjectable from "../../../../common/cluster-frames.injectable";

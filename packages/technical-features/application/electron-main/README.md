@@ -1,15 +1,15 @@
-# @k8slens/application-for-electron-main
+# @meniscus/application-for-electron-main
 
-This Feature extends `@k8slens/application` with Electron specifics.
+This Feature extends `@meniscus/application` with Electron specifics.
 
 # Usage
 ```bash
-$ npm install @k8slens/application-for-electron-main
+$ npm install @meniscus/application-for-electron-main
 ```
 
 ```typescript
-import { applicationFeature, startApplicationInjectionToken } from "@k8slens/application";
-import { applicationFeatureForElectronMain } from "@k8slens/application-for-electron-main";
+import { applicationFeature, startApplicationInjectionToken } from "@meniscus/application";
+import { applicationFeatureForElectronMain } from "@meniscus/application-for-electron-main";
 import { registerFeature } from "@k8slens/feature-core";
 import { createContainer } from "@ogre-tools/injectable";
 

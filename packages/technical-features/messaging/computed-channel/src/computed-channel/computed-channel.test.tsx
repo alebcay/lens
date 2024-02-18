@@ -2,7 +2,7 @@ import React from "react";
 import { act } from "@testing-library/react";
 import { createContainer, DiContainer, getInjectable } from "@ogre-tools/injectable";
 import { getMessageBridgeFake, MessageBridgeFake } from "@k8slens/messaging-fake-bridge";
-import { startApplicationInjectionToken } from "@k8slens/application";
+import { startApplicationInjectionToken } from "@meniscus/application";
 import { computed, IComputedValue, IObservableValue, observable, reaction, runInAction } from "mobx";
 import type { MessageChannel } from "@k8slens/messaging";
 import { getMessageChannelListenerInjectable } from "@k8slens/messaging";

@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/application",
+  "name": "@meniscus/application",
   "private": false,
   "version": "6.5.0",
   "description": "Package for creating Lens applications",

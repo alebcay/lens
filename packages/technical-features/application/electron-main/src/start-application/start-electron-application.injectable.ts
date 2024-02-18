@@ -1,5 +1,5 @@
 import { getInjectable, instantiationDecoratorToken, createInstantiationTargetDecorator } from "@ogre-tools/injectable";
-import { startApplicationInjectionToken } from "@k8slens/application";
+import { startApplicationInjectionToken } from "@meniscus/application";
 import whenAppIsReadyInjectable from "./when-app-is-ready.injectable";
 import { beforeAnythingInjectionToken, beforeElectronIsReadyInjectionToken } from "./time-slots";
 import { runManySyncFor } from "@k8slens/run-many";

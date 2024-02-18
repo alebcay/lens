@@ -16,7 +16,7 @@ import { registerFeature } from "@k8slens/feature-core";
 import {
   applicationFeature,
   startApplicationInjectionToken
-} from "@k8slens/application";
+} from "@meniscus/application";
 import { createContainer } from "@ogre-tools/injectable";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { registerInjectableReact } from "@ogre-tools/injectable-react";

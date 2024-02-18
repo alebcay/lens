@@ -4,7 +4,7 @@ import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { registerInjectableReact } from "@ogre-tools/injectable-react";
 import { reactApplicationFeature } from "./feature";
 import { runInAction, computed, observable, IObservableValue } from "mobx";
-import { startApplicationInjectionToken } from "@k8slens/application";
+import { startApplicationInjectionToken } from "@meniscus/application";
 import type { RenderResult } from "@testing-library/react";
 import { render, act } from "@testing-library/react";
 import renderInjectable from "./render-application/render.injectable";
