@@ -9,7 +9,7 @@ import { merge } from "lodash";
 import { stringify } from "querystring";
 import type { Patch } from "rfc6902";
 import type { PartialDeep, ValueOf } from "type-fest";
-import { EventEmitter } from "@k8slens/event-emitter";
+import { EventEmitter } from "@meniscus/event-emitter";
 import type { Logger } from "@k8slens/logger";
 import type Fetch from "@k8slens/node-fetch";
 import type { RequestInit, Response } from "@k8slens/node-fetch";

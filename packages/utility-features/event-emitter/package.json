@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/event-emitter",
+  "name": "@meniscus/event-emitter",
   "private": false,
   "version": "1.0.0",
   "description": "Event emitter",
