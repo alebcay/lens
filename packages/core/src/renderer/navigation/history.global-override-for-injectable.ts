@@ -4,7 +4,7 @@
  */
 
 import { createMemoryHistory } from "history";
-import { getGlobalOverride } from "@k8slens/test-utils";
+import { getGlobalOverride } from "@meniscus/test-utils";
 import { historyInjectionToken } from "@meniscus/routing";
 
 export default getGlobalOverride(historyInjectionToken, () => createMemoryHistory());

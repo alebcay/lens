@@ -4,7 +4,7 @@
  */
 
 import path from "path";
-import { getGlobalOverride } from "@k8slens/test-utils";
+import { getGlobalOverride } from "@meniscus/test-utils";
 import parsePathInjectable from "./parse.injectable";
 
 export default getGlobalOverride(parsePathInjectable, () => path.posix.parse);

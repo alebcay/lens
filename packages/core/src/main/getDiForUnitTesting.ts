@@ -22,7 +22,7 @@ import electronUpdaterIsActiveInjectable from "./electron-app/features/electron-
 import setUpdateOnQuitInjectable from "./electron-app/features/set-update-on-quit.injectable";
 import waitUntilBundledExtensionsAreLoadedInjectable from "./start-main-application/lens-window/application-window/wait-until-bundled-extensions-are-loaded.injectable";
 import initializeClusterManagerInjectable from "./cluster/initialize-manager.injectable";
-import type { GlobalOverride } from "@k8slens/test-utils";
+import type { GlobalOverride } from "@meniscus/test-utils";
 import { getOverrideFsWithFakes } from "../test-utils/override-fs-with-fakes";
 import { setLegacyGlobalDiForExtensionApi } from "@meniscus/legacy-global-di";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";

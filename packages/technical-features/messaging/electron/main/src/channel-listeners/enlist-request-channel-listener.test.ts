@@ -5,7 +5,7 @@ import asyncFn from "@async-fn/jest";
 import type { EnlistRequestChannelListener } from "./enlist-request-channel-listener.injectable";
 import enlistRequestChannelListenerInjectable from "./enlist-request-channel-listener.injectable";
 import type { RequestChannel, RequestChannelHandler } from "@meniscus/messaging";
-import { getPromiseStatus } from "@k8slens/test-utils";
+import { getPromiseStatus } from "@meniscus/test-utils";
 import { createContainer } from "@ogre-tools/injectable";
 import { registerFeature } from "@meniscus/feature-core";
 import { messagingFeatureForMain } from "../feature";

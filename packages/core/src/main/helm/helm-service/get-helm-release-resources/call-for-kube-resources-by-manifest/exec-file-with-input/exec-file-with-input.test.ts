@@ -7,7 +7,7 @@ import type { ExecFileWithInput } from "./exec-file-with-input.injectable";
 import execFileWithInputInjectable from "./exec-file-with-input.injectable";
 import type { AsyncResult } from "@meniscus/utilities";
 import nonPromiseExecFileInjectable from "./non-promise-exec-file.injectable";
-import { getPromiseStatus } from "@k8slens/test-utils";
+import { getPromiseStatus } from "@meniscus/test-utils";
 import EventEmitter from "events";
 
 describe("exec-file-with-input", () => {

@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/test-utils",
+  "name": "@meniscus/test-utils",
   "version": "1.0.0",
   "description": "A collection of utilities for testing",
   "type": "commonjs",

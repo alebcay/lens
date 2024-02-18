@@ -4,7 +4,7 @@ import { applicationFeature } from "../feature";
 import { startApplicationInjectionToken } from "./start-application.injectable";
 import * as timeSlots from "./time-slots";
 import asyncFn, { AsyncFnMock } from "@async-fn/jest";
-import { getPromiseStatus } from "@k8slens/test-utils";
+import { getPromiseStatus } from "@meniscus/test-utils";
 
 describe("starting-of-application", () => {
   let di: DiContainer;

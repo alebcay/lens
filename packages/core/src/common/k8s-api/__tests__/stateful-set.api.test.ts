@@ -11,7 +11,7 @@ import statefulSetApiInjectable from "../endpoints/stateful-set.api.injectable";
 import type { KubeJsonApi } from "../kube-json-api";
 import type { AsyncFnMock } from "@async-fn/jest";
 import asyncFn from "@async-fn/jest";
-import { flushPromises } from "@k8slens/test-utils";
+import { flushPromises } from "@meniscus/test-utils";
 
 describe("StatefulSetApi", () => {
   let statefulSetApi: StatefulSetApi;

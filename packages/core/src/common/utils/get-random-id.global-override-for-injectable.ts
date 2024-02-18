@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getGlobalOverride } from "@k8slens/test-utils";
+import { getGlobalOverride } from "@meniscus/test-utils";
 import getRandomIdInjectable from "./get-random-id.injectable";
 
 export default getGlobalOverride(getRandomIdInjectable, () => () => "some-irrelevant-random-id");

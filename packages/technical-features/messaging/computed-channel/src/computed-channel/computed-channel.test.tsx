@@ -10,7 +10,7 @@ import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { registerFeature } from "@meniscus/feature-core";
 import { testUtils } from "@meniscus/messaging";
 import { computedChannelInjectionToken, computedChannelObserverInjectionToken } from "./computed-channel.injectable";
-import { runWithThrownMobxReactions, renderFor } from "@k8slens/test-utils";
+import { runWithThrownMobxReactions, renderFor } from "@meniscus/test-utils";
 import { observer } from "mobx-react";
 import {
   computedChannelAdministrationChannel,

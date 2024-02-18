@@ -4,7 +4,7 @@
  */
 
 import { kebabCase } from "lodash";
-import { getGlobalOverride } from "@k8slens/test-utils";
+import { getGlobalOverride } from "@meniscus/test-utils";
 import electronAppInjectable from "./electron-app.injectable";
 import EventEmitter from "events";
 import { getOrInsert } from "@meniscus/utilities";

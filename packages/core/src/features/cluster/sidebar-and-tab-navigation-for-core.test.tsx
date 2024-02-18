@@ -21,7 +21,7 @@ import pathExistsInjectable from "../../common/fs/path-exists.injectable";
 import readJsonFileInjectable from "../../common/fs/read-json-file.injectable";
 import { navigateToRouteInjectionToken } from "../../common/front-end-routing/navigate-to-route-injection-token";
 import storageSaveDelayInjectable from "../../renderer/utils/create-storage/storage-save-delay.injectable";
-import { flushPromises } from "@k8slens/test-utils";
+import { flushPromises } from "@meniscus/test-utils";
 import { testUsingFakeTime, advanceFakeTime } from "../../test-utils/use-fake-time";
 
 describe("cluster - sidebar and tab navigation for core", () => {

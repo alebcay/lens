@@ -15,7 +15,7 @@ import {
 
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { runInAction } from "mobx";
-import { getPromiseStatus } from "@k8slens/test-utils";
+import { getPromiseStatus } from "@meniscus/test-utils";
 import { getMessageBridgeFake } from "./get-message-bridge-fake";
 import { startApplicationInjectionToken } from "@meniscus/application";
 

@@ -13,7 +13,7 @@ import requestAnimationFrameInjectable from "./components/animate/request-animat
 import startTopbarStateSyncInjectable from "./components/layout/top-bar/start-state-sync.injectable";
 import watchHistoryStateInjectable from "./remote-helpers/watch-history-state.injectable";
 import legacyOnChannelListenInjectable from "./ipc/legacy-channel-listen.injectable";
-import type { GlobalOverride } from "@k8slens/test-utils";
+import type { GlobalOverride } from "@meniscus/test-utils";
 import { setLegacyGlobalDiForExtensionApi } from "@meniscus/legacy-global-di";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { registerInjectableReact } from "@ogre-tools/injectable-react";

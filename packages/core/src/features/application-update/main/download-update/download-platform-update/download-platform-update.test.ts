@@ -9,7 +9,7 @@ import downloadPlatformUpdateInjectable from "./download-platform-update.injecta
 import type { AppUpdater } from "electron-updater";
 import type { AsyncFnMock } from "@async-fn/jest";
 import asyncFn from "@async-fn/jest";
-import { getPromiseStatus } from "@k8slens/test-utils";
+import { getPromiseStatus } from "@meniscus/test-utils";
 import type { DiContainer } from "@ogre-tools/injectable";
 import { loggerInjectionToken } from "@meniscus/logger";
 import { noop } from "@meniscus/utilities";

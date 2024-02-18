@@ -10,7 +10,7 @@ import type { AppUpdater, UpdateCheckResult } from "electron-updater";
 import type { CheckForPlatformUpdates } from "./check-for-platform-updates.injectable";
 import checkForPlatformUpdatesInjectable from "./check-for-platform-updates.injectable";
 import type { UpdateChannel, ReleaseChannel } from "../../../common/update-channels";
-import { getPromiseStatus } from "@k8slens/test-utils";
+import { getPromiseStatus } from "@meniscus/test-utils";
 import { loggerInjectionToken } from "@meniscus/logger";
 import { noop } from "@meniscus/utilities";
 

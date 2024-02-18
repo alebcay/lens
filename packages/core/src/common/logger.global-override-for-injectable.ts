@@ -4,7 +4,7 @@
  */
 
 import { loggerInjectionToken } from "@meniscus/logger";
-import { getGlobalOverride } from "@k8slens/test-utils";
+import { getGlobalOverride } from "@meniscus/test-utils";
 
 export default getGlobalOverride(loggerInjectionToken, () => ({
   warn: () => {},

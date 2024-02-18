@@ -38,7 +38,7 @@ import { navigateToRouteInjectionToken } from "../../../common/front-end-routing
 import type { LensMainExtension } from "../../../extensions/lens-main-extension";
 import type { LensExtension } from "../../../extensions/lens-extension";
 import extensionInjectable from "../../../extensions/extension-loader/extension/extension.injectable";
-import { renderFor } from "@k8slens/test-utils";
+import { renderFor } from "@meniscus/test-utils";
 import { RootFrame } from "../../frames/root-frame/root-frame";
 import { ClusterFrame } from "../../frames/cluster-frame/cluster-frame";
 import hostedClusterIdInjectable from "../../cluster-frame-context/hosted-cluster-id.injectable";
