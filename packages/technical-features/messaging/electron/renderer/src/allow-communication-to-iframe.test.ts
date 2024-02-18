@@ -5,7 +5,7 @@ import { registerFeature } from "@meniscus/feature-core";
 import { messagingFeatureForRenderer } from "./feature";
 import { runInAction } from "mobx";
 import ipcRendererInjectable from "./ipc/ipc-renderer.injectable";
-import { sendMessageToChannelInjectionToken } from "@k8slens/messaging";
+import { sendMessageToChannelInjectionToken } from "@meniscus/messaging";
 import { frameCommunicationAdminChannel } from "./allow-communication-to-iframe.injectable";
 
 describe("allow communication to iframe", () => {

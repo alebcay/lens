@@ -3,8 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { ChannelRequester } from "@k8slens/messaging";
-import { requestFromChannelInjectionToken } from "@k8slens/messaging";
+import type { ChannelRequester } from "@meniscus/messaging";
+import { requestFromChannelInjectionToken } from "@meniscus/messaging";
 import { getInjectable } from "@ogre-tools/injectable";
 import { getHelmReleaseChannel } from "../common/channels";
 

@@ -3,8 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import type winston from "winston";
-import type { SendMessageToChannel } from "@k8slens/messaging";
-import { sendMessageToChannelInjectionToken } from "@k8slens/messaging";
+import type { SendMessageToChannel } from "@meniscus/messaging";
+import { sendMessageToChannelInjectionToken } from "@meniscus/messaging";
 import type { DiContainer } from "@ogre-tools/injectable";
 import { winstonLoggerInjectable } from "@meniscus/logger";
 import { getDiForUnitTesting } from "../../../renderer/getDiForUnitTesting";

@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/messaging-for-renderer",
+  "name": "@meniscus/messaging-for-renderer",
   "private": false,
   "version": "1.0.0",
   "description": "Implementations for 'messaging' in Electron renderer",
@@ -33,7 +33,7 @@
   "peerDependencies": {
     "@meniscus/application": "^6.5.0-alpha.0",
     "@meniscus/feature-core": "^6.5.0-alpha.0",
-    "@k8slens/messaging": "^1.0.0-alpha.1",
+    "@meniscus/messaging": "^1.0.0-alpha.1",
     "@k8slens/run-many": "^1.0.0-alpha.1",
     "@k8slens/startable-stoppable": "^1.0.0-alpha.1",
     "@ogre-tools/injectable": "^16.1.0",

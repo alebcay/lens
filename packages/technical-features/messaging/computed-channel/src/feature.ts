@@ -1,6 +1,6 @@
 import { autoRegister } from "@ogre-tools/injectable-extension-for-auto-registration";
 import { getFeature } from "@meniscus/feature-core";
-import { messagingFeature } from "@k8slens/messaging";
+import { messagingFeature } from "@meniscus/messaging";
 
 export const computedChannelFeature = getFeature({
   id: "computed-channel",

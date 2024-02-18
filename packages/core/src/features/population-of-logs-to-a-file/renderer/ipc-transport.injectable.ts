@@ -14,7 +14,7 @@ import {
   ipcFileLoggerChannel,
 } from "../common/ipc-file-logger-channel";
 import rendererLogFileIdInjectable from "./renderer-log-file-id.injectable";
-import { sendMessageToChannelInjectionToken } from "@k8slens/messaging";
+import { sendMessageToChannelInjectionToken } from "@meniscus/messaging";
 
 /**
  * Winston uses symbol property for the actual message.

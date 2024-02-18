@@ -2,7 +2,7 @@
  * Copyright (c) OpenLens Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { getMessageChannelListenerInjectable } from "@k8slens/messaging";
+import { getMessageChannelListenerInjectable } from "@meniscus/messaging";
 import showErrorNotificationInjectable from "../../../renderer/components/notifications/show-error-notification.injectable";
 import { shellSyncFailedChannel } from "../common/failure-channel";
 

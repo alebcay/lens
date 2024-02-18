@@ -10,7 +10,7 @@ import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { registerFeature } from "@meniscus/feature-core";
 import { applicationFeature, startApplicationInjectionToken } from '@meniscus/application'
 import { applicationFeatureForElectronMain } from '@meniscus/application-for-electron-main'
-import { messagingFeatureForMain } from "@k8slens/messaging-for-main";
+import { messagingFeatureForMain } from "@meniscus/messaging-for-main";
 import { loggerFeature } from "@meniscus/logger";
 
 const environment = "main";

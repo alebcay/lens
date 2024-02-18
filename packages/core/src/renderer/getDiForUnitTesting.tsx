@@ -18,7 +18,7 @@ import { setLegacyGlobalDiForExtensionApi } from "@meniscus/legacy-global-di";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { registerInjectableReact } from "@ogre-tools/injectable-react";
 import { registerFeature } from "@meniscus/feature-core";
-import { messagingFeature, testUtils as messagingTestUtils } from "@k8slens/messaging";
+import { messagingFeature, testUtils as messagingTestUtils } from "@meniscus/messaging";
 import { routingFeature } from "@k8slens/routing";
 import { loggerFeature } from "@meniscus/logger";
 

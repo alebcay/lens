@@ -68,8 +68,8 @@ import { registerFeature } from "@meniscus/feature-core";
 import { applicationFeatureForElectronMain, testUtils as applicationForElectronTestUtils } from "@meniscus/application-for-electron-main";
 import { applicationFeature, startApplicationInjectionToken } from "@meniscus/application";
 import { testUsingFakeTime } from "../../../test-utils/use-fake-time";
-import { sendMessageToChannelInjectionToken } from "@k8slens/messaging";
-import { getMessageBridgeFake } from "@k8slens/messaging-fake-bridge";
+import { sendMessageToChannelInjectionToken } from "@meniscus/messaging";
+import { getMessageBridgeFake } from "@meniscus/messaging-fake-bridge";
 import { historyInjectionToken } from "@k8slens/routing";
 import writeJsonSyncInjectable from "../../../common/fs/write-json-sync.injectable";
 

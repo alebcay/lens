@@ -4,7 +4,7 @@
  */
 
 import operatingSystemThemeInjectable from "../../../../main/theme/operating-system-theme.injectable";
-import { getRequestChannelListenerInjectable } from "@k8slens/messaging";
+import { getRequestChannelListenerInjectable } from "@meniscus/messaging";
 import { initialSystemThemeTypeChannel } from "../common/channels";
 
 const initialSystemThemeTypeHandler = getRequestChannelListenerInjectable({

@@ -4,7 +4,7 @@
  */
 import type { HelmRepo } from "./helm-repo";
 import type { AsyncResult } from "@k8slens/utilities";
-import { getRequestChannel } from "@k8slens/messaging";
+import { getRequestChannel } from "@meniscus/messaging";
 
 export const getActiveHelmRepositoriesChannel = getRequestChannel<
   void,

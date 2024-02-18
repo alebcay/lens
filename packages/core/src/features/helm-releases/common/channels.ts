@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getRequestChannel } from "@k8slens/messaging";
+import { getRequestChannel } from "@meniscus/messaging";
 import type { Result } from "@k8slens/utilities";
 import type { KubeJsonApiData } from "@meniscus/kube-object";
 

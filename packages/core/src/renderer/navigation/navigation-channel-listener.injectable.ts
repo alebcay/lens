@@ -8,8 +8,8 @@ import { appNavigationChannel } from "../../common/front-end-routing/app-navigat
 import { clusterFrameNavigationChannel } from "../../common/front-end-routing/cluster-frame-navigation-channel";
 import focusWindowInjectable from "./focus-window.injectable";
 import { navigateToUrlInjectionToken } from "../../common/front-end-routing/navigate-to-url-injection-token";
-import type { MessageChannel, MessageChannelListener } from "@k8slens/messaging";
-import { messageChannelListenerInjectionToken } from "@k8slens/messaging";
+import type { MessageChannel, MessageChannelListener } from "@meniscus/messaging";
+import { messageChannelListenerInjectionToken } from "@meniscus/messaging";
 
 const navigationChannelListenerInjectable = getInjectable({
   id: "navigation-channel-listener",

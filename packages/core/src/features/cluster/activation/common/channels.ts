@@ -4,7 +4,7 @@
  */
 
 import type { ClusterId } from "../../../../common/cluster-types";
-import { getRequestChannel } from "@k8slens/messaging";
+import { getRequestChannel } from "@meniscus/messaging";
 
 export interface ActivateCluster {
   clusterId: ClusterId;

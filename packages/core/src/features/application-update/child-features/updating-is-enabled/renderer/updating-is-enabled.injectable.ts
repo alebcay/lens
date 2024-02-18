@@ -4,7 +4,7 @@
  */
 
 import { onLoadOfApplicationInjectionToken } from "@meniscus/application";
-import { requestFromChannelInjectionToken } from "@k8slens/messaging";
+import { requestFromChannelInjectionToken } from "@meniscus/messaging";
 import { getInjectablesForInitializable } from "../../../../../common/initializable-state/create";
 import { updatingIsEnabledChannel, updatingIsEnabledInitializable } from "../common/token";
 

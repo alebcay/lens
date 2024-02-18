@@ -12,8 +12,8 @@ import directoryForUserDataInjectable from "../app-paths/directory-for-user-data
 import getConfigurationFileModelInjectable from "../get-configuration-file-model/get-configuration-file-model.injectable";
 import { loggerInjectionToken } from "@meniscus/logger";
 import getBasenameOfPathInjectable from "../path/get-basename.injectable";
-import { enlistMessageChannelListenerInjectionToken, sendMessageToChannelInjectionToken } from "@k8slens/messaging";
-import type { MessageChannel } from "@k8slens/messaging";
+import { enlistMessageChannelListenerInjectionToken, sendMessageToChannelInjectionToken } from "@meniscus/messaging";
+import type { MessageChannel } from "@meniscus/messaging";
 import { persistentStorageIpcChannelPrefixesInjectionToken } from "./channel-prefix";
 import { shouldPersistentStorageDisableSyncInIpcListenerInjectionToken } from "./disable-sync";
 import { persistStateToConfigInjectionToken } from "./save-to-file";

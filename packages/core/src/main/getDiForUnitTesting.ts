@@ -27,7 +27,7 @@ import { getOverrideFsWithFakes } from "../test-utils/override-fs-with-fakes";
 import { setLegacyGlobalDiForExtensionApi } from "@meniscus/legacy-global-di";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { registerFeature } from "@meniscus/feature-core";
-import { messagingFeature, testUtils as messagingTestUtils } from "@k8slens/messaging";
+import { messagingFeature, testUtils as messagingTestUtils } from "@meniscus/messaging";
 import { loggerFeature } from "@meniscus/logger";
 
 export function getDiForUnitTesting() {

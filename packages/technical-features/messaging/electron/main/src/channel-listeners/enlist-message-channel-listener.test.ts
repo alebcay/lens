@@ -1,6 +1,6 @@
 import ipcMainInjectable from "../ipc-main/ipc-main.injectable";
 import type { IpcMain, IpcMainEvent } from "electron";
-import { EnlistMessageChannelListener, enlistMessageChannelListenerInjectionToken } from "@k8slens/messaging";
+import { EnlistMessageChannelListener, enlistMessageChannelListenerInjectionToken } from "@meniscus/messaging";
 import { createContainer } from "@ogre-tools/injectable";
 import { registerFeature } from "@meniscus/feature-core";
 import { messagingFeatureForMain } from "../feature";

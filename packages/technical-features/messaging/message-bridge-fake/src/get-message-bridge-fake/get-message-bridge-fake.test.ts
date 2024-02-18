@@ -11,7 +11,7 @@ import {
   RequestChannel,
   requestFromChannelInjectionToken,
   sendMessageToChannelInjectionToken,
-} from "@k8slens/messaging";
+} from "@meniscus/messaging";
 
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { runInAction } from "mobx";
