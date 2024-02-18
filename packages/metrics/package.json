@@ -40,6 +40,6 @@
     "@meniscus/eslint-config": "^6.5.0",
     "@meniscus/jest": "^6.5.0",
     "@meniscus/typescript": "^6.5.0",
-    "@k8slens/webpack": "^6.5.0"
+    "@meniscus/webpack": "^6.5.0"
   }
 }

@@ -44,7 +44,7 @@
   "devDependencies": {
     "@meniscus/eslint-config": "^6.5.0",
     "@meniscus/messaging-fake-bridge": "^1.0.0",
-    "@k8slens/webpack": "^6.5.0",
+    "@meniscus/webpack": "^6.5.0",
     "type-fest": "^2.14.0"
   }
 }

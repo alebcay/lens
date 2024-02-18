@@ -42,6 +42,6 @@
   "devDependencies": {
     "@async-fn/jest": "^1.6.4",
     "@meniscus/eslint-config": "^6.5.0",
-    "@k8slens/webpack": "^6.5.0"
+    "@meniscus/webpack": "^6.5.0"
   }
 }

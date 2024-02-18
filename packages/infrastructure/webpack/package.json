@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/webpack",
+  "name": "@meniscus/webpack",
   "private": false,
   "version": "6.5.0",
   "description": "Webpack configurations and scripts for Lens packages.",
