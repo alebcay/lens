@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/resource-templates",
+  "name": "@meniscus/resource-templates",
   "version": "1.0.0",
   "private": false,
   "publishConfig": {
