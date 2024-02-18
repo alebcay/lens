@@ -42,7 +42,7 @@
     "rfc6902": "^5.0.1"
   },
   "devDependencies": {
-    "@k8slens/eslint-config": "^6.5.0",
+    "@meniscus/eslint-config": "^6.5.0",
     "@meniscus/jest": "^6.5.0",
     "@meniscus/typescript": "^6.5.0",
     "@types/node": "^16.18.25",

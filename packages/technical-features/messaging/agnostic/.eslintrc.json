@@ -1,5 +1,5 @@
 {
-  "extends": "@k8slens/eslint-config/eslint",
+  "extends": "@meniscus/eslint-config/eslint",
   "parserOptions": {
     "project": "./tsconfig.json"
   }
