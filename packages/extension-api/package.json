@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/extensions",
+  "name": "@meniscus/extensions",
   "productName": "OpenLens extensions",
   "description": "OpenLens - Open Source Kubernetes IDE: extensions",
   "version": "6.5.2",
