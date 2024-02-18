@@ -31,7 +31,7 @@
     "dev:renderer": "cross-env NODE_ENV=development ts-node ./webpack/dev-server.ts",
     "test:integration": "jest -xyz --runInBand --modulePaths=[\"<rootDir>/integration/\"];",
     "build:tray-icons": "npm run --workspace @k8slens/generate-tray-icons generate -- --output static/build/tray --input @meniscus/core/icons/logo-lens.svg --notice-icon @meniscus/core/icons/notice.svg --spinner-icon @meniscus/core/icons/arrow-spinner.svg",
-    "download:binaries": "npm run --workspace @k8slens/ensure-binaries ensure -- --package package.json --base-dir binaries/client",
+    "download:binaries": "npm run --workspace @meniscus/ensure-binaries ensure -- --package package.json --base-dir binaries/client",
     "postinstall": "electron-rebuild"
   },
   "config": {
@@ -186,7 +186,7 @@
     "@meniscus/button": "^1.0.0",
     "@meniscus/cluster-settings": "^6.5.0",
     "@meniscus/core": "^6.5.2",
-    "@k8slens/ensure-binaries": "^6.5.0",
+    "@meniscus/ensure-binaries": "^6.5.0",
     "@k8slens/error-boundary": "^1.0.0",
     "@k8slens/event-emitter": "^1.0.0",
     "@k8slens/feature-core": "^6.5.0",
