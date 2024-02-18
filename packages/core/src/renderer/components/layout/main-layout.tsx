@@ -9,7 +9,7 @@ import React from "react";
 import { observer } from "mobx-react";
 import type { StrictReactNode } from "@k8slens/utilities";
 import { cssNames } from "@k8slens/utilities";
-import { ErrorBoundary } from "@k8slens/error-boundary";
+import { ErrorBoundary } from "@meniscus/error-boundary";
 import { ResizeDirection, ResizeGrowthDirection, ResizeSide, ResizingAnchor } from "@k8slens/resizing-anchor";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import type { SidebarStorageState } from "./sidebar-storage/sidebar-storage.injectable";

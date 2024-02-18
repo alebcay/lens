@@ -24,7 +24,7 @@ import { withInjectables } from "@ogre-tools/injectable-react";
 import createResourceTabInjectable from "./create-resource/create-resource-tab.injectable";
 import dockStoreInjectable from "./dock/store.injectable";
 import createTerminalTabInjectable from "./terminal/create-terminal-tab.injectable";
-import { ErrorBoundary } from "@k8slens/error-boundary";
+import { ErrorBoundary } from "@meniscus/error-boundary";
 
 export interface DockProps {
   className?: string;

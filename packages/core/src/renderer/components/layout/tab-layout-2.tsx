@@ -10,7 +10,7 @@ import { observer } from "mobx-react";
 import type { StrictReactNode } from "@k8slens/utilities";
 import { cssNames } from "@k8slens/utilities";
 import { Tab, Tabs } from "../tabs";
-import { ErrorBoundary } from "@k8slens/error-boundary";
+import { ErrorBoundary } from "@meniscus/error-boundary";
 import type { HierarchicalSidebarItem } from "./sidebar-items.injectable";
 
 export interface TabLayoutProps {

@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/error-boundary",
+  "name": "@meniscus/error-boundary",
   "private": false,
   "version": "1.0.0",
   "description": "Highly extendable error-boundary in the Lens.",

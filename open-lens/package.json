@@ -187,7 +187,7 @@
     "@meniscus/cluster-settings": "^6.5.0",
     "@meniscus/core": "^6.5.2",
     "@meniscus/ensure-binaries": "^6.5.0",
-    "@k8slens/error-boundary": "^1.0.0",
+    "@meniscus/error-boundary": "^1.0.0",
     "@k8slens/event-emitter": "^1.0.0",
     "@k8slens/feature-core": "^6.5.0",
     "@k8slens/keyboard-shortcuts": "^1.0.0",

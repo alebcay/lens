@@ -1,6 +1,6 @@
 import "@meniscus/core/styles";
 import "@meniscus/button/styles";
-import "@k8slens/error-boundary/styles";
+import "@meniscus/error-boundary/styles";
 import "@k8slens/tooltip/styles";
 import "@k8slens/resizing-anchor/styles";
 
