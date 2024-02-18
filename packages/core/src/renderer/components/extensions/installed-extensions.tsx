@@ -16,7 +16,7 @@ import extensionDiscoveryInjectable from "../../../extensions/extension-discover
 import { withInjectables } from "@ogre-tools/injectable-react";
 import extensionInstallationStateStoreInjectable from "../../../extensions/extension-installation-state-store/extension-installation-state-store.injectable";
 import type { ExtensionInstallationStateStore } from "../../../extensions/extension-installation-state-store/extension-installation-state-store";
-import type { InstalledExtension } from "@k8slens/legacy-extensions";
+import type { InstalledExtension } from "@meniscus/legacy-extensions";
 import type { IComputedValue } from "mobx";
 import type { ConfirmUninstallExtension } from "./confirm-uninstall-extension.injectable";
 import confirmUninstallExtensionInjectable from "./confirm-uninstall-extension.injectable";

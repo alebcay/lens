@@ -24,7 +24,7 @@ import type { ExtensionInstallationStateStore } from "../../../../extensions/ext
 import { ExtensionInstallationState } from "../../../../extensions/extension-installation-state-store/extension-installation-state-store";
 import showErrorNotificationInjectable from "../../notifications/show-error-notification.injectable";
 import showInfoNotificationInjectable from "../../notifications/show-info-notification.injectable";
-import type { LensExtensionId } from "@k8slens/legacy-extensions";
+import type { LensExtensionId } from "@meniscus/legacy-extensions";
 
 export interface InstallRequest {
   fileName: string;

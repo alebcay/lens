@@ -9,7 +9,7 @@ import extensionInjectable from "./extension/extension.injectable";
 import { loggerInjectionToken } from "@k8slens/logger";
 import joinPathsInjectable from "../../common/path/join-paths.injectable";
 import getDirnameOfPathInjectable from "../../common/path/get-dirname.injectable";
-import { bundledExtensionInjectionToken } from "@k8slens/legacy-extensions";
+import { bundledExtensionInjectionToken } from "@meniscus/legacy-extensions";
 import { extensionEntryPointNameInjectionToken } from "./entry-point-name";
 import updateExtensionsStateInjectable from "../../features/extensions/enabled/common/update-state.injectable";
 

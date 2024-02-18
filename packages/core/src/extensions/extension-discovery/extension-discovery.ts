@@ -10,7 +10,7 @@ import { broadcastMessage, ipcMainHandle, ipcRendererOn } from "../../common/ipc
 import { toJS } from "../../common/utils";
 import { isErrnoException } from "@k8slens/utilities";
 import type { ExtensionLoader } from "../extension-loader";
-import type { InstalledExtension, LensExtensionId, LensExtensionManifest, ExternalInstalledExtension } from "@k8slens/legacy-extensions";
+import type { InstalledExtension, LensExtensionId, LensExtensionManifest, ExternalInstalledExtension } from "@meniscus/legacy-extensions";
 import type { ExtensionInstallationStateStore } from "../extension-installation-state-store/extension-installation-state-store";
 import { extensionDiscoveryStateChannel } from "../../common/ipc/extension-handling";
 import { requestInitialExtensionDiscovery } from "../../renderer/ipc";

@@ -6,7 +6,7 @@
 import { action, computed, makeObservable, observable } from "mobx";
 import { disposer } from "@k8slens/utilities";
 import type { ProtocolHandlerRegistration } from "../common/protocol-handler/registration";
-import type { InstalledExtension, LensExtensionId, LensExtensionManifest } from "@k8slens/legacy-extensions";
+import type { InstalledExtension, LensExtensionId, LensExtensionManifest } from "@meniscus/legacy-extensions";
 import type { Logger } from "./common-api";
 import type { EnsureHashedDirectoryForExtension } from "./extension-loader/file-system-provisioner-store/ensure-hashed-directory-for-extension.injectable";
 

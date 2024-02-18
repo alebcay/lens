@@ -17,7 +17,7 @@ import directoryForUserDataInjectable from "../../../common/app-paths/directory-
 import broadcastMessageInjectable from "../../../common/ipc/broadcast-message.injectable";
 import type { LensExtensionState } from "../../../features/extensions/enabled/common/state.injectable";
 import enabledExtensionsStateInjectable from "../../../features/extensions/enabled/common/state.injectable";
-import type { LegacyLensExtension, LensExtensionId } from "@k8slens/legacy-extensions";
+import type { LegacyLensExtension, LensExtensionId } from "@meniscus/legacy-extensions";
 import { LensMainExtension } from "../../../extensions/lens-main-extension";
 
 function throwIfDefined(val: any): void {

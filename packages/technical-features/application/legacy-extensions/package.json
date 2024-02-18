@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/legacy-extensions",
+  "name": "@meniscus/legacy-extensions",
   "private": false,
   "version": "1.0.0",
   "description": "Package for Lens extensions using the v1 API",

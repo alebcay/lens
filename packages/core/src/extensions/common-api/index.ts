@@ -18,6 +18,6 @@ export * as Proxy from "./proxy";
 export type { Logger } from "@k8slens/logger";
 export type { LensExtension } from "../lens-extension";
 export type { PackageJson } from "type-fest";
-export type { LensExtensionManifest, InstalledExtension } from "@k8slens/legacy-extensions";
+export type { LensExtensionManifest, InstalledExtension } from "@meniscus/legacy-extensions";
 
 export const logger = asLegacyGlobalForExtensionApi(loggerInjectionToken);

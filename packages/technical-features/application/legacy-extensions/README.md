@@ -1,4 +1,4 @@
-# @k8slens/legacy-extensions
+# @meniscus/legacy-extensions
 
 This package contains stuff related to creating Lens-applications.
 

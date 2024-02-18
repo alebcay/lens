@@ -7,7 +7,7 @@ import { reaction, runInAction } from "mobx";
 import { disposer } from "@k8slens/utilities";
 import { extensionRegistratorInjectionToken } from "../extension-registrator-injection-token";
 import { injectableDifferencingRegistratorWith } from "../../../common/utils/registrator-helper";
-import type { LegacyLensExtension } from "@k8slens/legacy-extensions";
+import type { LegacyLensExtension } from "@meniscus/legacy-extensions";
 
 export interface Extension {
   register: () => void;

@@ -2,7 +2,7 @@
  * Copyright (c) OpenLens Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import type { LensExtensionId } from "@k8slens/legacy-extensions";
+import type { LensExtensionId } from "@meniscus/legacy-extensions";
 import { getInjectable } from "@ogre-tools/injectable";
 import { action, toJS } from "mobx";
 import createPersistentStorageInjectable from "../../../../common/persistent-storage/create.injectable";

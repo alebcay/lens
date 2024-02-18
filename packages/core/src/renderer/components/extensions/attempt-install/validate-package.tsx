@@ -5,7 +5,7 @@
 import { hasTypedProperty, isObject, isString, listTarEntries, readFileFromTar } from "@k8slens/utilities";
 import { manifestFilename } from "../../../../extensions/extension-discovery/extension-discovery";
 import path from "path";
-import type { LensExtensionManifest } from "@k8slens/legacy-extensions";
+import type { LensExtensionManifest } from "@meniscus/legacy-extensions";
 
 export async function validatePackage(filePath: string): Promise<LensExtensionManifest> {
   const tarFiles = await listTarEntries(filePath);

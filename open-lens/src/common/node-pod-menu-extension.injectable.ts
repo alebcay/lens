@@ -1,4 +1,4 @@
-import { bundledExtensionInjectionToken } from "@k8slens/legacy-extensions";
+import { bundledExtensionInjectionToken } from "@meniscus/legacy-extensions";
 import { getInjectable } from "@ogre-tools/injectable";
 import nodePodMenuManifest from "@meniscus/node-pod-menu/package.json";
 
