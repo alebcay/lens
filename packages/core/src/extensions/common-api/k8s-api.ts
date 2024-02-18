@@ -12,7 +12,7 @@ import createKubeApiForClusterInjectable from "../../common/k8s-api/create-kube-
 import createKubeApiForRemoteClusterInjectable from "../../common/k8s-api/create-kube-api-for-remote-cluster.injectable";
 import createResourceStackInjectable from "../../common/k8s/create-resource-stack.injectable";
 import type { ResourceApplyingStack } from "../../common/k8s/resource-stack";
-import { asLegacyGlobalFunctionForExtensionApi, asLegacyGlobalForExtensionApi, getLegacyGlobalDiForExtensionApi } from "@k8slens/legacy-global-di";
+import { asLegacyGlobalFunctionForExtensionApi, asLegacyGlobalForExtensionApi, getLegacyGlobalDiForExtensionApi } from "@meniscus/legacy-global-di";
 import type { KubernetesCluster } from "./catalog";
 import type { KubeApiDataFrom, KubeObjectStoreOptions } from "../../common/k8s-api/kube-object.store";
 import { KubeObjectStore as InternalKubeObjectStore } from "../../common/k8s-api/kube-object.store";

@@ -10,7 +10,7 @@ import { observer } from "mobx-react";
 import type { IClassName, StrictReactNode } from "@k8slens/utilities";
 import { cssNames } from "@k8slens/utilities";
 import { CloseButton } from "./close-button";
-import { getLegacyGlobalDiForExtensionApi } from "@k8slens/legacy-global-di";
+import { getLegacyGlobalDiForExtensionApi } from "@meniscus/legacy-global-di";
 import navigateToCatalogInjectable from "../../../common/front-end-routing/routes/catalog/navigate-to-catalog.injectable";
 import { observableHistoryInjectionToken } from "@k8slens/routing";
 

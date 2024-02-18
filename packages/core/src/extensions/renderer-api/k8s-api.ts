@@ -4,7 +4,7 @@
  */
 import type { KubeResource } from "../../common/rbac";
 import { apiResourceRecord } from "../../common/rbac";
-import { getLegacyGlobalDiForExtensionApi, asLegacyGlobalForExtensionApi, asLegacyGlobalFunctionForExtensionApi } from "@k8slens/legacy-global-di";
+import { getLegacyGlobalDiForExtensionApi, asLegacyGlobalForExtensionApi, asLegacyGlobalFunctionForExtensionApi } from "@meniscus/legacy-global-di";
 import clusterRoleBindingApiInjectable from "../../common/k8s-api/endpoints/cluster-role-binding.api.injectable";
 import clusterRoleApiInjectable from "../../common/k8s-api/endpoints/cluster-role.api.injectable";
 import serviceAccountApiInjectable from "../../common/k8s-api/endpoints/service-account.api.injectable";

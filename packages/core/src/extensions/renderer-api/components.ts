@@ -2,7 +2,7 @@
  * Copyright (c) OpenLens Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { asLegacyGlobalFunctionForExtensionApi, asLegacyGlobalForExtensionApi } from "@k8slens/legacy-global-di";
+import { asLegacyGlobalFunctionForExtensionApi, asLegacyGlobalForExtensionApi } from "@meniscus/legacy-global-di";
 import createTerminalTabInjectable from "../../renderer/components/dock/terminal/create-terminal-tab.injectable";
 import terminalStoreInjectable from "../../renderer/components/dock/terminal/store.injectable";
 import logTabStoreInjectable from "../../renderer/components/dock/logs/tab-store.injectable";

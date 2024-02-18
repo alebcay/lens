@@ -5,7 +5,7 @@
 
 import openLinkInBrowserInjectable from "../../common/utils/open-link-in-browser.injectable";
 import { buildVersionInitializable } from "../../features/vars/build-version/common/token";
-import { asLegacyGlobalFunctionForExtensionApi, getLegacyGlobalDiForExtensionApi } from "@k8slens/legacy-global-di";
+import { asLegacyGlobalFunctionForExtensionApi, getLegacyGlobalDiForExtensionApi } from "@meniscus/legacy-global-di";
 
 export { Singleton } from "../../common/utils/singleton";
 

@@ -8,7 +8,7 @@ import isLinuxInjectable from "../../common/vars/is-linux.injectable";
 import isMacInjectable from "../../common/vars/is-mac.injectable";
 import isSnapPackageInjectable from "../../common/vars/is-snap-package.injectable";
 import isWindowsInjectable from "../../common/vars/is-windows.injectable";
-import { getLegacyGlobalDiForExtensionApi, asLegacyGlobalForExtensionApi } from "@k8slens/legacy-global-di";
+import { getLegacyGlobalDiForExtensionApi, asLegacyGlobalForExtensionApi } from "@meniscus/legacy-global-di";
 import { issuesTrackerUrl } from "../../common/vars";
 import enabledExtensionsInjectable from "../../features/extensions/enabled/common/enabled-extensions.injectable";
 import userPreferencesStateInjectable from "../../features/user-preferences/common/state.injectable";

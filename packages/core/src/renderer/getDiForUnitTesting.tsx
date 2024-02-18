@@ -14,7 +14,7 @@ import startTopbarStateSyncInjectable from "./components/layout/top-bar/start-st
 import watchHistoryStateInjectable from "./remote-helpers/watch-history-state.injectable";
 import legacyOnChannelListenInjectable from "./ipc/legacy-channel-listen.injectable";
 import type { GlobalOverride } from "@k8slens/test-utils";
-import { setLegacyGlobalDiForExtensionApi } from "@k8slens/legacy-global-di";
+import { setLegacyGlobalDiForExtensionApi } from "@meniscus/legacy-global-di";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { registerInjectableReact } from "@ogre-tools/injectable-react";
 import { registerFeature } from "@meniscus/feature-core";

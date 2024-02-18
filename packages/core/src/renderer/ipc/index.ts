@@ -9,7 +9,7 @@ import { windowActionHandleChannel, windowLocationChangedChannel, windowOpenAppM
 import { extensionDiscoveryStateChannel, extensionLoaderFromMainChannel } from "../../common/ipc/extension-handling";
 import type { InstalledExtension, LensExtensionId } from "@meniscus/legacy-extensions";
 import type { Location } from "history";
-import { getLegacyGlobalDiForExtensionApi } from "@k8slens/legacy-global-di";
+import { getLegacyGlobalDiForExtensionApi } from "@meniscus/legacy-global-di";
 import ipcRendererInjectable from "../utils/channel/ipc-renderer.injectable";
 import { toJS } from "../../common/utils";
 

@@ -36,7 +36,7 @@ import type { NavigateToRoute } from "../common/front-end-routing/navigate-to-ro
 import type { Route } from "../common/front-end-routing/front-end-route-injection-token";
 import type { GetExtensionPageParameters } from "../renderer/routes/get-extension-page-parameters.injectable";
 import type { InstalledExtension } from "./common-api";
-import { getEnvironmentSpecificLegacyGlobalDiForExtensionApi } from "@k8slens/legacy-global-di";
+import { getEnvironmentSpecificLegacyGlobalDiForExtensionApi } from "@meniscus/legacy-global-di";
 import catalogCategoryRegistryInjectable from "../common/catalog/category-registry.injectable";
 import catalogEntityRegistryInjectable from "../renderer/api/catalog/entity/registry.injectable";
 import { loggerInjectionToken } from "@k8slens/logger";

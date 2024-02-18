@@ -4,7 +4,7 @@
  */
 
 import { loggerInjectionToken } from "@k8slens/logger";
-import { asLegacyGlobalForExtensionApi } from "@k8slens/legacy-global-di";
+import { asLegacyGlobalForExtensionApi } from "@meniscus/legacy-global-di";
 
 // APIs
 export { App } from "./app";

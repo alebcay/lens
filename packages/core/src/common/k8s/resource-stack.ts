@@ -5,7 +5,7 @@
 import hb from "handlebars";
 import type { KubernetesCluster } from "../catalog-entities";
 import yaml from "js-yaml";
-import { getLegacyGlobalDiForExtensionApi } from "@k8slens/legacy-global-di";
+import { getLegacyGlobalDiForExtensionApi } from "@meniscus/legacy-global-di";
 import productNameInjectable from "../vars/product-name.injectable";
 import type { AsyncResult } from "@k8slens/utilities";
 import type { Logger } from "@k8slens/logger";

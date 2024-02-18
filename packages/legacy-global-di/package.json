@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/legacy-global-di",
+  "name": "@meniscus/legacy-global-di",
   "private": false,
   "version": "1.0.0",
   "description": "Injection tokens for implementing metrics for Lens",
