@@ -8,8 +8,8 @@ import type { RequestInit } from "@meniscus/node-fetch";
 import lensProxyCertificateInjectable from "../certificate/lens-proxy-certificate.injectable";
 import fetchInjectable from "../fetch/fetch.injectable";
 import { loggerInjectionToken } from "@meniscus/logger";
-import type { JsonApiConfig, JsonApiData, JsonApiDependencies, JsonApiParams } from "@k8slens/json-api";
-import { JsonApi } from "@k8slens/json-api";
+import type { JsonApiConfig, JsonApiData, JsonApiDependencies, JsonApiParams } from "@meniscus/json-api";
+import { JsonApi } from "@meniscus/json-api";
 
 export type CreateJsonApi = <Data = JsonApiData, Params extends JsonApiParams<Data> = JsonApiParams<Data>>(config: JsonApiConfig, reqInit?: RequestInit) => JsonApi<Data, Params>;
 

@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import { JsonApiErrorParsed } from "@k8slens/json-api";
+import { JsonApiErrorParsed } from "@meniscus/json-api";
 import { loggerInjectionToken } from "@meniscus/logger";
 import type { Disposer } from "@meniscus/utilities";
 import type { CreateNotificationOptions } from "./notifications.store";

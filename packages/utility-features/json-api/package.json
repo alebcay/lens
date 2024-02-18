@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/json-api",
+  "name": "@meniscus/json-api",
   "private": false,
   "version": "1.0.0",
   "description": "JSON api client",

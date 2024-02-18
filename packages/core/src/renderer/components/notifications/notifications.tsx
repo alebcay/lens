@@ -8,7 +8,7 @@ import "./notifications.scss";
 import React from "react";
 import { reaction } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";
-import { JsonApiErrorParsed } from "@k8slens/json-api";
+import { JsonApiErrorParsed } from "@meniscus/json-api";
 import type { Disposer } from "@meniscus/utilities";
 import { cssNames, prevDefault } from "@meniscus/utilities";
 import type { CreateNotificationOptions, Notification, NotificationMessage, NotificationsStore } from "./notifications.store";

@@ -3,8 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { JsonApiError } from "@k8slens/json-api";
-import { JsonApi } from "@k8slens/json-api";
+import type { JsonApiError } from "@meniscus/json-api";
+import { JsonApi } from "@meniscus/json-api";
 import type { Response } from "@meniscus/node-fetch";
 import type { KubeJsonApiData } from "@meniscus/kube-object";
 
