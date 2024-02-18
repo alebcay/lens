@@ -2,7 +2,7 @@ import "@meniscus/core/styles";
 import "@meniscus/button/styles";
 import "@meniscus/error-boundary/styles";
 import "@k8slens/tooltip/styles";
-import "@k8slens/resizing-anchor/styles";
+import "@meniscus/resizing-anchor/styles";
 
 import { runInAction } from "mobx";
 import {

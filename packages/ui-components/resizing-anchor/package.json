@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/resizing-anchor",
+  "name": "@meniscus/resizing-anchor",
   "private": false,
   "version": "1.0.0",
   "description": "Highly extendable resizing-anchor in the Lens.",

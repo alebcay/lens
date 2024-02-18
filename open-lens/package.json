@@ -204,7 +204,7 @@
     "@meniscus/metrics": "^6.5.0",
     "@meniscus/node-fetch": "^6.5.0",
     "@meniscus/react-application": "^1.0.0",
-    "@k8slens/resizing-anchor": "^1.0.0",
+    "@meniscus/resizing-anchor": "^1.0.0",
     "@k8slens/resource-templates": "^1.0.0",
     "@k8slens/routing": "^1.0.0",
     "@k8slens/run-many": "^1.0.0",
