@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/computed-channel",
+  "name": "@meniscus/computed-channel",
   "private": false,
   "version": "1.0.0",
   "description": "MobX-like computed between channels",
