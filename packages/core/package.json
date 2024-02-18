@@ -105,7 +105,7 @@
   "devDependencies": {
     "@async-fn/jest": "1.6.4",
     "@meniscus/messaging-fake-bridge": "^1.0.0",
-    "@k8slens/react-testing-library-discovery": "^1.0.0",
+    "@meniscus/react-testing-library-discovery": "^1.0.0",
     "@meniscus/test-utils": "^1.0.0",
     "@ogre-tools/linkable": "^16.1.0",
     "@sentry/types": "^6.19.7",

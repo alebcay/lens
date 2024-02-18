@@ -57,7 +57,7 @@ import { Namespace } from "@meniscus/kube-object";
 import { getOverrideFsWithFakes } from "../../../test-utils/override-fs-with-fakes";
 import applicationMenuItemCompositeInjectable from "../../../features/application-menu/main/application-menu-item-composite.injectable";
 import { getCompositePaths } from "../../../common/utils/composite/get-composite-paths/get-composite-paths";
-import { discoverFor } from "@k8slens/react-testing-library-discovery";
+import { discoverFor } from "@meniscus/react-testing-library-discovery";
 import { findComposite } from "../../../common/utils/composite/find-composite/find-composite";
 import shouldStartHiddenInjectable from "../../../main/electron-app/features/should-start-hidden.injectable";
 import fsInjectable from "../../../common/fs/fs.injectable";

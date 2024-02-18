@@ -50,7 +50,7 @@
   "devDependencies": {
     "@async-fn/jest": "^1.6.4",
     "@meniscus/eslint-config": "^6.5.0",
-    "@k8slens/react-testing-library-discovery": "^1.0.0",
+    "@meniscus/react-testing-library-discovery": "^1.0.0",
     "@k8slens/webpack": "^6.5.0",
     "@testing-library/react": "^12.1.5",
     "@testing-library/user-event": "^13.5.0"

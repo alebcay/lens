@@ -10,7 +10,7 @@ import { render, act } from "@testing-library/react";
 import renderInjectable from "./render-application/render.injectable";
 import { reactApplicationChildrenInjectionToken } from "./react-application/react-application-children-injection-token";
 import React from "react";
-import { Discover, discoverFor } from "@k8slens/react-testing-library-discovery";
+import { Discover, discoverFor } from "@meniscus/react-testing-library-discovery";
 import {
   ReactApplicationHigherOrderComponent,
   reactApplicationHigherOrderComponentInjectionToken,

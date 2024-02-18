@@ -10,7 +10,7 @@ import { keyboardShortcutsFeature } from "./feature";
 import React from "react";
 import { computed, runInAction } from "mobx";
 import { KeyboardShortcutScope } from "./keyboard-shortcut-scope";
-import { Discover, discoverFor } from "@k8slens/react-testing-library-discovery";
+import { Discover, discoverFor } from "@meniscus/react-testing-library-discovery";
 import { startApplicationInjectionToken } from "@meniscus/application";
 import { renderInjectionToken } from "@meniscus/react-application";
 import { reactApplicationChildrenInjectionToken } from "@meniscus/react-application";

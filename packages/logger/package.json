@@ -40,7 +40,7 @@
   "devDependencies": {
     "@meniscus/eslint-config": "6.5.0-alpha.1",
     "@meniscus/jest": "^6.5.0",
-    "@k8slens/react-testing-library-discovery": "^1.0.0",
+    "@meniscus/react-testing-library-discovery": "^1.0.0",
     "@k8slens/webpack": "^6.5.0"
   }
 }
