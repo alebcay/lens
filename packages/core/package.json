@@ -214,7 +214,7 @@
     "@meniscus/cluster-settings": "^6.5.0-alpha.1",
     "@meniscus/error-boundary": "^1.0.0-alpha.5",
     "@meniscus/event-emitter": "^1.0.0-alpha.1",
-    "@k8slens/kubectl-versions": "^1.0.0-alpha.0",
+    "@meniscus/kubectl-versions": "^1.0.0-alpha.0",
     "@k8slens/legacy-extensions": "^1.0.0-alpha.0",
     "@k8slens/legacy-global-di": "^1.0.0-alpha.0",
     "@k8slens/list-layout": "^1.0.0-alpha.4",

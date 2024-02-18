@@ -192,7 +192,7 @@
     "@meniscus/feature-core": "^6.5.0",
     "@meniscus/keyboard-shortcuts": "^1.0.0",
     "@meniscus/kube-object": "^1.0.0",
-    "@k8slens/kubectl-versions": "^1.0.0",
+    "@meniscus/kubectl-versions": "^1.0.0",
     "@k8slens/legacy-extension-example": "^1.0.2",
     "@k8slens/legacy-extensions": "^1.0.0",
     "@k8slens/legacy-global-di": "^1.0.0",

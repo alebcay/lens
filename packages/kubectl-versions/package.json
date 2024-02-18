@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/kubectl-versions",
+  "name": "@meniscus/kubectl-versions",
   "private": false,
   "version": "1.0.0",
   "description": "Package of kubectl versions at build time",
