@@ -4,7 +4,7 @@
  */
 import { getMessageChannelListenerInjectable } from "@meniscus/messaging";
 import { rootFrameHasRenderedChannel } from "../../../../common/root-frame/root-frame-rendered-channel";
-import { runManyFor } from "@k8slens/run-many";
+import { runManyFor } from "@meniscus/run-many";
 import { afterRootFrameIsReadyInjectionToken } from "../../runnable-tokens/phases";
 
 const rootFrameRenderedChannelListenerInjectable = getMessageChannelListenerInjectable({

@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/run-many",
+  "name": "@meniscus/run-many",
   "version": "1.0.0",
   "type": "commonjs",
   "description": "A package containing runMany and runManySync",

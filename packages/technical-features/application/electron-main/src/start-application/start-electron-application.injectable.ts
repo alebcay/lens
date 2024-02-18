@@ -2,7 +2,7 @@ import { getInjectable, instantiationDecoratorToken, createInstantiationTargetDe
 import { startApplicationInjectionToken } from "@meniscus/application";
 import whenAppIsReadyInjectable from "./when-app-is-ready.injectable";
 import { beforeAnythingInjectionToken, beforeElectronIsReadyInjectionToken } from "./time-slots";
-import { runManySyncFor } from "@k8slens/run-many";
+import { runManySyncFor } from "@meniscus/run-many";
 
 const startElectronApplicationInjectable = getInjectable({
   id: "start-electron-application",

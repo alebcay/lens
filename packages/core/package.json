@@ -228,7 +228,7 @@
     "@meniscus/resizing-anchor": "^1.0.0-alpha.5",
     "@meniscus/resource-templates": "^1.0.0-alpha.1",
     "@meniscus/routing": "^1.0.0-alpha.5",
-    "@k8slens/run-many": "^1.0.0-alpha.1",
+    "@meniscus/run-many": "^1.0.0-alpha.1",
     "@k8slens/startable-stoppable": "^1.0.0-alpha.1",
     "@k8slens/tooltip": "^1.0.0-alpha.5",
     "@k8slens/utilities": "^1.0.0-alpha.1",

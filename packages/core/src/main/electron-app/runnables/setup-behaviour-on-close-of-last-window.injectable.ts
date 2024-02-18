@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { beforeElectronIsReadyInjectionToken } from "@meniscus/application-for-electron-main";
-import { runManySyncFor } from "@k8slens/run-many";
+import { runManySyncFor } from "@meniscus/run-many";
 import { getInjectable } from "@ogre-tools/injectable";
 import isIntegrationTestingInjectable from "../../../common/vars/is-integration-testing.injectable";
 import { afterQuitOfFrontEndInjectionToken } from "../../start-main-application/runnable-tokens/phases";
