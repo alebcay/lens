@@ -44,7 +44,7 @@
   "devDependencies": {
     "@k8slens/eslint-config": "^6.5.0",
     "@k8slens/jest": "^6.5.0",
-    "@k8slens/typescript": "^6.5.0",
+    "@meniscus/typescript": "^6.5.0",
     "@types/node": "^16.18.25",
     "type-fest": "^2.14.0"
   }
