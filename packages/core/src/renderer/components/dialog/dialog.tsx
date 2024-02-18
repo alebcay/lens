@@ -14,7 +14,7 @@ import type { StrictReactNode } from "@k8slens/utilities";
 import { cssNames, noop, stopPropagation } from "@k8slens/utilities";
 import type { ObservableHistory } from "mobx-observable-history";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import { observableHistoryInjectionToken } from "@k8slens/routing";
+import { observableHistoryInjectionToken } from "@meniscus/routing";
 import requestAnimationFrameInjectable from "../animate/request-animation-frame.injectable";
 
 // todo: refactor + handle animation-end in props.onClose()?

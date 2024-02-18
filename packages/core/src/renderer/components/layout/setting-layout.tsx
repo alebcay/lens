@@ -12,7 +12,7 @@ import { cssNames } from "@k8slens/utilities";
 import { CloseButton } from "./close-button";
 import { getLegacyGlobalDiForExtensionApi } from "@meniscus/legacy-global-di";
 import navigateToCatalogInjectable from "../../../common/front-end-routing/routes/catalog/navigate-to-catalog.injectable";
-import { observableHistoryInjectionToken } from "@k8slens/routing";
+import { observableHistoryInjectionToken } from "@meniscus/routing";
 
 export interface SettingLayoutProps extends React.DOMAttributes<any> {
   className?: IClassName;

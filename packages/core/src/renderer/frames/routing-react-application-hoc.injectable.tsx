@@ -4,7 +4,7 @@
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import { Router } from "react-router";
-import { historyInjectionToken } from "@k8slens/routing";
+import { historyInjectionToken } from "@meniscus/routing";
 import React from "react";
 
 import {

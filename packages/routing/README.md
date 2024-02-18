@@ -1,16 +1,16 @@
-# @k8slens/routing
+# @meniscus/routing
 
 This package contains stuff related to creating Lens-applications. 
 
 # Usage
 
 ```bash
-$ npm install @k8slens/routing
+$ npm install @meniscus/routing
 ```
 
 ```typescript
-import { observableHistoryInjectable } from "@k8slens/routing";
-import { searchParamsOptions } from "@k8slens/routing";
+import { observableHistoryInjectable } from "@meniscus/routing";
+import { searchParamsOptions } from "@meniscus/routing";
 ```
 
 ## Extendability

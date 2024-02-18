@@ -5,7 +5,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import { loggerInjectionToken } from "@meniscus/logger";
 import { beforeFrameStartsSecondInjectionToken } from "../before-frame-starts/tokens";
-import { observableHistoryInjectionToken } from "@k8slens/routing";
+import { observableHistoryInjectionToken } from "@meniscus/routing";
 
 const setupLoggingForNavigationInjectable = getInjectable({
   id: "setup-logging-for-navigation",

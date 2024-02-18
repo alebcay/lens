@@ -70,7 +70,7 @@ import { applicationFeature, startApplicationInjectionToken } from "@meniscus/ap
 import { testUsingFakeTime } from "../../../test-utils/use-fake-time";
 import { sendMessageToChannelInjectionToken } from "@meniscus/messaging";
 import { getMessageBridgeFake } from "@meniscus/messaging-fake-bridge";
-import { historyInjectionToken } from "@k8slens/routing";
+import { historyInjectionToken } from "@meniscus/routing";
 import writeJsonSyncInjectable from "../../../common/fs/write-json-sync.injectable";
 
 type MainDiCallback = (container: { mainDi: DiContainer }) => void | Promise<void>;

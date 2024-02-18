@@ -19,7 +19,7 @@ import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { registerInjectableReact } from "@ogre-tools/injectable-react";
 import { registerFeature } from "@meniscus/feature-core";
 import { messagingFeature, testUtils as messagingTestUtils } from "@meniscus/messaging";
-import { routingFeature } from "@k8slens/routing";
+import { routingFeature } from "@meniscus/routing";
 import { loggerFeature } from "@meniscus/logger";
 
 export const getDiForUnitTesting = () => {

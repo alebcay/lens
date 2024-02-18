@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/routing",
+  "name": "@meniscus/routing",
   "private": false,
   "version": "1.0.0",
   "description": "Highly extendable routing in the Lens.",

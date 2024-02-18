@@ -14,7 +14,7 @@ import { Tab, Tabs } from "../tabs";
 import { ErrorBoundary } from "@meniscus/error-boundary";
 import type { ObservableHistory } from "mobx-observable-history";
 import { withInjectables } from "@ogre-tools/injectable-react";
-import { observableHistoryInjectionToken } from "@k8slens/routing";
+import { observableHistoryInjectionToken } from "@meniscus/routing";
 import type { Navigate } from "../../navigation/navigate.injectable";
 import navigateInjectable from "../../navigation/navigate.injectable";
 
