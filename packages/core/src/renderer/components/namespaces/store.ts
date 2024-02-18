@@ -10,7 +10,7 @@ import { noop, toggle } from "@k8slens/utilities";
 import type { KubeObjectStoreDependencies, KubeObjectStoreLoadingParams } from "../../../common/k8s-api/kube-object.store";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 import type { NamespaceApi } from "../../../common/k8s-api/endpoints/namespace.api";
-import { Namespace } from "@k8slens/kube-object";
+import { Namespace } from "@meniscus/kube-object";
 import autoBind from "auto-bind";
 
 export interface NamespaceTree {

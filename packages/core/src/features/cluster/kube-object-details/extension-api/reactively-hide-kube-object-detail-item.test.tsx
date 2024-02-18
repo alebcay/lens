@@ -8,7 +8,7 @@ import { getApplicationBuilder } from "../../../../renderer/components/test-util
 import type { IObservableValue } from "mobx";
 import { runInAction, computed, observable } from "mobx";
 import React from "react";
-import { KubeObject } from "@k8slens/kube-object";
+import { KubeObject } from "@meniscus/kube-object";
 import apiManagerInjectable from "../../../../common/k8s-api/api-manager/manager.injectable";
 import type { KubeObjectStore } from "../../../../common/k8s-api/kube-object.store";
 import type { KubeApi } from "../../../../common/k8s-api/kube-api";

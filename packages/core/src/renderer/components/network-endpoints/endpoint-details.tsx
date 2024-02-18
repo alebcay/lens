@@ -9,7 +9,7 @@ import React from "react";
 import { observer } from "mobx-react";
 import { DrawerTitle } from "../drawer";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import { Endpoints } from "@k8slens/kube-object";
+import { Endpoints } from "@meniscus/kube-object";
 import { EndpointSubsetList } from "./endpoint-subset-list";
 import type { Logger } from "@k8slens/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";

@@ -4,8 +4,8 @@
  */
 
 import type { GetPodsByOwnerId } from "../workloads-pods/get-pods-by-owner-id.injectable";
-import { PodStatusPhase } from "@k8slens/kube-object";
-import type { Deployment, ReplicaSet } from "@k8slens/kube-object";
+import { PodStatusPhase } from "@meniscus/kube-object";
+import type { Deployment, ReplicaSet } from "@meniscus/kube-object";
 import type { KubeObjectStoreDependencies, KubeObjectStoreOptions } from "../../../common/k8s-api/kube-object.store";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 import type { ReplicaSetApi } from "../../../common/k8s-api/endpoints";

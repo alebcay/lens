@@ -5,9 +5,9 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import { reaction } from "mobx";
 import { customResourceDefinitionApiInjectionToken } from "../../../common/k8s-api/api-manager/crd-api-token";
-import type { CustomResourceDefinition } from "@k8slens/kube-object";
+import type { CustomResourceDefinition } from "@meniscus/kube-object";
 import { KubeApi } from "../../../common/k8s-api/kube-api";
-import { KubeObject } from "@k8slens/kube-object";
+import { KubeObject } from "@meniscus/kube-object";
 import maybeKubeApiInjectable from "../../../common/k8s-api/maybe-kube-api.injectable";
 import { loggerInjectionToken } from "@k8slens/logger";
 import { injectableDifferencingRegistratorWith } from "../../../common/utils/registrator-helper";

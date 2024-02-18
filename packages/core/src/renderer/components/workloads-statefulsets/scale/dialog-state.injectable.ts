@@ -5,7 +5,7 @@
 
 import { getInjectable } from "@ogre-tools/injectable";
 import { observable } from "mobx";
-import type { StatefulSet } from "@k8slens/kube-object";
+import type { StatefulSet } from "@meniscus/kube-object";
 
 const statefulSetDialogStateInjectable = getInjectable({
   id: "stateful-set-dialog-state",

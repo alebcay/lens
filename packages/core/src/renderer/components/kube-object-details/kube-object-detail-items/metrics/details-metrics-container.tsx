@@ -6,7 +6,7 @@ import type { KubeObjectDetailMetrics } from "@k8slens/metrics";
 import type { IComputedValue } from "mobx";
 import { observer } from "mobx-react";
 import React from "react";
-import type { KubeObject } from "@k8slens/kube-object";
+import type { KubeObject } from "@meniscus/kube-object";
 
 export interface DetailsMetricsContainerProps<K extends KubeObject> {
   metrics: IComputedValue<KubeObjectDetailMetrics<K>[]>;

@@ -15,7 +15,7 @@ import { Wizard, WizardStep } from "../../wizard";
 import { Icon } from "../../icon";
 import { Slider } from "../../slider";
 import { cssNames } from "@k8slens/utilities";
-import type { ReplicaSet } from "@k8slens/kube-object";
+import type { ReplicaSet } from "@meniscus/kube-object";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import replicaSetApiInjectable from "../../../../common/k8s-api/endpoints/replica-set.api.injectable";
 import replicaSetScaleDialogStateInjectable from "./state.injectable";

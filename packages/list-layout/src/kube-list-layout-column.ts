@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { KubeObject } from "@k8slens/kube-object";
+import type { KubeObject } from "@meniscus/kube-object";
 import type { StrictReactNode } from "@k8slens/utilities";
 import type { TableSortCallback, SearchFilter, TableCellProps } from "./list-layout-column";
 

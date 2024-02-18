@@ -10,7 +10,7 @@ import { computed, observable, reaction } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";
 import type { Disposer } from "@k8slens/utilities";
 import { hasTypedProperty, isObject, isString, cssNames, isDefined } from "@k8slens/utilities";
-import type { KubeJsonApiDataFor, KubeObject } from "@k8slens/kube-object";
+import type { KubeJsonApiDataFor, KubeObject } from "@meniscus/kube-object";
 import type { ItemListLayoutProps, ItemListStore } from "../item-object-list/list-layout";
 import { ItemListLayout } from "../item-object-list/list-layout";
 import { KubeObjectMenu } from "../kube-object-menu";

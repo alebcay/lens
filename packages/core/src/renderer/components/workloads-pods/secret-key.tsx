@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import React, { useState } from "react";
-import type { EnvVarKeySelector } from "@k8slens/kube-object";
+import type { EnvVarKeySelector } from "@meniscus/kube-object";
 import { Icon } from "../icon";
 import { base64, cssNames, isObject } from "@k8slens/utilities";
 import type { SecretStore } from "../config-secrets/store";

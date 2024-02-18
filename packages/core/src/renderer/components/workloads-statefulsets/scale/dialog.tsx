@@ -5,7 +5,7 @@
 
 import "./dialog.scss";
 
-import type { StatefulSet } from "@k8slens/kube-object";
+import type { StatefulSet } from "@meniscus/kube-object";
 import React, { Component } from "react";
 import type { IObservableValue } from "mobx";
 import { computed, makeObservable, observable } from "mobx";

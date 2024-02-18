@@ -16,7 +16,7 @@ import eventStoreInjectable from "../events/store.injectable";
 import podStoreInjectable from "./store.injectable";
 import type { SpecificKubeListLayoutColumn } from "@k8slens/list-layout";
 import { podListLayoutColumnInjectionToken } from "@k8slens/list-layout";
-import type { Pod } from "@k8slens/kube-object";
+import type { Pod } from "@meniscus/kube-object";
 
 interface Dependencies {
   eventStore: EventStore;

@@ -12,7 +12,7 @@ import type { KubeObjectDetailItem } from "../kube-object-detail-item-injection-
 import { DetailsMetricsContainer } from "./details-metrics-container";
 import { computedInjectManyInjectable } from "@ogre-tools/injectable-extension-for-mobx";
 import type { KubeObjectDetailsProps } from "../../kube-object-details";
-import type { KubeObject } from "@k8slens/kube-object";
+import type { KubeObject } from "@meniscus/kube-object";
 
 export type GetMetricsKubeObjectDetailItem = <K extends KubeObject>(token: InjectionToken<KubeObjectDetailMetrics<K>, void>, metricResourceType: ClusterMetricsResourceType) => KubeObjectDetailItem;
 

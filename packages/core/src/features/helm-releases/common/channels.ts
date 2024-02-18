@@ -5,7 +5,7 @@
 
 import { getRequestChannel } from "@k8slens/messaging";
 import type { Result } from "@k8slens/utilities";
-import type { KubeJsonApiData } from "@k8slens/kube-object";
+import type { KubeJsonApiData } from "@meniscus/kube-object";
 
 export interface GetHelmReleaseArgs {
   clusterId: string;

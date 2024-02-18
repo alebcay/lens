@@ -12,7 +12,7 @@ import { observer } from "mobx-react";
 import type { DialogProps } from "../../dialog";
 import { Dialog } from "../../dialog";
 import { Wizard, WizardStep } from "../../wizard";
-import type { Namespace } from "@k8slens/kube-object";
+import type { Namespace } from "@meniscus/kube-object";
 import { Input } from "../../input";
 import { systemName } from "../../input/input_validators";
 import { withInjectables } from "@ogre-tools/injectable-react";

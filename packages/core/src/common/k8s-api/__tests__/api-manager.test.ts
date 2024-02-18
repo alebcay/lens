@@ -15,7 +15,7 @@ import { loggerInjectionToken } from "@k8slens/logger";
 import type { ApiManager } from "../api-manager";
 import apiManagerInjectable from "../api-manager/manager.injectable";
 import { KubeApi } from "../kube-api";
-import { KubeObject } from "@k8slens/kube-object";
+import { KubeObject } from "@meniscus/kube-object";
 import { KubeObjectStore } from "../kube-object.store";
 import maybeKubeApiInjectable from "../maybe-kube-api.injectable";
 

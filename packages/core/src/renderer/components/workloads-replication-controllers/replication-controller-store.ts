@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { ReplicationController } from "@k8slens/kube-object";
+import type { ReplicationController } from "@meniscus/kube-object";
 import type { ReplicationControllerApi } from "../../../common/k8s-api/endpoints";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 

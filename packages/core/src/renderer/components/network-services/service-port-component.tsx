@@ -7,7 +7,7 @@ import "./service-port-component.scss";
 
 import React from "react";
 import { disposeOnUnmount, observer } from "mobx-react";
-import type { Service, ServicePort } from "@k8slens/kube-object";
+import type { Service, ServicePort } from "@meniscus/kube-object";
 import { action, makeObservable, observable, reaction } from "mobx";
 import { cssNames } from "@k8slens/utilities";
 import type { ShowNotification } from "../notifications";

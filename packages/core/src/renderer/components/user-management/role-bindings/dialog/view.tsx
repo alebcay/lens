@@ -10,7 +10,7 @@ import { computed, observable, makeObservable, action } from "mobx";
 import { observer } from "mobx-react";
 import React from "react";
 import { NamespaceSelect } from "../../../namespaces/namespace-select";
-import type { ClusterRole, Role, ServiceAccount, Subject } from "@k8slens/kube-object";
+import type { ClusterRole, Role, ServiceAccount, Subject } from "@meniscus/kube-object";
 import type { DialogProps } from "../../../dialog";
 import { Dialog } from "../../../dialog";
 import { EditableList } from "../../../editable-list";

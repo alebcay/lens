@@ -8,7 +8,7 @@ import "./secret.scss";
 import moment from "moment";
 import React from "react";
 
-import type { Secret } from "@k8slens/kube-object";
+import type { Secret } from "@meniscus/kube-object";
 import type { StrictReactNode } from "@k8slens/utilities";
 import { prevDefault } from "@k8slens/utilities";
 import { Icon } from "../../icon";

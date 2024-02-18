@@ -8,8 +8,8 @@
 import { merge } from "lodash";
 import { stringify } from "querystring";
 import { createKubeApiURL, parseKubeApi } from "./kube-api-parse";
-import type { KubeObjectConstructor, KubeJsonApiDataFor, KubeObjectMetadata, KubeJsonApiData, KubeObject, KubeObjectScope, Scale } from "@k8slens/kube-object";
-import { isJsonApiData, isJsonApiDataList, isPartialJsonApiData, KubeStatus, isKubeStatusData } from "@k8slens/kube-object";
+import type { KubeObjectConstructor, KubeJsonApiDataFor, KubeObjectMetadata, KubeJsonApiData, KubeObject, KubeObjectScope, Scale } from "@meniscus/kube-object";
+import { isJsonApiData, isJsonApiDataList, isPartialJsonApiData, KubeStatus, isKubeStatusData } from "@meniscus/kube-object";
 import byline from "byline";
 import type { IKubeWatchEvent } from "./kube-watch-event";
 import type { KubeJsonApi } from "./kube-json-api";
@@ -22,7 +22,7 @@ import type { PartialDeep } from "type-fest";
 import type { Logger } from "@k8slens/logger";
 import { matches } from "lodash/fp";
 import { makeObservable, observable } from "mobx";
-import type { ScaleCreateOptions } from "@k8slens/kube-object/src/types/scale";
+import type { ScaleCreateOptions } from "@meniscus/kube-object/src/types/scale";
 
 /**
  * The options used for creating a `KubeApi`

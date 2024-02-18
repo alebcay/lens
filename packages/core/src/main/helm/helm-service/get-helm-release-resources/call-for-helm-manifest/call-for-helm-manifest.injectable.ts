@@ -7,7 +7,7 @@ import type { AsyncResult } from "@k8slens/utilities";
 import { isObject } from "@k8slens/utilities";
 import execHelmInjectable from "../../../exec-helm/exec-helm.injectable";
 import yaml from "js-yaml";
-import type { KubeJsonApiData, KubeJsonApiDataList } from "@k8slens/kube-object";
+import type { KubeJsonApiData, KubeJsonApiDataList } from "@meniscus/kube-object";
 
 const requestHelmManifestInjectable = getInjectable({
   id: "request-helm-manifest",

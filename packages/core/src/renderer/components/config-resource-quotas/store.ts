@@ -5,7 +5,7 @@
 
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 import type { ResourceQuotaApi } from "../../../common/k8s-api/endpoints/resource-quota.api";
-import type { ResourceQuota } from "@k8slens/kube-object";
+import type { ResourceQuota } from "@meniscus/kube-object";
 
 export class ResourceQuotaStore extends KubeObjectStore<ResourceQuota, ResourceQuotaApi> {
 }

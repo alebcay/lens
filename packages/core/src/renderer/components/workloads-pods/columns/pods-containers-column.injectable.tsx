@@ -6,7 +6,7 @@ import { cssNames } from "@k8slens/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import startCase from "lodash/startCase";
 import React from "react";
-import type { ContainerStateValues, Pod } from "@k8slens/kube-object";
+import type { ContainerStateValues, Pod } from "@meniscus/kube-object";
 import { podListLayoutColumnInjectionToken } from "@k8slens/list-layout";
 import { StatusBrick } from "../../status-brick";
 

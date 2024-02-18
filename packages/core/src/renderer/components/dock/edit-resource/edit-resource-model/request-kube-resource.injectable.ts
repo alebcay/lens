@@ -3,8 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable } from "@ogre-tools/injectable";
-import type { KubeObjectMetadata, KubeObjectScope, KubeJsonApiData } from "@k8slens/kube-object";
-import { KubeObject } from "@k8slens/kube-object";
+import type { KubeObjectMetadata, KubeObjectScope, KubeJsonApiData } from "@meniscus/kube-object";
+import { KubeObject } from "@meniscus/kube-object";
 import type { AsyncResult } from "@k8slens/utilities";
 import { getErrorMessage } from "../../../../../common/utils/get-error-message";
 import type { Writable } from "type-fest";

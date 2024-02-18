@@ -7,7 +7,7 @@ import "./volume-details-list.scss";
 
 import React from "react";
 import { observer } from "mobx-react";
-import type { PersistentVolume } from "@k8slens/kube-object";
+import type { PersistentVolume } from "@meniscus/kube-object";
 import { TableRow } from "../table/table-row";
 import { cssNames, prevDefault } from "@k8slens/utilities";
 import { TableCell } from "../table/table-cell";

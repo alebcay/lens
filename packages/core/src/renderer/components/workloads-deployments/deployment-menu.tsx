@@ -4,7 +4,7 @@
  */
 import React from "react";
 import type { KubeObjectMenuProps } from "../kube-object-menu";
-import type { Deployment } from "@k8slens/kube-object";
+import type { Deployment } from "@meniscus/kube-object";
 import { MenuItem } from "../menu";
 import { Icon } from "../icon";
 import type { OpenDeploymentScaleDialog } from "./scale/open.injectable";

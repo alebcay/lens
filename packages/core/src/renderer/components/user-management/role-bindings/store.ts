@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { RoleBinding, RoleBindingData, Subject } from "@k8slens/kube-object";
+import type { RoleBinding, RoleBindingData, Subject } from "@meniscus/kube-object";
 import { KubeObjectStore } from "../../../../common/k8s-api/kube-object.store";
 import { HashSet } from "@k8slens/utilities";
 import { hashSubject } from "../hashers";

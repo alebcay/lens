@@ -13,7 +13,7 @@ import getRandomIdForEditResourceTabInjectable from "../../../renderer/component
 import type { AsyncFnMock } from "@async-fn/jest";
 import asyncFn from "@async-fn/jest";
 import dockStoreInjectable from "../../../renderer/components/dock/dock/store.injectable";
-import { Namespace } from "@k8slens/kube-object";
+import { Namespace } from "@meniscus/kube-object";
 import showSuccessNotificationInjectable from "../../../renderer/components/notifications/show-success-notification.injectable";
 import showErrorNotificationInjectable from "../../../renderer/components/notifications/show-error-notification.injectable";
 import readJsonFileInjectable from "../../../common/fs/read-json-file.injectable";
@@ -23,7 +23,7 @@ import type { ApiKubePatch } from "../../../renderer/k8s/api-kube-patch.injectab
 import type { ApiKubeGet } from "../../../renderer/k8s/api-kube-get.injectable";
 import apiKubePatchInjectable from "../../../renderer/k8s/api-kube-patch.injectable";
 import apiKubeGetInjectable from "../../../renderer/k8s/api-kube-get.injectable";
-import type { BaseKubeJsonApiObjectMetadata, KubeObjectScope, KubeJsonApiData } from "@k8slens/kube-object";
+import type { BaseKubeJsonApiObjectMetadata, KubeObjectScope, KubeJsonApiData } from "@meniscus/kube-object";
 import { JsonApiErrorParsed } from "@k8slens/json-api";
 import type { ShowNotification } from "../../../renderer/components/notifications";
 import React from "react";

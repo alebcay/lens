@@ -15,7 +15,7 @@ import type { ShowNotification } from "../notifications";
 import { base64, toggle } from "@k8slens/utilities";
 import { Icon } from "../icon";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import { Secret } from "@k8slens/kube-object";
+import { Secret } from "@meniscus/kube-object";
 import type { Logger } from "@k8slens/logger";
 import type { SecretStore } from "./store";
 import { withInjectables } from "@ogre-tools/injectable-react";

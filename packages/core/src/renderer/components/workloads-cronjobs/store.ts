@@ -5,7 +5,7 @@
 
 import type { KubeObjectStoreDependencies, KubeObjectStoreOptions } from "../../../common/k8s-api/kube-object.store";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
-import type { CronJob } from "@k8slens/kube-object";
+import type { CronJob } from "@meniscus/kube-object";
 import type { GetJobsByOwner } from "../workloads-jobs/get-jobs-by-owner.injectable";
 import type { CronJobApi } from "../../../common/k8s-api/endpoints";
 

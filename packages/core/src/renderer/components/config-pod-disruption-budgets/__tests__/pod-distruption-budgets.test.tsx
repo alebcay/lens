@@ -4,7 +4,7 @@
  */
 
 import React from "react";
-import { PodDisruptionBudget } from "@k8slens/kube-object";
+import { PodDisruptionBudget } from "@meniscus/kube-object";
 import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import { renderFor } from "../../test-utils/renderFor";
 import { PodDisruptionBudgets } from "../pod-disruption-budgets";

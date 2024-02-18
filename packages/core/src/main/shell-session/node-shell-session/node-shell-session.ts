@@ -15,7 +15,7 @@ import type { CreateKubeJsonApiForCluster } from "../../../common/k8s-api/create
 import type { CreateKubeApi } from "../../../common/k8s-api/create-kube-api.injectable";
 import { initialNodeShellImage } from "../../../common/cluster-types";
 import type { LoadProxyKubeconfig } from "../../cluster/load-proxy-kubeconfig.injectable";
-import type { Pod } from "@k8slens/kube-object";
+import type { Pod } from "@meniscus/kube-object";
 
 export interface NodeShellSessionArgs extends ShellSessionArgs {
   nodeName: string;

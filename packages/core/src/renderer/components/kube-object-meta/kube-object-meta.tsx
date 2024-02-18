@@ -4,8 +4,8 @@
  */
 
 import React from "react";
-import type { KubeMetaField } from "@k8slens/kube-object";
-import { KubeObject } from "@k8slens/kube-object";
+import type { KubeMetaField } from "@meniscus/kube-object";
+import { KubeObject } from "@meniscus/kube-object";
 import { DrawerItem, DrawerItemLabels } from "../drawer";
 import type { ApiManager } from "../../../common/k8s-api/api-manager";
 import { Link } from "react-router-dom";

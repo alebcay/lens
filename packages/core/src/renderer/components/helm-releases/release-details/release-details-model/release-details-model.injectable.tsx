@@ -13,7 +13,7 @@ import type { RequestHelmReleaseConfiguration } from "../../../../../common/k8s-
 import requestHelmReleaseConfigurationInjectable from "../../../../../common/k8s-api/endpoints/helm-releases.api/request-configuration.injectable";
 import { pipeline } from "@ogre-tools/fp";
 import { groupBy, map } from "lodash/fp";
-import type { KubeJsonApiData } from "@k8slens/kube-object";
+import type { KubeJsonApiData } from "@meniscus/kube-object";
 import type { GetResourceDetailsUrl } from "./get-resource-details-url.injectable";
 import getResourceDetailsUrlInjectable from "./get-resource-details-url.injectable";
 import type { RequestHelmReleaseUpdate } from "../../../../../common/k8s-api/endpoints/helm-releases.api/request-update.injectable";

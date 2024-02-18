@@ -12,7 +12,7 @@ import { disposeOnUnmount, observer } from "mobx-react";
 import { DrawerItem } from "../drawer";
 import { Badge } from "../badge";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import { formatNodeTaint, Node } from "@k8slens/kube-object";
+import { formatNodeTaint, Node } from "@meniscus/kube-object";
 import { PodDetailsList } from "../workloads-pods/pod-details-list";
 import { NodeDetailsResources } from "./details-resources";
 import { DrawerTitle } from "../drawer/drawer-title";

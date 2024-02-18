@@ -8,7 +8,7 @@ import "./details.scss";
 import { reaction } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";
 import React from "react";
-import type { RoleBinding } from "@k8slens/kube-object";
+import type { RoleBinding } from "@meniscus/kube-object";
 import { prevDefault, ObservableHashSet } from "@k8slens/utilities";
 import { AddRemoveButtons } from "../../add-remove-buttons";
 import { DrawerTitle } from "../../drawer";

@@ -12,7 +12,7 @@ import { DrawerTitle } from "../drawer";
 import type { ShowNotification } from "../notifications";
 import { Button } from "@meniscus/button";
 import type { KubeObjectDetailsProps } from "../kube-object-details";
-import { ConfigMap } from "@k8slens/kube-object";
+import { ConfigMap } from "@meniscus/kube-object";
 import type { Logger } from "@k8slens/logger";
 import type { ConfigMapStore } from "./store";
 import { withInjectables } from "@ogre-tools/injectable-react";

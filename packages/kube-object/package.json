@@ -1,5 +1,5 @@
 {
-  "name": "@k8slens/kube-object",
+  "name": "@meniscus/kube-object",
   "private": false,
   "version": "1.0.0",
   "description": "Injection tokens for list layout",

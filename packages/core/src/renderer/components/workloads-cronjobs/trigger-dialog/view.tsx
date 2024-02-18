@@ -12,7 +12,7 @@ import { observer } from "mobx-react";
 import type { DialogProps } from "../../dialog";
 import { Dialog } from "../../dialog";
 import { Wizard, WizardStep } from "../../wizard";
-import type { CronJob } from "@k8slens/kube-object";
+import type { CronJob } from "@meniscus/kube-object";
 import type { ShowNotification } from "../../notifications";
 import { cssNames } from "@k8slens/utilities";
 import { Input } from "../../input";

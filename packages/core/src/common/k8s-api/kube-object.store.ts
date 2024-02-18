@@ -6,8 +6,8 @@
 import { action, computed, makeObservable, observable, reaction } from "mobx";
 import type { Disposer } from "@k8slens/utilities";
 import { waitUntilDefined, includes, rejectPromiseBy, object } from "@k8slens/utilities";
-import type { KubeJsonApiDataFor, KubeObject } from "@k8slens/kube-object";
-import { KubeStatus } from "@k8slens/kube-object";
+import type { KubeJsonApiDataFor, KubeObject } from "@meniscus/kube-object";
+import { KubeStatus } from "@meniscus/kube-object";
 import type { IKubeWatchEvent } from "./kube-watch-event";
 import { ItemStore } from "../item.store";
 import type { KubeApiQueryParams, KubeApi, KubeApiWatchCallback } from "./kube-api";

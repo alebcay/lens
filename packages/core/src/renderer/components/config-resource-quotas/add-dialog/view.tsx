@@ -14,7 +14,7 @@ import { Dialog } from "../../dialog";
 import { Wizard, WizardStep } from "../../wizard";
 import { Input } from "../../input";
 import { systemName } from "../../input/input_validators";
-import type { ResourceQuotaValues } from "@k8slens/kube-object";
+import type { ResourceQuotaValues } from "@meniscus/kube-object";
 import type { ResourceQuotaApi } from "../../../../common/k8s-api/endpoints";
 import { Select } from "../../select";
 import { Icon } from "../../icon";

@@ -9,7 +9,7 @@ import React from "react";
 import { observer } from "mobx-react";
 import type { IComputedValue } from "mobx";
 import { Drawer } from "../drawer";
-import type { KubeObject } from "@k8slens/kube-object";
+import type { KubeObject } from "@meniscus/kube-object";
 import { Spinner } from "../spinner";
 import { KubeObjectMenu } from "../kube-object-menu";
 import type { HideDetails } from "../kube-detail-params/hide-details.injectable";

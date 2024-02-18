@@ -9,7 +9,7 @@ import React from "react";
 import kebabCase from "lodash/kebabCase";
 import { observer } from "mobx-react";
 import { Link } from "react-router-dom";
-import { Pod } from "@k8slens/kube-object";
+import { Pod } from "@meniscus/kube-object";
 import type { NodeApi, PriorityClassApi, RuntimeClassApi, ServiceAccountApi } from "../../../common/k8s-api/endpoints";
 import { DrawerItem } from "../drawer";
 import { Badge } from "../badge";

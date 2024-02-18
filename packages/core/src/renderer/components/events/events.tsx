@@ -13,7 +13,7 @@ import { TabLayout } from "../layout/tab-layout-2";
 import type { EventStore } from "./store";
 import type { KubeObjectListLayoutProps } from "../kube-object-list-layout";
 import { KubeObjectListLayout } from "../kube-object-list-layout";
-import type { KubeEvent, KubeEventData } from "@k8slens/kube-object";
+import type { KubeEvent, KubeEventData } from "@meniscus/kube-object";
 import type { TableSortParams, TableSortCallbacks } from "../table";
 import type { HeaderCustomizer } from "../item-object-list";
 import { Tooltip } from "@k8slens/tooltip";

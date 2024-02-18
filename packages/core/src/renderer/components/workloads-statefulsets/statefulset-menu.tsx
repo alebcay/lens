@@ -4,7 +4,7 @@
  */
 import React from "react";
 import type { KubeObjectMenuProps } from "../kube-object-menu";
-import type { StatefulSet } from "@k8slens/kube-object";
+import type { StatefulSet } from "@meniscus/kube-object";
 import { MenuItem } from "../menu";
 import { Icon } from "../icon";
 import { withInjectables } from "@ogre-tools/injectable-react";

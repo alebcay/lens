@@ -22,7 +22,7 @@ import activeThemeInjectable from "../../themes/active.injectable";
 import type { ClusterMetricData } from "../../../common/k8s-api/endpoints/metrics.api/request-cluster-metrics-by-node-names.injectable";
 import { isNumber } from "lodash";
 import type { SelectedNodeRoleForMetrics } from "./overview/selected-node-role-for-metrics.injectable";
-import type { Node } from "@k8slens/kube-object";
+import type { Node } from "@meniscus/kube-object";
 import clusterOverviewMetricsInjectable from "./cluster-metrics.injectable";
 import selectedNodeRoleForMetricsInjectable from "./overview/selected-node-role-for-metrics.injectable";
 

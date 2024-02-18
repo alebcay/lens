@@ -8,7 +8,7 @@ import React from "react";
 import { Table, TableHead, TableCell, TableRow } from "../table";
 import { prevDefault } from "@k8slens/utilities";
 import type { Logger } from "@k8slens/logger";
-import { Endpoints } from "@k8slens/kube-object";
+import { Endpoints } from "@meniscus/kube-object";
 import type { ShowDetails } from "../kube-detail-params/show-details.injectable";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { loggerInjectionToken } from "@k8slens/logger";

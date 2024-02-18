@@ -5,7 +5,7 @@
 
 import { observer } from "mobx-react";
 import React from "react";
-import type { Pod } from "@k8slens/kube-object";
+import type { Pod } from "@meniscus/kube-object";
 import { DrawerTitle } from "../../../drawer";
 import { Icon } from "../../../icon";
 import { VolumeVariant } from "./variant";

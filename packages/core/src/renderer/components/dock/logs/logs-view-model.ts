@@ -7,7 +7,7 @@ import type { IComputedValue } from "mobx";
 import { computed } from "mobx";
 import type { TabId } from "../dock/store";
 import type { SearchStore } from "../../../search-store/search-store";
-import type { Pod, PodLogsQuery } from "@k8slens/kube-object";
+import type { Pod, PodLogsQuery } from "@meniscus/kube-object";
 import { isDefined } from "@k8slens/utilities";
 import assert from "assert";
 import type { GetPodById } from "../../workloads-pods/get-pod-by-id.injectable";

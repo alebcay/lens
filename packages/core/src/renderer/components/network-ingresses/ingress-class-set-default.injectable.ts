@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
-import type { IngressClass } from "@k8slens/kube-object";
+import type { IngressClass } from "@meniscus/kube-object";
 import ingressClassApiInjectable from "../../../common/k8s-api/endpoints/ingress-class.api.injectable";
 import ingressClassStoreInjectable from "./ingress-class-store.injectable";
 

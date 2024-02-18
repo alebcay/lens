@@ -4,7 +4,7 @@
  */
 import { getInjectable } from "@ogre-tools/injectable";
 import apiBaseInjectable from "../../../common/k8s-api/api-base.injectable";
-import type { ServiceAccount } from "@k8slens/kube-object";
+import type { ServiceAccount } from "@meniscus/kube-object";
 import { urlBuilderFor } from "@k8slens/utilities";
 import openKubeconfigDialogInjectable from "./open.injectable";
 

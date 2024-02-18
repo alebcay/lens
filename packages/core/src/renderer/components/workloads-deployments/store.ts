@@ -4,8 +4,8 @@
  */
 
 import type { PodStore } from "../workloads-pods/store";
-import type { Deployment } from "@k8slens/kube-object";
-import { PodStatusPhase } from "@k8slens/kube-object";
+import type { Deployment } from "@meniscus/kube-object";
+import { PodStatusPhase } from "@meniscus/kube-object";
 import type { KubeObjectStoreDependencies, KubeObjectStoreOptions } from "../../../common/k8s-api/kube-object.store";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 import type { DeploymentApi } from "../../../common/k8s-api/endpoints";
