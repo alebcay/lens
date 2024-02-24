@@ -43,7 +43,7 @@
     "@ogre-tools/linkable": "^17.2.0",
     "adr": "^1.4.3",
     "cross-env": "^7.0.3",
-    "lerna": "^6.6.1",
+    "lerna": "^8.1.2",
     "npm": "^10.4.0",
     "rimraf": "^4.4.1"
   },

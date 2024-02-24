@@ -12,3 +12,4 @@ node_modules
 .linkable.json
 yalc.lock
 .yalc
+.nx/
