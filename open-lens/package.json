@@ -347,7 +347,7 @@
     "mini-css-extract-plugin": "^2.7.1",
     "monaco-editor-webpack-plugin": "^7.0.1",
     "node-loader": "^2.0.0",
-    "nodemon": "^2.0.20",
+    "nodemon": "^3.1.0",
     "playwright": "^1.33.0",
     "rimraf": "^4.4.1",
     "run-script-os": "^1.1.6",
