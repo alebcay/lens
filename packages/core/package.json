@@ -285,7 +285,7 @@
     "mobx-utils": "^6.0.4",
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.40",
-    "monaco-editor": "^0.38.0",
+    "monaco-editor": "^0.46.0",
     "node-pty": "0.10.1",
     "npm": "^10.4.0",
     "path-to-regexp": "^6.2.0",
