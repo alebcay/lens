@@ -4,12 +4,16 @@
  */
 
 import { getInjectable } from "@ogre-tools/injectable";
-import { SHA256 } from "crypto-js";
+import { createHash } from "crypto";
 
 const getHashInjectable = getInjectable({
   id: "get-hash",
 
-  instantiate: () => (text: string) => SHA256(text).toString(),
+  instantiate: () => (text: string) => {
+    const h = createHash("sha256");
+    h.update(text);
+    return h.digest("hex");
+  },
 });
 
 export default getHashInjectable;

@@ -4,13 +4,17 @@
  */
 
 import type { Subject } from "@meniscus/kube-object";
-import { MD5 } from "crypto-js";
+import { createHash } from "crypto";
 
 export function hashSubject(subject: Subject): string {
-  return MD5(JSON.stringify([
+  const jsonString = JSON.stringify([
     ["kind", subject.kind],
     ["name", subject.name],
     ["namespace", subject.namespace],
     ["apiGroup", subject.apiGroup],
-  ])).toString();
+  ]);
+
+  const h = createHash("md5");
+  h.update(jsonString);
+  return h.digest("hex");
 }
