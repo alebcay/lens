@@ -83,7 +83,7 @@
   },
   "build": {
     "npmRebuild": false,
-    "electronVersion": "27.3.2",
+    "electronVersion": "27.3.3",
     "generateUpdatesFilesForAllChannels": true,
     "files": [
       "static/**/*",
