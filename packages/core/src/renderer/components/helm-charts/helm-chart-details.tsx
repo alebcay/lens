@@ -16,7 +16,7 @@ import { Button } from "@meniscus/button";
 import { Select } from "../select";
 import { Badge } from "../badge";
 import { Tooltip } from "@mui/material";
-import { withStyles } from "@mui/styles";
+import { styled } from "@mui/material/styles";
 import type { IAsyncComputed } from "@ogre-tools/injectable-react";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import createInstallChartTabInjectable from "../dock/install-chart/create-install-chart-tab.injectable";
@@ -28,16 +28,20 @@ import helmChartDetailsVersionSelectionInjectable from "./details/versions/helm-
 import assert from "assert";
 import autoBindReact from "auto-bind/react";
 
+const largeTooltipClasses = {
+  tooltip: "HelmChartDetails-tooltip"
+};
+
+const LargeTooltip = styled(Tooltip)({
+  [`& .${largeTooltipClasses.tooltip}`]: {
+    fontSize: "var(--font-size-small)",
+  },
+});
+
 export interface HelmChartDetailsProps {
   hideDetails(): void;
   chart: HelmChart;
 }
-
-const LargeTooltip = withStyles({
-  tooltip: {
-    fontSize: "var(--font-size-small)",
-  },
-})(Tooltip);
 
 interface Dependencies {
   createInstallChartTab: (helmChart: HelmChart) => void;
@@ -98,7 +102,12 @@ class NonInjectedHelmChartDetails extends Component<HelmChartDetailsProps & Depe
               formatOptionLabel={({ value: chart }) => (
                 chart.deprecated
                   ? (
-                    <LargeTooltip title="Deprecated" placement="left">
+                    <LargeTooltip
+                      title="Deprecated"
+                      placement="left"
+                      classes={{
+                        tooltip: largeTooltipClasses.tooltip
+                      }}>
                       <span className="deprecated">{chart.version}</span>
                     </LargeTooltip>
                   )
