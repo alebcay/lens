@@ -6,7 +6,7 @@
 import styles from "./namespace-tree-view.module.scss";
 
 import { SvgIcon } from "@mui/material";
-import { TreeItem, TreeView } from "@mui/lab";
+import { TreeItem, TreeView } from "@mui/x-tree-view";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import React from "react";
 import { Link } from "react-router-dom";
