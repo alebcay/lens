@@ -189,35 +189,14 @@ export function isExecFileException(error: unknown): error is ExecFileException 
   return isExecException(error) && isErrnoException(error);
 }
 
-export type OutputFormat = "string" | "buffer";
-export type ComputeOutputFormat<Format> = Format extends "string"
-  ? string
-  : Format extends "buffer"
-    ? Buffer
-    : string | Buffer;
+export type OutputFormat = "string";
 
-export interface ChildProcessExecpetion<Format> extends ExecFileException {
-  stderr: ComputeOutputFormat<Format>;
-  stdout: ComputeOutputFormat<Format>;
-}
-
-const isStringOrBuffer = (val: unknown): val is string | Buffer => isString(val) || isBuffer(val);
-
-export function isChildProcessError(error: unknown, format?: OutputFormat): error is ChildProcessExecpetion<typeof format> {
+export function isChildProcessError(error: unknown, format?: OutputFormat): error is ExecFileException {
   if (!isExecFileException(error)) {
     return false;
   }
 
-  if (format === "string") {
-    return hasTypedProperty(error, "stderr", isString)
-      && hasTypedProperty(error, "stdout", isString);
-  } else if (format === "buffer") {
-    return hasTypedProperty(error, "stderr", isBuffer)
-      && hasTypedProperty(error, "stdout", isBuffer);
-  } else {
-    return hasTypedProperty(error, "stderr", isStringOrBuffer)
-      && hasTypedProperty(error, "stdout", isStringOrBuffer);
-  }
+  return hasTypedProperty(error, "stderr", isString) && hasTypedProperty(error, "stdout", isString);
 }
 
 export interface RequestLikeError extends Error {

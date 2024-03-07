@@ -43,7 +43,7 @@
     "welcomeRoute": "/welcome"
   },
   "engines": {
-    "node": ">=18 <19"
+    "node": "20"
   },
   "jest": {
     "collectCoverage": false,
@@ -83,7 +83,7 @@
   },
   "build": {
     "npmRebuild": false,
-    "electronVersion": "27.3.3",
+    "electronVersion": "29.0.1",
     "generateUpdatesFilesForAllChannels": true,
     "files": [
       "static/**/*",
@@ -314,7 +314,7 @@
     "@types/chart.js": "^2.9.36",
     "@types/color": "^3.0.3",
     "@types/lodash": "^4.14.191",
-    "@types/node": "^16.18.25",
+    "@types/node": "^20.11.21",
     "@types/proper-lockfile": "^4.1.2",
     "@types/react-dom": "^17.0.16",
     "@types/react-router-dom": "^5.3.3",
@@ -333,7 +333,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "cross-env": "^7.0.3",
     "css-loader": "^6.7.2",
-    "electron": "^27.3.2",
+    "electron": "^29.0.1",
     "electron-builder": "^24.12.0",
     "esbuild-loader": "^2.20.0",
     "fork-ts-checker-webpack-plugin": "^7.3.0",

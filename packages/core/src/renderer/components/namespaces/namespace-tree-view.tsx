@@ -4,8 +4,7 @@
  */
 
 import styles from "./namespace-tree-view.module.scss";
-
-import { SvgIcon } from "@mui/material";
+import { Box, SvgIcon } from "@mui/material";
 import { TreeItem, TreeView } from "@mui/x-tree-view";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import React from "react";
@@ -39,16 +38,39 @@ function NonInjectableNamespaceTreeView({ tree, namespaces, getDetailsUrl }: Dep
         nodeId={nodes.id}
         data-testid={`namespace-${nodes.id}`}
         classes={classes}
-        onIconClick={prevDefault(() => toggleNode(nodes.id))}
+        // onIconClick={prevDefault(() => toggleNode(nodes.id))}
+        sx={{
+          "& .MuiTreeItem-content": {
+            "&.Mui-selected": {
+              backgroundColor: "rgba(0, 0, 0, 0)",
+            },
+            "&.Mui-focused": {
+              backgroundColor: "rgba(0, 0, 0, 0)",
+            },
+            "&:hover": {
+              backgroundColor: "var(--tableBgcSelected)",
+            },
+          },
+          "& .MuiTreeItem-label": {
+            color: "var(--primary)",
+            fontFamily: "var(--font-main)!important",
+            fontSize: "calc(1.75 * var(--unit))!important",
+          },
+        }}
         label={(
           <>
-            <Link key={nodes.namespace.getId()} to={getDetailsUrl(nodes.namespace.selfLink)}>
+          <Box onClick={prevDefault(() => toggleNode(nodes.id))}>
+            <Link 
+              key={nodes.namespace.getId()}
+              to={getDetailsUrl(nodes.namespace.selfLink)}
+            >
               {nodes.namespace.getName()}
             </Link>
             {" "}
             {nodes.namespace.isSubnamespace() && (
               <SubnamespaceBadge id={`namespace-details-badge-for-${nodes.namespace.getId()}`} />
             )}
+          </Box>
           </>
         )}
       >

@@ -28,7 +28,7 @@
     "@meniscus/core": "6.5.2"
   },
   "devDependencies": {
-    "@types/node": "^16.18.25",
+    "@types/node": "^20.11.21",
     "@types/webpack": "^5.28.1",
     "@types/webpack-env": "^1.18.0",
     "@types/webpack-node-externals": "2.5.3",

@@ -1,6 +1,6 @@
 .TreeView {
   .group {
-    margin-inline-start: var(--margin);
+    margin-inline-start: calc(var(--margin) * 1.75);
     padding-inline-start: calc(var(--padding) * 2);
     border-inline-start: 1px dashed var(--borderColor);
   }

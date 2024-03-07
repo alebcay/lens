@@ -73,7 +73,7 @@ export default getGlobalOverride(electronAppInjectable, () => {
     getName(): string {
       throw new Error("Method not implemented.");
     }
-    getPreferredSystemLanguages(): ("app.getLocale()" | "app.getSystemLocale()" | "app.getPreferredSystemLanguages()")[] {
+    getPreferredSystemLanguages(): string[] {
       throw new Error("Method not implemented.");
     }
     getSystemLocale(): string {
@@ -140,6 +140,10 @@ export default getGlobalOverride(electronAppInjectable, () => {
     resignCurrentActivity(): void {
       throw new Error("Method not implemented.");
     }
+    resolveProxy(url: string): Promise<string> {
+      void url;
+      throw new Error("Method not implemented.");
+    }
     setAboutPanelOptions(options: Electron.AboutPanelOptionsOptions): void {
       void options;
       throw new Error("Method not implemented.");
@@ -176,6 +180,10 @@ export default getGlobalOverride(electronAppInjectable, () => {
     }
     setName(name: string): void {
       void name;
+      throw new Error("Method not implemented.");
+    }
+    setProxy(config: Electron.ProxyConfig): void {
+      void config;
       throw new Error("Method not implemented.");
     }
     setSecureKeyboardEntryEnabled(enabled: boolean): void {
@@ -221,22 +229,22 @@ export default getGlobalOverride(electronAppInjectable, () => {
     runningUnderRosettaTranslation = false;
     userAgentFallback = "some-user-agent-fallback";
 
-    getVersion() {
+    getVersion(): string {
       return "6.0.0";
     }
 
-    requestSingleInstanceLock() {
+    requestSingleInstanceLock(): boolean {
       return true;
     }
 
-    setLoginItemSettings() {}
-    quit() {}
-    exit() {}
-    focus() {}
-    disableHardwareAcceleration() {}
-    async whenReady() {}
+    setLoginItemSettings(): void {}
+    quit(): void {}
+    exit(): void {}
+    focus(): void {}
+    disableHardwareAcceleration(): void {}
+    async whenReady(): Promise<void> {}
 
-    getPath(name: string) {
+    getPath(name: string): string {
       return getOrInsert(appPaths, name, `/some-directory-for-${kebabCase(name)}`);
     }
 
@@ -256,7 +264,7 @@ export default getGlobalOverride(electronAppInjectable, () => {
       removeSwitch: (key) => chromiumArgs.delete(key),
     } as Electron.CommandLine;
 
-    getLoginItemSettings() {
+    getLoginItemSettings(): Electron.LoginItemSettings {
       return {
         executableWillLaunchAtLogin: false,
         openAtLogin: false,
@@ -264,6 +272,7 @@ export default getGlobalOverride(electronAppInjectable, () => {
         wasOpenedAtLogin: false,
         wasOpenedAsHidden: false,
         restoreState: false,
+        status: "not-found",
         launchItems: [],
       };
     }
