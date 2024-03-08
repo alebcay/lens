@@ -230,6 +230,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                             aria-live="polite"
                             aria-relevant="additions text"
                             class="css-1f43avz-a11yText-A11yText"
+                            role="log"
                           />
                           <div
                             class="Select__control css-13cymwt-control"
@@ -247,6 +248,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                 data-value=""
                               >
                                 <input
+                                  aria-activedescendant=""
                                   aria-autocomplete="list"
                                   aria-expanded="false"
                                   aria-haspopup="true"
@@ -436,8 +438,10 @@ exports[`add custom helm repository in preferences when navigating to preference
                               aria-live="polite"
                               aria-relevant="additions text"
                               class="css-1f43avz-a11yText-A11yText"
+                              role="log"
                             />
                             <div
+                              aria-disabled="true"
                               class="Select__control Select__control--is-disabled css-16xfy0z-control"
                             >
                               <div
@@ -454,6 +458,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                   data-value=""
                                 >
                                   <input
+                                    aria-activedescendant=""
                                     aria-autocomplete="list"
                                     aria-describedby="react-select-selection-of-active-public-helm-repository-placeholder"
                                     aria-expanded="false"
@@ -950,6 +955,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                             aria-live="polite"
                             aria-relevant="additions text"
                             class="css-1f43avz-a11yText-A11yText"
+                            role="log"
                           />
                           <div
                             class="Select__control css-13cymwt-control"
@@ -967,6 +973,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                 data-value=""
                               >
                                 <input
+                                  aria-activedescendant=""
                                   aria-autocomplete="list"
                                   aria-expanded="false"
                                   aria-haspopup="true"
@@ -1184,6 +1191,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                               aria-live="polite"
                               aria-relevant="additions text"
                               class="css-1f43avz-a11yText-A11yText"
+                              role="log"
                             />
                             <div
                               class="Select__control css-13cymwt-control"
@@ -1202,6 +1210,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                   data-value=""
                                 >
                                   <input
+                                    aria-activedescendant=""
                                     aria-autocomplete="list"
                                     aria-describedby="react-select-selection-of-active-public-helm-repository-placeholder"
                                     aria-expanded="false"
@@ -1709,6 +1718,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                             aria-live="polite"
                             aria-relevant="additions text"
                             class="css-1f43avz-a11yText-A11yText"
+                            role="log"
                           />
                           <div
                             class="Select__control css-13cymwt-control"
@@ -1726,6 +1736,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                 data-value=""
                               >
                                 <input
+                                  aria-activedescendant=""
                                   aria-autocomplete="list"
                                   aria-expanded="false"
                                   aria-haspopup="true"
@@ -1943,6 +1954,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                               aria-live="polite"
                               aria-relevant="additions text"
                               class="css-1f43avz-a11yText-A11yText"
+                              role="log"
                             />
                             <div
                               class="Select__control css-13cymwt-control"
@@ -1961,6 +1973,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                   data-value=""
                                 >
                                   <input
+                                    aria-activedescendant=""
                                     aria-autocomplete="list"
                                     aria-describedby="react-select-selection-of-active-public-helm-repository-placeholder"
                                     aria-expanded="false"
@@ -2579,6 +2592,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                             aria-live="polite"
                             aria-relevant="additions text"
                             class="css-1f43avz-a11yText-A11yText"
+                            role="log"
                           />
                           <div
                             class="Select__control css-13cymwt-control"
@@ -2596,6 +2610,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                 data-value=""
                               >
                                 <input
+                                  aria-activedescendant=""
                                   aria-autocomplete="list"
                                   aria-expanded="false"
                                   aria-haspopup="true"
@@ -2813,6 +2828,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                               aria-live="polite"
                               aria-relevant="additions text"
                               class="css-1f43avz-a11yText-A11yText"
+                              role="log"
                             />
                             <div
                               class="Select__control css-13cymwt-control"
@@ -2831,6 +2847,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                   data-value=""
                                 >
                                   <input
+                                    aria-activedescendant=""
                                     aria-autocomplete="list"
                                     aria-describedby="react-select-selection-of-active-public-helm-repository-placeholder"
                                     aria-expanded="false"
@@ -3346,6 +3363,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                             aria-live="polite"
                             aria-relevant="additions text"
                             class="css-1f43avz-a11yText-A11yText"
+                            role="log"
                           />
                           <div
                             class="Select__control css-13cymwt-control"
@@ -3363,6 +3381,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                 data-value=""
                               >
                                 <input
+                                  aria-activedescendant=""
                                   aria-autocomplete="list"
                                   aria-expanded="false"
                                   aria-haspopup="true"
@@ -3580,6 +3599,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                               aria-live="polite"
                               aria-relevant="additions text"
                               class="css-1f43avz-a11yText-A11yText"
+                              role="log"
                             />
                             <div
                               class="Select__control css-13cymwt-control"
@@ -3598,6 +3618,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                   data-value=""
                                 >
                                   <input
+                                    aria-activedescendant=""
                                     aria-autocomplete="list"
                                     aria-describedby="react-select-selection-of-active-public-helm-repository-placeholder"
                                     aria-expanded="false"
@@ -4216,6 +4237,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                             aria-live="polite"
                             aria-relevant="additions text"
                             class="css-1f43avz-a11yText-A11yText"
+                            role="log"
                           />
                           <div
                             class="Select__control css-13cymwt-control"
@@ -4233,6 +4255,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                 data-value=""
                               >
                                 <input
+                                  aria-activedescendant=""
                                   aria-autocomplete="list"
                                   aria-expanded="false"
                                   aria-haspopup="true"
@@ -4450,6 +4473,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                               aria-live="polite"
                               aria-relevant="additions text"
                               class="css-1f43avz-a11yText-A11yText"
+                              role="log"
                             />
                             <div
                               class="Select__control css-13cymwt-control"
@@ -4468,6 +4492,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                   data-value=""
                                 >
                                   <input
+                                    aria-activedescendant=""
                                     aria-autocomplete="list"
                                     aria-describedby="react-select-selection-of-active-public-helm-repository-placeholder"
                                     aria-expanded="false"
@@ -5268,6 +5293,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                             aria-live="polite"
                             aria-relevant="additions text"
                             class="css-1f43avz-a11yText-A11yText"
+                            role="log"
                           />
                           <div
                             class="Select__control css-13cymwt-control"
@@ -5285,6 +5311,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                 data-value=""
                               >
                                 <input
+                                  aria-activedescendant=""
                                   aria-autocomplete="list"
                                   aria-expanded="false"
                                   aria-haspopup="true"
@@ -5502,6 +5529,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                               aria-live="polite"
                               aria-relevant="additions text"
                               class="css-1f43avz-a11yText-A11yText"
+                              role="log"
                             />
                             <div
                               class="Select__control css-13cymwt-control"
@@ -5520,6 +5548,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                   data-value=""
                                 >
                                   <input
+                                    aria-activedescendant=""
                                     aria-autocomplete="list"
                                     aria-describedby="react-select-selection-of-active-public-helm-repository-placeholder"
                                     aria-expanded="false"
@@ -6138,6 +6167,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                             aria-live="polite"
                             aria-relevant="additions text"
                             class="css-1f43avz-a11yText-A11yText"
+                            role="log"
                           />
                           <div
                             class="Select__control css-13cymwt-control"
@@ -6155,6 +6185,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                 data-value=""
                               >
                                 <input
+                                  aria-activedescendant=""
                                   aria-autocomplete="list"
                                   aria-expanded="false"
                                   aria-haspopup="true"
@@ -6372,6 +6403,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                               aria-live="polite"
                               aria-relevant="additions text"
                               class="css-1f43avz-a11yText-A11yText"
+                              role="log"
                             />
                             <div
                               class="Select__control css-13cymwt-control"
@@ -6390,6 +6422,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                   data-value=""
                                 >
                                   <input
+                                    aria-activedescendant=""
                                     aria-autocomplete="list"
                                     aria-describedby="react-select-selection-of-active-public-helm-repository-placeholder"
                                     aria-expanded="false"
@@ -7190,6 +7223,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                             aria-live="polite"
                             aria-relevant="additions text"
                             class="css-1f43avz-a11yText-A11yText"
+                            role="log"
                           />
                           <div
                             class="Select__control css-13cymwt-control"
@@ -7207,6 +7241,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                 data-value=""
                               >
                                 <input
+                                  aria-activedescendant=""
                                   aria-autocomplete="list"
                                   aria-expanded="false"
                                   aria-haspopup="true"
@@ -7424,6 +7459,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                               aria-live="polite"
                               aria-relevant="additions text"
                               class="css-1f43avz-a11yText-A11yText"
+                              role="log"
                             />
                             <div
                               class="Select__control css-13cymwt-control"
@@ -7442,6 +7478,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                   data-value=""
                                 >
                                   <input
+                                    aria-activedescendant=""
                                     aria-autocomplete="list"
                                     aria-describedby="react-select-selection-of-active-public-helm-repository-placeholder"
                                     aria-expanded="false"
@@ -8061,6 +8098,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                             aria-live="polite"
                             aria-relevant="additions text"
                             class="css-1f43avz-a11yText-A11yText"
+                            role="log"
                           />
                           <div
                             class="Select__control css-13cymwt-control"
@@ -8078,6 +8116,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                 data-value=""
                               >
                                 <input
+                                  aria-activedescendant=""
                                   aria-autocomplete="list"
                                   aria-expanded="false"
                                   aria-haspopup="true"
@@ -8295,6 +8334,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                               aria-live="polite"
                               aria-relevant="additions text"
                               class="css-1f43avz-a11yText-A11yText"
+                              role="log"
                             />
                             <div
                               class="Select__control css-13cymwt-control"
@@ -8313,6 +8353,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                   data-value=""
                                 >
                                   <input
+                                    aria-activedescendant=""
                                     aria-autocomplete="list"
                                     aria-describedby="react-select-selection-of-active-public-helm-repository-placeholder"
                                     aria-expanded="false"
@@ -8828,6 +8869,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                             aria-live="polite"
                             aria-relevant="additions text"
                             class="css-1f43avz-a11yText-A11yText"
+                            role="log"
                           />
                           <div
                             class="Select__control css-13cymwt-control"
@@ -8845,6 +8887,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                 data-value=""
                               >
                                 <input
+                                  aria-activedescendant=""
                                   aria-autocomplete="list"
                                   aria-expanded="false"
                                   aria-haspopup="true"
@@ -9062,8 +9105,10 @@ exports[`add custom helm repository in preferences when navigating to preference
                               aria-live="polite"
                               aria-relevant="additions text"
                               class="css-1f43avz-a11yText-A11yText"
+                              role="log"
                             />
                             <div
+                              aria-disabled="true"
                               class="Select__control Select__control--is-disabled css-16xfy0z-control"
                             >
                               <div
@@ -9080,6 +9125,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                   data-value=""
                                 >
                                   <input
+                                    aria-activedescendant=""
                                     aria-autocomplete="list"
                                     aria-describedby="react-select-selection-of-active-public-helm-repository-placeholder"
                                     aria-expanded="false"
@@ -9584,6 +9630,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                             aria-live="polite"
                             aria-relevant="additions text"
                             class="css-1f43avz-a11yText-A11yText"
+                            role="log"
                           />
                           <div
                             class="Select__control css-13cymwt-control"
@@ -9601,6 +9648,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                 data-value=""
                               >
                                 <input
+                                  aria-activedescendant=""
                                   aria-autocomplete="list"
                                   aria-expanded="false"
                                   aria-haspopup="true"
@@ -9818,8 +9866,10 @@ exports[`add custom helm repository in preferences when navigating to preference
                               aria-live="polite"
                               aria-relevant="additions text"
                               class="css-1f43avz-a11yText-A11yText"
+                              role="log"
                             />
                             <div
+                              aria-disabled="true"
                               class="Select__control Select__control--is-disabled css-16xfy0z-control"
                             >
                               <div
@@ -9836,6 +9886,7 @@ exports[`add custom helm repository in preferences when navigating to preference
                                   data-value=""
                                 >
                                   <input
+                                    aria-activedescendant=""
                                     aria-autocomplete="list"
                                     aria-describedby="react-select-selection-of-active-public-helm-repository-placeholder"
                                     aria-expanded="false"

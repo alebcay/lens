@@ -547,6 +547,7 @@ exports[`show-about-using-tray when navigating using tray renders 1`] = `
                         aria-live="polite"
                         aria-relevant="additions text"
                         class="css-1f43avz-a11yText-A11yText"
+                        role="log"
                       />
                       <div
                         class="Select__control css-13cymwt-control"
@@ -565,6 +566,7 @@ exports[`show-about-using-tray when navigating using tray renders 1`] = `
                             data-value=""
                           >
                             <input
+                              aria-activedescendant=""
                               aria-autocomplete="list"
                               aria-describedby="react-select-theme-input-placeholder"
                               aria-expanded="false"
@@ -638,6 +640,7 @@ exports[`show-about-using-tray when navigating using tray renders 1`] = `
                         aria-live="polite"
                         aria-relevant="additions text"
                         class="css-1f43avz-a11yText-A11yText"
+                        role="log"
                       />
                       <div
                         class="Select__control css-13cymwt-control"
@@ -655,6 +658,7 @@ exports[`show-about-using-tray when navigating using tray renders 1`] = `
                             data-value=""
                           >
                             <input
+                              aria-activedescendant=""
                               aria-autocomplete="list"
                               aria-expanded="false"
                               aria-haspopup="true"
@@ -783,6 +787,7 @@ exports[`show-about-using-tray when navigating using tray renders 1`] = `
                         aria-live="polite"
                         aria-relevant="additions text"
                         class="css-1f43avz-a11yText-A11yText"
+                        role="log"
                       />
                       <div
                         class="Select__control css-13cymwt-control"
@@ -800,6 +805,7 @@ exports[`show-about-using-tray when navigating using tray renders 1`] = `
                             data-value=""
                           >
                             <input
+                              aria-activedescendant=""
                               aria-autocomplete="list"
                               aria-expanded="false"
                               aria-haspopup="true"
