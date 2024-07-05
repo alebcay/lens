@@ -45,7 +45,7 @@
     "@meniscus/eslint-config": "^6.5.0",
     "@meniscus/jest": "^6.5.0",
     "@meniscus/typescript": "^6.5.0",
-    "@types/node": "^20.11.21",
+    "@types/node": "^20.12.8",
     "type-fest": "^2.14.0"
   }
 }
