@@ -83,7 +83,7 @@
   },
   "build": {
     "npmRebuild": false,
-    "electronVersion": "30.5.1",
+    "electronVersion": "31.6.0",
     "generateUpdatesFilesForAllChannels": true,
     "files": [
       "static/**/*",
@@ -333,7 +333,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "cross-env": "^7.0.3",
     "css-loader": "^6.7.2",
-    "electron": "^30.5.1",
+    "electron": "^31.6.0",
     "electron-builder": "^24.12.0",
     "esbuild-loader": "^2.20.0",
     "fork-ts-checker-webpack-plugin": "^7.3.0",
