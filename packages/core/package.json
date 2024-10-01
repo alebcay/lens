@@ -204,7 +204,7 @@
     "webpack-node-externals": "^3.0.0"
   },
   "peerDependencies": {
-    "@emotion/react": "^11.11.3",
+    "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@hapi/call": "^9.0.1",
     "@hapi/subtext": "^8.1.0",
@@ -243,7 +243,7 @@
     "@meniscus/startable-stoppable": "^1.0.0",
     "@meniscus/tooltip": "^1.0.0",
     "@meniscus/utilities": "^1.0.0",
-    "@mui/material": "^5.15.16",
+    "@mui/material": "^5.16.0",
     "@mui/x-tree-view": "^6.17.0",
     "@ogre-tools/fp": "^17.2.0",
     "@ogre-tools/injectable": "^17.2.0",
@@ -252,6 +252,9 @@
     "@ogre-tools/injectable-react": "^17.2.0",
     "@sentry/electron": "^3.0.8",
     "@sentry/integrations": "^6.19.3",
+    "@xterm/addon-fit": "^0.10.0",
+    "@xterm/addon-web-links": "^0.11.0",
+    "@xterm/xterm": "^5.5.0",
     "ansi_up": "^6.0.2",
     "auto-bind": "^4.0.0",
     "await-lock": "^2.2.2",
@@ -317,9 +320,6 @@
     "win-ca": "^3.5.0",
     "winston": "^3.13.0",
     "winston-transport-browserconsole": "^1.0.5",
-    "ws": "^8.17.0",
-    "@xterm/xterm": "^5.5.0",
-    "@xterm/addon-fit": "^0.10.0",
-    "@xterm/addon-web-links": "^0.11.0"
+    "ws": "^8.17.0"
   }
 }
