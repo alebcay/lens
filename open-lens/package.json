@@ -83,7 +83,7 @@
   },
   "build": {
     "npmRebuild": false,
-    "electronVersion": "31.7.3",
+    "electronVersion": "32.2.2",
     "generateUpdatesFilesForAllChannels": true,
     "files": [
       "static/**/*",
@@ -262,7 +262,7 @@
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.40",
     "monaco-editor": "^0.48.0",
-    "node-pty": "0.10.1",
+    "node-pty": "git+https://github.com/microsoft/node-pty#main",
     "npm": "^10.4.0",
     "p-limit": "^3.1.0",
     "path-to-regexp": "^6.2.1",
@@ -333,7 +333,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "cross-env": "^7.0.3",
     "css-loader": "^6.7.2",
-    "electron": "^31.7.3",
+    "electron": "^32.2.2",
     "electron-builder": "^25.1.8",
     "esbuild-loader": "^2.20.0",
     "fork-ts-checker-webpack-plugin": "^7.3.0",
