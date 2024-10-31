@@ -34,7 +34,7 @@
   },
   "peerDependencies": {
     "@meniscus/utilities": "^1.0.0",
-    "react": "^17.0.2"
+    "react": "^18"
   },
   "devDependencies": {
     "@meniscus/eslint-config": "^6.5.0",

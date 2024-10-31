@@ -3,18 +3,18 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import React from "react";
+import React, { JSXElementConstructor } from "react";
 import { isObject } from "./type-narrowing";
 
 // ref: https://changelog.com/posts/the-react-reactnode-type-is-a-black-hole
 
 export type StrictReactFragment =
   | {
-      key?: string | number | null;
+      key: string | null;
       ref?: null;
-      props?: {
-        children?: StrictReactNode;
-      };
+      props: {};
+      children: StrictReactNode;
+      type: string | JSXElementConstructor<any>;
     };
 
 export type StrictReactNode =

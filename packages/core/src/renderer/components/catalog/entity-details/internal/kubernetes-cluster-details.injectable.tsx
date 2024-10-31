@@ -23,10 +23,10 @@ const kubernetesClusterDetailsItemInjectable = getInjectable({
               name="Distribution"
               data-testid={`kubernetes-distro-for-${entity.getId()}`}
             >
-              {entity.metadata.distro || "unknown"}
+              "{entity.metadata.distro as string || "unknown"}"
             </DrawerItem>
             <DrawerItem name="Kubelet Version">
-              {entity.metadata.kubeVersion || "unknown"}
+              {entity.metadata.kubeVersion as string || "unknown"}
             </DrawerItem>
           </div>
         </>

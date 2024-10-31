@@ -8,7 +8,7 @@ import { render as testingLibraryRender } from "@testing-library/react";
 import type { DiContainer } from "@ogre-tools/injectable";
 import { DiContextProvider } from "@ogre-tools/injectable-react";
 
-export type DiRender = (ui: React.ReactElement) => RenderResult;
+export type DiRender = (ui: React.ReactNode) => RenderResult;
 
 type DiRenderFor = (di: DiContainer) => DiRender;
 
@@ -24,7 +24,7 @@ export const renderFor: DiRenderFor = (di) => (ui) => {
   return {
     ...result,
 
-    rerender: (ui: React.ReactElement) => result.rerender(
+    rerender: (ui: React.ReactNode) => result.rerender(
       <DiContextProvider value={{ di }}>{ui}</DiContextProvider>,
     ),
   };

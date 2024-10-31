@@ -50,8 +50,10 @@ export const Button = withTooltip((props: ButtonProps) => {
   if (props.href) {
     return (
       <a {...btnProps}>
+        <>
         {label}
         {children}
+        </>
       </a>
     );
   }
@@ -59,8 +61,10 @@ export const Button = withTooltip((props: ButtonProps) => {
   // render as button
   return (
     <button type="button" {...btnProps} data-waiting={typeof waiting === "boolean" ? String(waiting) : undefined}>
+      <>
       {label}
       {children}
+      </>
     </button>
   );
 });
