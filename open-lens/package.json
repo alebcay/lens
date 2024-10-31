@@ -182,7 +182,7 @@
     "@emotion/styled": "^11.11.5",
     "@hapi/call": "^9.0.1",
     "@hapi/subtext": "^8.1.0",
-    "@kubernetes/client-node": "^0.18.1",
+    "@kubernetes/client-node": "^0.22.2",
     "@meniscus/application": "^6.5.0",
     "@meniscus/application-for-electron-main": "^6.5.0",
     "@meniscus/button": "^1.0.0",
