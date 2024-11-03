@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@meniscus/webpack": "^6.5.0",
-    "rimraf": "^5.0.5"
+    "rimraf": "^6.0.1"
   },
   "peerDependencies": {
     "@ogre-tools/injectable": "^17.2.0"
