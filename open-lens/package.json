@@ -83,7 +83,7 @@
   },
   "build": {
     "npmRebuild": false,
-    "electronVersion": "32.2.2",
+    "electronVersion": "32.2.8",
     "generateUpdatesFilesForAllChannels": true,
     "files": [
       "static/**/*",
@@ -303,7 +303,7 @@
   },
   "devDependencies": {
     "@electron/notarize": "^2.5.0",
-    "@electron/rebuild": "^3.6.1",
+    "@electron/rebuild": "^3.7.1",
     "@meniscus/generate-tray-icons": "^6.5.0",
     "@meniscus/test-utils": "^1.0.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
@@ -333,7 +333,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "cross-env": "^7.0.3",
     "css-loader": "^6.7.2",
-    "electron": "^32.2.2",
+    "electron": "^32.2.8",
     "electron-builder": "^25.1.8",
     "esbuild-loader": "^2.20.0",
     "fork-ts-checker-webpack-plugin": "^7.3.0",
