@@ -57,7 +57,7 @@
     "react-dom": "^18",
     "react-router-dom": "^5.3.4",
     "uuid": "^8.3.2",
-    "winston": "^3.13.0"
+    "winston": "^3.17.0"
   },
   "devDependencies": {
     "@meniscus/eslint-config": "^6.5.0",

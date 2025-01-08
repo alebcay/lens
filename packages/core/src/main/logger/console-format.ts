@@ -44,7 +44,7 @@ export interface ConsoleFormatOptions {
 
 interface TransformableInfo {
   level: string;
-  message: string;
+  message: any;
   [key: string | symbol]: any;
 }
 
