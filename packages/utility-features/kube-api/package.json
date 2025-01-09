@@ -45,7 +45,7 @@
     "lodash": "^4.17.15",
     "mobx": "^6.12.3",
     "moment": "^2.29.4",
-    "rfc6902": "^5.0.1"
+    "rfc6902": "^5.1.2"
   },
   "devDependencies": {
     "@meniscus/eslint-config": "^6.5.0",
