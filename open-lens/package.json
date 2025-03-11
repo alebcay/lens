@@ -31,8 +31,7 @@
     "dev:renderer": "cross-env NODE_ENV=development ts-node ./webpack/dev-server.ts",
     "test:integration": "jest -xyz --runInBand --modulePaths=[\"<rootDir>/integration/\"];",
     "build:tray-icons": "npm run --workspace @meniscus/generate-tray-icons generate -- --output static/build/tray --input @meniscus/icon/icons/logo-lens.svg --notice-icon @meniscus/icon/icons/notice.svg --spinner-icon @meniscus/icon/icons/arrow-spinner.svg",
-    "download:binaries": "npm run --workspace @meniscus/ensure-binaries ensure -- --package package.json --base-dir binaries/client",
-    "postinstall": "electron-rebuild"
+    "download:binaries": "npm run --workspace @meniscus/ensure-binaries ensure -- --package package.json --base-dir binaries/client"
   },
   "config": {
     "k8sProxyVersion": "0.3.0",
@@ -303,7 +302,6 @@
   },
   "devDependencies": {
     "@electron/notarize": "^2.5.0",
-    "@electron/rebuild": "^3.7.1",
     "@meniscus/generate-tray-icons": "^6.5.0",
     "@meniscus/test-utils": "^1.0.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
