@@ -320,6 +320,7 @@ class NonInjectedMenu extends React.Component<MenuProps & Dependencies, State> {
 
   protected bindRef(elem: HTMLUListElement) {
     this.elem = elem;
+    this.refreshPosition();
   }
 
   protected bindItemRef(item: MenuItem, index: number) {
