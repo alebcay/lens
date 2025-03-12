@@ -42,7 +42,7 @@
   "devDependencies": {
     "@ogre-tools/linkable": "^17.11.1",
     "cross-env": "^7.0.3",
-    "lerna": "^8.1.2",
+    "lerna": "^8.2.1",
     "lerna-update-wizard": "^1.1.2",
     "npm": "^10.4.0",
     "rimraf": "^6.0.1"

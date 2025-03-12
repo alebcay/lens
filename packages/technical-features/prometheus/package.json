@@ -32,10 +32,10 @@
     "lint:fix": "lens-lint --fix"
   },
   "peerDependencies": {
+    "@kubernetes/client-node": "^0.22.3",
     "@meniscus/application": "^6.5.0",
     "@meniscus/feature-core": "^6.5.0",
     "@meniscus/utilities": "^1.0.0",
-    "@kubernetes/client-node": "^0.22.2",
     "@ogre-tools/fp": "^17.2.0",
     "@ogre-tools/injectable": "^17.2.0",
     "@ogre-tools/injectable-extension-for-auto-registration": "^17.2.0",
