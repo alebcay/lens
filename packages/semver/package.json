@@ -17,7 +17,7 @@
     "@swc/cli": "^0.1.62",
     "@swc/core": "^1.4.17",
     "@types/command-line-args": "^5.2.0",
-    "@types/node": "^20.12.8",
+    "@types/node": "^22.13.10",
     "@types/semver": "^7.3.13",
     "rimraf": "^6.0.1"
   }

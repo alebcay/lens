@@ -42,7 +42,7 @@
     "welcomeRoute": "/welcome"
   },
   "engines": {
-    "node": "20"
+    "node": "22"
   },
   "jest": {
     "collectCoverage": false,
@@ -82,7 +82,7 @@
   },
   "build": {
     "npmRebuild": false,
-    "electronVersion": "32.2.8",
+    "electronVersion": "35.0.1",
     "generateUpdatesFilesForAllChannels": true,
     "files": [
       "static/**/*",
@@ -219,8 +219,8 @@
     "@meniscus/startable-stoppable": "^1.0.0",
     "@meniscus/tooltip": "^1.0.0",
     "@meniscus/utilities": "^1.0.0",
-    "@mui/material": "^5.16.0",
-    "@mui/x-tree-view": "^6.17.0",
+    "@mui/material": "^6.4.7",
+    "@mui/x-tree-view": "^7.26.0",
     "@ogre-tools/fp": "^17.2.0",
     "@ogre-tools/injectable": "^17.2.0",
     "@ogre-tools/injectable-extension-for-auto-registration": "^17.2.0",
@@ -274,7 +274,6 @@
     "react": "^18",
     "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^18",
-    "react-material-ui-carousel": "^3.4.2",
     "react-router": "^5.3.4",
     "react-router-dom": "^5.3.4",
     "react-select": "^5.7.0",
@@ -312,7 +311,7 @@
     "@types/chart.js": "^2.9.36",
     "@types/color": "^3.0.3",
     "@types/lodash": "^4.14.191",
-    "@types/node": "^20.12.8",
+    "@types/node": "^22.13.10",
     "@types/proper-lockfile": "^4.1.2",
     "@types/react-dom": "^18",
     "@types/react-router-dom": "^5.3.3",
@@ -331,7 +330,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "cross-env": "^7.0.3",
     "css-loader": "^6.7.2",
-    "electron": "^32.2.8",
+    "electron": "^35.0.1",
     "electron-builder": "^25.1.8",
     "esbuild-loader": "^2.20.0",
     "fork-ts-checker-webpack-plugin": "^9.0.2",

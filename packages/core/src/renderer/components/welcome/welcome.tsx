@@ -7,8 +7,6 @@ import "./welcome.scss";
 import React from "react";
 import { observer } from "mobx-react";
 import type { IComputedValue } from "mobx";
-import Carousel from "react-material-ui-carousel";
-// import LegacyCarousel from "react-material-ui-carousel";
 import { Icon } from "@meniscus/icon";
 import { forumsUrl } from "../../../common/vars";
 import { withInjectables } from "@ogre-tools/injectable-react";
@@ -19,9 +17,6 @@ import type { WelcomeBannerRegistration } from "./welcome-banner-items/welcome-b
 import productNameInjectable from "../../../common/vars/product-name.injectable";
 
 export const defaultWidth = 320;
-
-// This is to fix some react 18 type errors
-// const Carousel = LegacyCarousel as React.ComponentType<CarouselProps>;
 
 interface Dependencies {
   welcomeMenuItems: IComputedValue<WelcomeMenuRegistration[]>;
@@ -48,35 +43,11 @@ const NonInjectedWelcome = observer(({
         style={{ width: `${maxWidth}px` }}
         data-testid="welcome-banner-container"
       >
-        {welcomeBanners.length > 0 ? (
-          <Carousel
-            stopAutoPlayOnHover={true}
-            indicators={welcomeBanners.length > 1}
-            autoPlay={true}
-            navButtonsAlwaysInvisible={true}
-            indicatorIconButtonProps={{
-              style: {
-                color: "var(--iconActiveBackground)",
-              },
-            }}
-            activeIndicatorIconButtonProps={{
-              style: {
-                color: "var(--iconActiveColor)",
-              },
-            }}
-            interval={8000}
-          >
-            {welcomeBanners.map((item, index) => (
-              <item.Banner key={index} />
-            ))}
-          </Carousel>
-        ) : (
-          <Icon
-            svg="logo-lens"
-            className="logo"
-            data-testid="no-welcome-banners-icon"
-          />
-        )}
+        <Icon
+          svg="logo-lens"
+          className="logo"
+          data-testid="no-welcome-banners-icon"
+        />
 
         <div className="flex justify-center">
           <div

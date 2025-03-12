@@ -66,7 +66,7 @@
     "welcomeRoute": "/welcome"
   },
   "engines": {
-    "node": "20"
+    "node": "22"
   },
   "jest": {
     "collectCoverage": false,
@@ -135,7 +135,7 @@
     "@types/md5-file": "^4.0.2",
     "@types/memorystream": "^0.3.0",
     "@types/mock-fs": "^4.13.1",
-    "@types/node": "^20.12.8",
+    "@types/node": "^22.13.10",
     "@types/proper-lockfile": "^4.1.2",
     "@types/randomcolor": "^0.5.7",
     "@types/react": "^18",
@@ -243,8 +243,8 @@
     "@meniscus/startable-stoppable": "^1.0.0",
     "@meniscus/tooltip": "^1.0.0",
     "@meniscus/utilities": "^1.0.0",
-    "@mui/material": "^5.16.0",
-    "@mui/x-tree-view": "^6.17.0",
+    "@mui/material": "^6.4.7",
+    "@mui/x-tree-view": "^7.26.0",
     "@ogre-tools/fp": "^17.2.0",
     "@ogre-tools/injectable": "^17.2.0",
     "@ogre-tools/injectable-extension-for-auto-registration": "^17.2.0",
@@ -265,7 +265,7 @@
     "color": "^3.2.1",
     "conf": "^10.2.0",
     "dompurify": "^2.4.4",
-    "electron": "^32.2.8",
+    "electron": "^35.0.1",
     "electron-devtools-installer": "^3.2.0",
     "electron-updater": "^4.6.5",
     "electron-window-state": "^5.0.3",
@@ -297,7 +297,6 @@
     "react": "^18",
     "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^18",
-    "react-material-ui-carousel": "^3.4.2",
     "react-router": "^5.3.4",
     "react-router-dom": "^5.3.4",
     "react-select": "^5.7.0",

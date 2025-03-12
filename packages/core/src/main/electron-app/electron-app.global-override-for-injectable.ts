@@ -174,6 +174,9 @@ export default getGlobalOverride(electronAppInjectable, () => {
       void count;
       throw new Error("Method not implemented.");
     }
+    setClientCertRequestPasswordHandler(handler: (clientCertRequestParams: Electron.ClientCertRequestParams) => Promise<string>): void {
+      throw new Error("Method not implemented.");
+    }
     setJumpList(categories: Electron.JumpListCategory[] | null): "error" | "ok" | "invalidSeparatorError" | "fileTypeRegistrationError" | "customCategoryAccessDeniedError" {
       void categories;
       throw new Error("Method not implemented.");

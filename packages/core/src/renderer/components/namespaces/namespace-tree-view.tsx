@@ -5,7 +5,7 @@
 
 import styles from "./namespace-tree-view.module.scss";
 import { Box, SvgIcon } from "@mui/material";
-import { TreeItem, TreeView } from "@mui/x-tree-view";
+import { TreeItem, SimpleTreeView } from "@mui/x-tree-view";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import React from "react";
 import { Link } from "react-router-dom";
@@ -35,7 +35,7 @@ function NonInjectableNamespaceTreeView({ tree, namespaces, getDetailsUrl }: Dep
     return (
       <TreeItem
         key={nodes.id}
-        nodeId={nodes.id}
+        itemId={nodes.id}
         data-testid={`namespace-${nodes.id}`}
         classes={classes}
         // onIconClick={prevDefault(() => toggleNode(nodes.id))}
@@ -88,17 +88,15 @@ function NonInjectableNamespaceTreeView({ tree, namespaces, getDetailsUrl }: Dep
   }
 
   return (
-    <div data-testid="namespace-tree-view" className={styles.TreeView}>
+    <div data-testid="namespace-tree-view" className={styles.SimpleTreeView}>
       <DrawerTitle>Tree View</DrawerTitle>
-      <TreeView
-        defaultExpanded={[tree.id]}
-        defaultCollapseIcon={<MinusSquareIcon />}
-        defaultExpandIcon={<PlusSquareIcon />}
-        defaultEndIcon={(<div style={{ opacity: 0.3 }}><MinusSquareIcon /></div>)}
-        expanded={expandedItems}
+      <SimpleTreeView
+        defaultExpandedItems={[tree.id]}
+        slots={{ collapseIcon: MinusSquareIcon, expandIcon: PlusSquareIcon, endIcon: MinusSquareIcon }}
+        expandedItems={expandedItems}
       >
         {renderTree(tree)}
-      </TreeView>
+      </SimpleTreeView>
     </div>
   );
 }
