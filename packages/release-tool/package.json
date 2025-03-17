@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "clean": "rimraf dist/",
-    "build": "swc ./src/index.ts -d ./dist",
+    "build": "swc --strip-leading-paths ./src/index.ts -d ./dist/",
     "create": "node ./dist/index.js"
   },
   "type": "module",
