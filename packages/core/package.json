@@ -109,8 +109,8 @@
     "@sentry/types": "^6.19.7",
     "@side/jest-runtime": "^1.1.0",
     "@swc/cli": "^0.5.2",
-    "@swc/core": "^1.4.17",
-    "@swc/jest": "^0.2.26",
+    "@swc/core": "^1.11.11",
+    "@swc/jest": "^0.2.37",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^16.0.1",
@@ -265,7 +265,7 @@
     "color": "^3.2.1",
     "conf": "^10.2.0",
     "dompurify": "^2.4.4",
-    "electron": "^35.0.1",
+    "electron": "^35.0.2",
     "electron-devtools-installer": "^3.2.0",
     "electron-updater": "^4.6.5",
     "electron-window-state": "^5.0.3",
@@ -286,7 +286,7 @@
     "mobx-react": "^7.6.0",
     "mobx-utils": "^6.0.4",
     "moment": "^2.29.4",
-    "moment-timezone": "^0.5.46",
+    "moment-timezone": "^0.5.47",
     "monaco-editor": "^0.48.0",
     "node-pty": "git+https://github.com/microsoft/node-pty#main",
     "npm": "^10.4.0",
@@ -319,6 +319,6 @@
     "win-ca": "^3.5.0",
     "winston": "^3.17.0",
     "winston-transport-browserconsole": "^1.0.5",
-    "ws": "^8.17.0"
+    "ws": "^8.18.1"
   }
 }
